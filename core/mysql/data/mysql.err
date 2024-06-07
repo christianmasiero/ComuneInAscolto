@@ -1,0 +1,367 @@
+2024-02-09T10:16:58.768412Z 0 [Warning] [MY-010918] [Server] 'default_authentication_plugin' is deprecated and will be removed in a future release. Please use authentication_policy instead.
+2024-02-09T10:16:58.768436Z 0 [System] [MY-010116] [Server] C:\Users\masiero.christian\Desktop\UniserverCI4\UniServerZ\core\mysql\bin\mysqld_z.exe (mysqld 8.0.31) starting as process 3916
+2024-02-09T10:16:58.791583Z 0 [Warning] [MY-010075] [Server] No existing UUID has been found, so we assume that this is the first time that this server has been started. Generating a new UUID: 5bd40985-c734-11ee-836a-2cf05d06f4a4.
+2024-02-09T10:16:58.798964Z 1 [System] [MY-013576] [InnoDB] InnoDB initialization has started.
+2024-02-09T10:16:59.467165Z 1 [System] [MY-013577] [InnoDB] InnoDB initialization has ended.
+2024-02-09T10:17:00.018389Z 0 [Warning] [MY-010068] [Server] CA certificate ca.pem is self signed.
+2024-02-09T10:17:00.018696Z 0 [System] [MY-013602] [Server] Channel mysql_main configured to support TLS. Encrypted connections are now supported for this channel.
+2024-02-09T10:17:00.177250Z 0 [System] [MY-011323] [Server] X Plugin ready for connections. Bind-address: '::' port: 33060
+2024-02-09T10:17:00.177375Z 0 [System] [MY-010931] [Server] C:\Users\masiero.christian\Desktop\UniserverCI4\UniServerZ\core\mysql\bin\mysqld_z.exe: ready for connections. Version: '8.0.31'  socket: ''  port: 3306  MySQL Community Server - GPL.
+2024-02-09T10:30:20.480457Z 0 [Warning] [MY-010918] [Server] 'default_authentication_plugin' is deprecated and will be removed in a future release. Please use authentication_policy instead.
+2024-02-09T10:30:20.480474Z 0 [System] [MY-010116] [Server] C:\Users\masiero.christian\Desktop\UniserverCI4\UniServerZ\core\mysql\bin\mysqld_z.exe (mysqld 8.0.31) starting as process 9112
+2024-02-09T10:30:20.497632Z 1 [System] [MY-013576] [InnoDB] InnoDB initialization has started.
+2024-02-09T10:30:21.624004Z 1 [System] [MY-013577] [InnoDB] InnoDB initialization has ended.
+2024-02-09T10:30:21.926990Z 0 [System] [MY-010229] [Server] Starting XA crash recovery...
+2024-02-09T10:30:21.929889Z 0 [System] [MY-010232] [Server] XA crash recovery finished.
+2024-02-09T10:30:21.977923Z 0 [Warning] [MY-010068] [Server] CA certificate ca.pem is self signed.
+2024-02-09T10:30:21.978226Z 0 [System] [MY-013602] [Server] Channel mysql_main configured to support TLS. Encrypted connections are now supported for this channel.
+2024-02-09T10:30:22.021616Z 0 [System] [MY-011323] [Server] X Plugin ready for connections. Bind-address: '::' port: 33060
+2024-02-09T10:30:22.021727Z 0 [System] [MY-010931] [Server] C:\Users\masiero.christian\Desktop\UniserverCI4\UniServerZ\core\mysql\bin\mysqld_z.exe: ready for connections. Version: '8.0.31'  socket: ''  port: 3306  MySQL Community Server - GPL.
+2024-02-09T11:02:54.432796Z 8 [System] [MY-013172] [Server] Received SHUTDOWN from user root. Shutting down mysqld (Version: 8.0.31).
+2024-02-09T11:02:54.433242Z 0 [System] [MY-013105] [Server] C:\Users\masiero.christian\Desktop\UniserverCI4\UniServerZ\core\mysql\bin\mysqld_z.exe: Normal shutdown.
+2024-02-09T11:02:55.633453Z 0 [System] [MY-010910] [Server] C:\Users\masiero.christian\Desktop\UniserverCI4\UniServerZ\core\mysql\bin\mysqld_z.exe: Shutdown complete (mysqld 8.0.31)  MySQL Community Server - GPL.
+2024-02-09T11:02:55.905732Z 0 [Warning] [MY-010918] [Server] 'default_authentication_plugin' is deprecated and will be removed in a future release. Please use authentication_policy instead.
+2024-02-09T11:02:55.905748Z 0 [System] [MY-010116] [Server] C:\Users\masiero.christian\Desktop\UniserverCI4\UniServerZ\core\mysql\bin\mysqld_z.exe (mysqld 8.0.31) starting as process 4120
+2024-02-09T11:02:55.922215Z 1 [System] [MY-013576] [InnoDB] InnoDB initialization has started.
+2024-02-09T11:02:56.191208Z 1 [System] [MY-013577] [InnoDB] InnoDB initialization has ended.
+2024-02-09T11:02:56.630151Z 0 [Warning] [MY-010068] [Server] CA certificate ca.pem is self signed.
+2024-02-09T11:02:56.630478Z 0 [System] [MY-013602] [Server] Channel mysql_main configured to support TLS. Encrypted connections are now supported for this channel.
+2024-02-09T11:02:56.677415Z 0 [System] [MY-011323] [Server] X Plugin ready for connections. Bind-address: '::' port: 33060
+2024-02-09T11:02:56.677517Z 0 [System] [MY-010931] [Server] C:\Users\masiero.christian\Desktop\UniserverCI4\UniServerZ\core\mysql\bin\mysqld_z.exe: ready for connections. Version: '8.0.31'  socket: ''  port: 3306  MySQL Community Server - GPL.
+2024-02-09T11:03:00.134955Z 8 [System] [MY-013172] [Server] Received SHUTDOWN from user root. Shutting down mysqld (Version: 8.0.31).
+2024-02-09T11:03:00.135388Z 0 [System] [MY-013105] [Server] C:\Users\masiero.christian\Desktop\UniserverCI4\UniServerZ\core\mysql\bin\mysqld_z.exe: Normal shutdown.
+2024-02-09T11:03:00.624967Z 0 [System] [MY-010910] [Server] C:\Users\masiero.christian\Desktop\UniserverCI4\UniServerZ\core\mysql\bin\mysqld_z.exe: Shutdown complete (mysqld 8.0.31)  MySQL Community Server - GPL.
+2024-02-09T11:26:47.314595Z 0 [Warning] [MY-010918] [Server] 'default_authentication_plugin' is deprecated and will be removed in a future release. Please use authentication_policy instead.
+2024-02-09T11:26:47.314610Z 0 [System] [MY-010116] [Server] C:\Users\masiero.christian\Desktop\UniserverCI4\UniServerZ\core\mysql\bin\mysqld_z.exe (mysqld 8.0.31) starting as process 10792
+2024-02-09T11:26:47.372285Z 1 [System] [MY-013576] [InnoDB] InnoDB initialization has started.
+2024-02-09T11:26:47.872135Z 1 [System] [MY-013577] [InnoDB] InnoDB initialization has ended.
+2024-02-09T11:26:48.345330Z 0 [Warning] [MY-010068] [Server] CA certificate ca.pem is self signed.
+2024-02-09T11:26:48.345643Z 0 [System] [MY-013602] [Server] Channel mysql_main configured to support TLS. Encrypted connections are now supported for this channel.
+2024-02-09T11:26:48.397441Z 0 [System] [MY-011323] [Server] X Plugin ready for connections. Bind-address: '::' port: 33060
+2024-02-09T11:26:48.397545Z 0 [System] [MY-010931] [Server] C:\Users\masiero.christian\Desktop\UniserverCI4\UniServerZ\core\mysql\bin\mysqld_z.exe: ready for connections. Version: '8.0.31'  socket: ''  port: 3306  MySQL Community Server - GPL.
+2024-02-09T11:26:59.704999Z 0 [Warning] [MY-010918] [Server] 'default_authentication_plugin' is deprecated and will be removed in a future release. Please use authentication_policy instead.
+2024-02-09T11:26:59.705015Z 0 [System] [MY-010116] [Server] C:\Users\masiero.christian\Desktop\UniserverCI4\UniServerZ\core\mysql\bin\mysqld_z.exe (mysqld 8.0.31) starting as process 12664
+2024-02-09T11:26:59.719789Z 1 [System] [MY-013576] [InnoDB] InnoDB initialization has started.
+2024-02-09T11:27:00.329466Z 1 [System] [MY-013577] [InnoDB] InnoDB initialization has ended.
+2024-02-09T11:27:00.658249Z 0 [System] [MY-010229] [Server] Starting XA crash recovery...
+2024-02-09T11:27:00.661111Z 0 [System] [MY-010232] [Server] XA crash recovery finished.
+2024-02-09T11:27:00.717246Z 0 [Warning] [MY-010068] [Server] CA certificate ca.pem is self signed.
+2024-02-09T11:27:00.717542Z 0 [System] [MY-013602] [Server] Channel mysql_main configured to support TLS. Encrypted connections are now supported for this channel.
+2024-02-09T11:27:00.764869Z 0 [System] [MY-011323] [Server] X Plugin ready for connections. Bind-address: '::' port: 33060
+2024-02-09T11:27:00.765123Z 0 [System] [MY-010931] [Server] C:\Users\masiero.christian\Desktop\UniserverCI4\UniServerZ\core\mysql\bin\mysqld_z.exe: ready for connections. Version: '8.0.31'  socket: ''  port: 3306  MySQL Community Server - GPL.
+2024-02-09T12:11:04.843000Z 8 [System] [MY-013172] [Server] Received SHUTDOWN from user root. Shutting down mysqld (Version: 8.0.31).
+2024-02-09T12:11:04.843455Z 0 [System] [MY-013105] [Server] C:\Users\masiero.christian\Desktop\UniserverCI4\UniServerZ\core\mysql\bin\mysqld_z.exe: Normal shutdown.
+2024-02-09T12:11:06.034400Z 0 [System] [MY-010910] [Server] C:\Users\masiero.christian\Desktop\UniserverCI4\UniServerZ\core\mysql\bin\mysqld_z.exe: Shutdown complete (mysqld 8.0.31)  MySQL Community Server - GPL.
+2024-02-09T12:11:14.597061Z 0 [Warning] [MY-010918] [Server] 'default_authentication_plugin' is deprecated and will be removed in a future release. Please use authentication_policy instead.
+2024-02-09T12:11:14.597078Z 0 [System] [MY-010116] [Server] C:\Users\masiero.christian\Desktop\UniserverCI4\UniServerZ\core\mysql\bin\mysqld_z.exe (mysqld 8.0.31) starting as process 9080
+2024-02-09T12:11:14.623587Z 1 [System] [MY-013576] [InnoDB] InnoDB initialization has started.
+2024-02-09T12:11:15.031566Z 1 [System] [MY-013577] [InnoDB] InnoDB initialization has ended.
+2024-02-09T12:11:15.468773Z 0 [Warning] [MY-010068] [Server] CA certificate ca.pem is self signed.
+2024-02-09T12:11:15.469085Z 0 [System] [MY-013602] [Server] Channel mysql_main configured to support TLS. Encrypted connections are now supported for this channel.
+2024-02-09T12:11:15.519523Z 0 [System] [MY-011323] [Server] X Plugin ready for connections. Bind-address: '::' port: 33060
+2024-02-09T12:11:15.519645Z 0 [System] [MY-010931] [Server] C:\Users\masiero.christian\Desktop\UniserverCI4\UniServerZ\core\mysql\bin\mysqld_z.exe: ready for connections. Version: '8.0.31'  socket: ''  port: 3306  MySQL Community Server - GPL.
+2024-02-09T12:11:24.049429Z 0 [Warning] [MY-010918] [Server] 'default_authentication_plugin' is deprecated and will be removed in a future release. Please use authentication_policy instead.
+2024-02-09T12:11:24.049468Z 0 [System] [MY-010116] [Server] C:\Users\masiero.christian\Desktop\UniserverCI4\UniServerZ\core\mysql\bin\mysqld_z.exe (mysqld 8.0.31) starting as process 7208
+2024-02-09T12:11:24.068123Z 1 [System] [MY-013576] [InnoDB] InnoDB initialization has started.
+2024-02-09T12:11:25.075612Z 1 [System] [MY-013577] [InnoDB] InnoDB initialization has ended.
+2024-02-09T12:11:25.383787Z 0 [System] [MY-010229] [Server] Starting XA crash recovery...
+2024-02-09T12:11:25.386914Z 0 [System] [MY-010232] [Server] XA crash recovery finished.
+2024-02-09T12:11:25.431798Z 0 [Warning] [MY-010068] [Server] CA certificate ca.pem is self signed.
+2024-02-09T12:11:25.432104Z 0 [System] [MY-013602] [Server] Channel mysql_main configured to support TLS. Encrypted connections are now supported for this channel.
+2024-02-09T12:11:25.480229Z 0 [System] [MY-011323] [Server] X Plugin ready for connections. Bind-address: '::' port: 33060
+2024-02-09T12:11:25.480354Z 0 [System] [MY-010931] [Server] C:\Users\masiero.christian\Desktop\UniserverCI4\UniServerZ\core\mysql\bin\mysqld_z.exe: ready for connections. Version: '8.0.31'  socket: ''  port: 3306  MySQL Community Server - GPL.
+2024-02-09T12:11:27.063710Z 8 [System] [MY-013172] [Server] Received SHUTDOWN from user root. Shutting down mysqld (Version: 8.0.31).
+2024-02-09T12:11:27.064145Z 0 [System] [MY-013105] [Server] C:\Users\masiero.christian\Desktop\UniserverCI4\UniServerZ\core\mysql\bin\mysqld_z.exe: Normal shutdown.
+2024-02-09T12:11:27.499418Z 0 [System] [MY-010910] [Server] C:\Users\masiero.christian\Desktop\UniserverCI4\UniServerZ\core\mysql\bin\mysqld_z.exe: Shutdown complete (mysqld 8.0.31)  MySQL Community Server - GPL.
+2024-02-09T12:21:07.896549Z 0 [Warning] [MY-010918] [Server] 'default_authentication_plugin' is deprecated and will be removed in a future release. Please use authentication_policy instead.
+2024-02-09T12:21:07.896564Z 0 [System] [MY-010116] [Server] C:\Users\masiero.christian\Desktop\UniserverCI4\UniServerZ\core\mysql\bin\mysqld_z.exe (mysqld 8.0.31) starting as process 10936
+2024-02-09T12:21:07.911868Z 1 [System] [MY-013576] [InnoDB] InnoDB initialization has started.
+2024-02-09T12:21:08.216393Z 1 [System] [MY-013577] [InnoDB] InnoDB initialization has ended.
+2024-02-09T12:21:08.649401Z 0 [Warning] [MY-010068] [Server] CA certificate ca.pem is self signed.
+2024-02-09T12:21:08.649702Z 0 [System] [MY-013602] [Server] Channel mysql_main configured to support TLS. Encrypted connections are now supported for this channel.
+2024-02-09T12:21:08.697285Z 0 [System] [MY-011323] [Server] X Plugin ready for connections. Bind-address: '::' port: 33060
+2024-02-09T12:21:08.697400Z 0 [System] [MY-010931] [Server] C:\Users\masiero.christian\Desktop\UniserverCI4\UniServerZ\core\mysql\bin\mysqld_z.exe: ready for connections. Version: '8.0.31'  socket: ''  port: 3306  MySQL Community Server - GPL.
+2024-02-09T12:21:11.446729Z 8 [System] [MY-013172] [Server] Received SHUTDOWN from user root. Shutting down mysqld (Version: 8.0.31).
+2024-02-09T12:21:11.447143Z 0 [System] [MY-013105] [Server] C:\Users\masiero.christian\Desktop\UniserverCI4\UniServerZ\core\mysql\bin\mysqld_z.exe: Normal shutdown.
+2024-02-09T12:21:12.638430Z 0 [System] [MY-010910] [Server] C:\Users\masiero.christian\Desktop\UniserverCI4\UniServerZ\core\mysql\bin\mysqld_z.exe: Shutdown complete (mysqld 8.0.31)  MySQL Community Server - GPL.
+2024-02-09T12:39:38.096777Z 0 [Warning] [MY-010918] [Server] 'default_authentication_plugin' is deprecated and will be removed in a future release. Please use authentication_policy instead.
+2024-02-09T12:39:38.096793Z 0 [System] [MY-010116] [Server] C:\Users\masiero.christian\Desktop\UniserverCI4\UniServerZ\core\mysql\bin\mysqld_z.exe (mysqld 8.0.31) starting as process 2572
+2024-02-09T12:39:38.114989Z 1 [System] [MY-013576] [InnoDB] InnoDB initialization has started.
+2024-02-09T12:39:38.409795Z 1 [System] [MY-013577] [InnoDB] InnoDB initialization has ended.
+2024-02-09T12:39:38.868380Z 0 [Warning] [MY-010068] [Server] CA certificate ca.pem is self signed.
+2024-02-09T12:39:38.868685Z 0 [System] [MY-013602] [Server] Channel mysql_main configured to support TLS. Encrypted connections are now supported for this channel.
+2024-02-09T12:39:38.914105Z 0 [System] [MY-011323] [Server] X Plugin ready for connections. Bind-address: '::' port: 33060
+2024-02-09T12:39:38.914219Z 0 [System] [MY-010931] [Server] C:\Users\masiero.christian\Desktop\UniserverCI4\UniServerZ\core\mysql\bin\mysqld_z.exe: ready for connections. Version: '8.0.31'  socket: ''  port: 3306  MySQL Community Server - GPL.
+2024-02-09T12:40:05.787543Z 8 [System] [MY-013172] [Server] Received SHUTDOWN from user root. Shutting down mysqld (Version: 8.0.31).
+2024-02-09T12:40:05.787970Z 0 [System] [MY-013105] [Server] C:\Users\masiero.christian\Desktop\UniserverCI4\UniServerZ\core\mysql\bin\mysqld_z.exe: Normal shutdown.
+2024-02-09T12:40:06.023889Z 0 [System] [MY-010910] [Server] C:\Users\masiero.christian\Desktop\UniserverCI4\UniServerZ\core\mysql\bin\mysqld_z.exe: Shutdown complete (mysqld 8.0.31)  MySQL Community Server - GPL.
+2024-02-09T12:44:01.216510Z 0 [Warning] [MY-010918] [Server] 'default_authentication_plugin' is deprecated and will be removed in a future release. Please use authentication_policy instead.
+2024-02-09T12:44:01.216527Z 0 [System] [MY-010116] [Server] C:\Users\masiero.christian\Desktop\UniserverCI4\UniServerZ\core\mysql\bin\mysqld_z.exe (mysqld 8.0.31) starting as process 15224
+2024-02-09T12:44:01.230879Z 1 [System] [MY-013576] [InnoDB] InnoDB initialization has started.
+2024-02-09T12:44:01.542152Z 1 [System] [MY-013577] [InnoDB] InnoDB initialization has ended.
+2024-02-09T12:44:01.969691Z 0 [Warning] [MY-010068] [Server] CA certificate ca.pem is self signed.
+2024-02-09T12:44:01.969999Z 0 [System] [MY-013602] [Server] Channel mysql_main configured to support TLS. Encrypted connections are now supported for this channel.
+2024-02-09T12:44:02.018676Z 0 [System] [MY-011323] [Server] X Plugin ready for connections. Bind-address: '::' port: 33060
+2024-02-09T12:44:02.018806Z 0 [System] [MY-010931] [Server] C:\Users\masiero.christian\Desktop\UniserverCI4\UniServerZ\core\mysql\bin\mysqld_z.exe: ready for connections. Version: '8.0.31'  socket: ''  port: 3306  MySQL Community Server - GPL.
+2024-02-09T12:44:04.910200Z 8 [System] [MY-013172] [Server] Received SHUTDOWN from user root. Shutting down mysqld (Version: 8.0.31).
+2024-02-09T12:44:04.910860Z 0 [System] [MY-013105] [Server] C:\Users\masiero.christian\Desktop\UniserverCI4\UniServerZ\core\mysql\bin\mysqld_z.exe: Normal shutdown.
+2024-02-09T12:44:05.985372Z 0 [System] [MY-010910] [Server] C:\Users\masiero.christian\Desktop\UniserverCI4\UniServerZ\core\mysql\bin\mysqld_z.exe: Shutdown complete (mysqld 8.0.31)  MySQL Community Server - GPL.
+2024-03-17T17:35:58.541043Z 0 [Warning] [MY-010918] [Server] 'default_authentication_plugin' is deprecated and will be removed in a future release. Please use authentication_policy instead.
+2024-03-17T17:35:58.541110Z 0 [System] [MY-010116] [Server] C:\Users\chrim\Desktop\UniserverCI4\UniServerZ\core\mysql\bin\mysqld_z.exe (mysqld 8.0.31) starting as process 18844
+2024-03-17T17:35:58.649132Z 1 [System] [MY-013576] [InnoDB] InnoDB initialization has started.
+2024-03-17T17:35:59.479632Z 1 [System] [MY-013577] [InnoDB] InnoDB initialization has ended.
+2024-03-17T17:36:01.238730Z 0 [Warning] [MY-010068] [Server] CA certificate ca.pem is self signed.
+2024-03-17T17:36:01.240004Z 0 [System] [MY-013602] [Server] Channel mysql_main configured to support TLS. Encrypted connections are now supported for this channel.
+2024-03-17T17:36:01.428083Z 0 [System] [MY-011323] [Server] X Plugin ready for connections. Bind-address: '::' port: 33060
+2024-03-17T17:36:01.429247Z 0 [System] [MY-010931] [Server] C:\Users\chrim\Desktop\UniserverCI4\UniServerZ\core\mysql\bin\mysqld_z.exe: ready for connections. Version: '8.0.31'  socket: ''  port: 3306  MySQL Community Server - GPL.
+2024-03-17T17:36:09.290871Z 0 [Warning] [MY-010918] [Server] 'default_authentication_plugin' is deprecated and will be removed in a future release. Please use authentication_policy instead.
+2024-03-17T17:36:09.290917Z 0 [System] [MY-010116] [Server] C:\Users\chrim\Desktop\UniserverCI4\UniServerZ\core\mysql\bin\mysqld_z.exe (mysqld 8.0.31) starting as process 9096
+2024-03-17T17:36:09.334042Z 1 [System] [MY-013576] [InnoDB] InnoDB initialization has started.
+2024-03-17T17:36:10.462511Z 1 [System] [MY-013577] [InnoDB] InnoDB initialization has ended.
+2024-03-17T17:36:11.539859Z 0 [System] [MY-010229] [Server] Starting XA crash recovery...
+2024-03-17T17:36:11.547878Z 0 [System] [MY-010232] [Server] XA crash recovery finished.
+2024-03-17T17:36:11.643645Z 0 [Warning] [MY-010068] [Server] CA certificate ca.pem is self signed.
+2024-03-17T17:36:11.644869Z 0 [System] [MY-013602] [Server] Channel mysql_main configured to support TLS. Encrypted connections are now supported for this channel.
+2024-03-17T17:36:11.778483Z 0 [System] [MY-011323] [Server] X Plugin ready for connections. Bind-address: '::' port: 33060
+2024-03-17T17:36:11.779014Z 0 [System] [MY-010931] [Server] C:\Users\chrim\Desktop\UniserverCI4\UniServerZ\core\mysql\bin\mysqld_z.exe: ready for connections. Version: '8.0.31'  socket: ''  port: 3306  MySQL Community Server - GPL.
+2024-03-17T17:38:20.433809Z 10 [System] [MY-013172] [Server] Received SHUTDOWN from user root. Shutting down mysqld (Version: 8.0.31).
+2024-03-17T17:38:20.435564Z 0 [System] [MY-013105] [Server] C:\Users\chrim\Desktop\UniserverCI4\UniServerZ\core\mysql\bin\mysqld_z.exe: Normal shutdown.
+2024-03-17T17:38:21.068290Z 0 [System] [MY-010910] [Server] C:\Users\chrim\Desktop\UniserverCI4\UniServerZ\core\mysql\bin\mysqld_z.exe: Shutdown complete (mysqld 8.0.31)  MySQL Community Server - GPL.
+2024-03-17T17:42:15.693392Z 0 [Warning] [MY-010918] [Server] 'default_authentication_plugin' is deprecated and will be removed in a future release. Please use authentication_policy instead.
+2024-03-17T17:42:15.693439Z 0 [System] [MY-010116] [Server] C:\Users\chrim\Desktop\UniserverCI4\UniServerZ\core\mysql\bin\mysqld_z.exe (mysqld 8.0.31) starting as process 15528
+2024-03-17T17:42:15.736480Z 1 [System] [MY-013576] [InnoDB] InnoDB initialization has started.
+2024-03-17T17:42:16.117302Z 1 [System] [MY-013577] [InnoDB] InnoDB initialization has ended.
+2024-03-17T17:42:17.399797Z 0 [Warning] [MY-010068] [Server] CA certificate ca.pem is self signed.
+2024-03-17T17:42:17.401030Z 0 [System] [MY-013602] [Server] Channel mysql_main configured to support TLS. Encrypted connections are now supported for this channel.
+2024-03-17T17:42:17.539594Z 0 [System] [MY-011323] [Server] X Plugin ready for connections. Bind-address: '::' port: 33060
+2024-03-17T17:42:17.540093Z 0 [System] [MY-010931] [Server] C:\Users\chrim\Desktop\UniserverCI4\UniServerZ\core\mysql\bin\mysqld_z.exe: ready for connections. Version: '8.0.31'  socket: ''  port: 3306  MySQL Community Server - GPL.
+2024-03-17T17:42:25.037019Z 0 [Warning] [MY-010918] [Server] 'default_authentication_plugin' is deprecated and will be removed in a future release. Please use authentication_policy instead.
+2024-03-17T17:42:25.037066Z 0 [System] [MY-010116] [Server] C:\Users\chrim\Desktop\UniserverCI4\UniServerZ\core\mysql\bin\mysqld_z.exe (mysqld 8.0.31) starting as process 13580
+2024-03-17T17:42:25.079749Z 1 [System] [MY-013576] [InnoDB] InnoDB initialization has started.
+2024-03-17T17:42:26.219459Z 1 [System] [MY-013577] [InnoDB] InnoDB initialization has ended.
+2024-03-17T17:42:28.396638Z 0 [System] [MY-010229] [Server] Starting XA crash recovery...
+2024-03-17T17:42:28.408137Z 0 [System] [MY-010232] [Server] XA crash recovery finished.
+2024-03-17T17:42:28.961869Z 0 [Warning] [MY-010068] [Server] CA certificate ca.pem is self signed.
+2024-03-17T17:42:28.964035Z 0 [System] [MY-013602] [Server] Channel mysql_main configured to support TLS. Encrypted connections are now supported for this channel.
+2024-03-17T17:42:29.560929Z 0 [System] [MY-011323] [Server] X Plugin ready for connections. Bind-address: '::' port: 33060
+2024-03-17T17:42:29.561725Z 0 [System] [MY-010931] [Server] C:\Users\chrim\Desktop\UniserverCI4\UniServerZ\core\mysql\bin\mysqld_z.exe: ready for connections. Version: '8.0.31'  socket: ''  port: 3306  MySQL Community Server - GPL.
+2024-04-07T10:32:59.761578Z 0 [Warning] [MY-010918] [Server] 'default_authentication_plugin' is deprecated and will be removed in a future release. Please use authentication_policy instead.
+2024-04-07T10:32:59.761851Z 0 [System] [MY-010116] [Server] C:\Users\chrim\Desktop\UniserverCI4\UniServerZ\core\mysql\bin\mysqld_z.exe (mysqld 8.0.31) starting as process 15640
+2024-04-07T10:32:59.979291Z 1 [System] [MY-013576] [InnoDB] InnoDB initialization has started.
+2024-04-07T10:33:01.785791Z 1 [System] [MY-013577] [InnoDB] InnoDB initialization has ended.
+2024-04-07T10:33:04.327159Z 0 [System] [MY-010229] [Server] Starting XA crash recovery...
+2024-04-07T10:33:04.342037Z 0 [System] [MY-010232] [Server] XA crash recovery finished.
+2024-04-07T10:33:04.600549Z 0 [Warning] [MY-010068] [Server] CA certificate ca.pem is self signed.
+2024-04-07T10:33:04.602911Z 0 [System] [MY-013602] [Server] Channel mysql_main configured to support TLS. Encrypted connections are now supported for this channel.
+2024-04-07T10:33:04.868838Z 0 [System] [MY-011323] [Server] X Plugin ready for connections. Bind-address: '::' port: 33060
+2024-04-07T10:33:04.869638Z 0 [System] [MY-010931] [Server] C:\Users\chrim\Desktop\UniserverCI4\UniServerZ\core\mysql\bin\mysqld_z.exe: ready for connections. Version: '8.0.31'  socket: ''  port: 3306  MySQL Community Server - GPL.
+2024-04-07T10:33:16.273416Z 0 [Warning] [MY-010918] [Server] 'default_authentication_plugin' is deprecated and will be removed in a future release. Please use authentication_policy instead.
+2024-04-07T10:33:16.273494Z 0 [System] [MY-010116] [Server] C:\Users\chrim\Desktop\UniserverCI4\UniServerZ\core\mysql\bin\mysqld_z.exe (mysqld 8.0.31) starting as process 18208
+2024-04-07T10:33:16.346904Z 1 [System] [MY-013576] [InnoDB] InnoDB initialization has started.
+2024-04-07T10:33:18.054369Z 1 [System] [MY-013577] [InnoDB] InnoDB initialization has ended.
+2024-04-07T10:33:19.846836Z 0 [System] [MY-010229] [Server] Starting XA crash recovery...
+2024-04-07T10:33:19.859677Z 0 [System] [MY-010232] [Server] XA crash recovery finished.
+2024-04-07T10:33:20.068722Z 0 [Warning] [MY-010068] [Server] CA certificate ca.pem is self signed.
+2024-04-07T10:33:20.070540Z 0 [System] [MY-013602] [Server] Channel mysql_main configured to support TLS. Encrypted connections are now supported for this channel.
+2024-04-07T10:33:20.306303Z 0 [System] [MY-011323] [Server] X Plugin ready for connections. Bind-address: '::' port: 33060
+2024-04-07T10:33:20.306950Z 0 [System] [MY-010931] [Server] C:\Users\chrim\Desktop\UniserverCI4\UniServerZ\core\mysql\bin\mysqld_z.exe: ready for connections. Version: '8.0.31'  socket: ''  port: 3306  MySQL Community Server - GPL.
+2024-05-02T16:03:46.972312Z 0 [Warning] [MY-010918] [Server] 'default_authentication_plugin' is deprecated and will be removed in a future release. Please use authentication_policy instead.
+2024-05-02T16:03:46.972376Z 0 [System] [MY-010116] [Server] C:\Users\chrim\Desktop\UniserverCI4\UniServerZ\core\mysql\bin\mysqld_z.exe (mysqld 8.0.31) starting as process 16420
+2024-05-02T16:03:47.123235Z 1 [System] [MY-013576] [InnoDB] InnoDB initialization has started.
+2024-05-02T16:03:48.229389Z 1 [System] [MY-013577] [InnoDB] InnoDB initialization has ended.
+2024-05-02T16:03:49.204655Z 0 [System] [MY-010229] [Server] Starting XA crash recovery...
+2024-05-02T16:03:49.216931Z 0 [System] [MY-010232] [Server] XA crash recovery finished.
+2024-05-02T16:03:49.434008Z 0 [Warning] [MY-010068] [Server] CA certificate ca.pem is self signed.
+2024-05-02T16:03:49.435509Z 0 [System] [MY-013602] [Server] Channel mysql_main configured to support TLS. Encrypted connections are now supported for this channel.
+2024-05-02T16:03:49.616882Z 0 [System] [MY-011323] [Server] X Plugin ready for connections. Bind-address: '::' port: 33060
+2024-05-02T16:03:49.617551Z 0 [System] [MY-010931] [Server] C:\Users\chrim\Desktop\UniserverCI4\UniServerZ\core\mysql\bin\mysqld_z.exe: ready for connections. Version: '8.0.31'  socket: ''  port: 3306  MySQL Community Server - GPL.
+2024-05-02T16:04:00.542691Z 0 [Warning] [MY-010918] [Server] 'default_authentication_plugin' is deprecated and will be removed in a future release. Please use authentication_policy instead.
+2024-05-02T16:04:00.542738Z 0 [System] [MY-010116] [Server] C:\Users\chrim\Desktop\UniserverCI4\UniServerZ\core\mysql\bin\mysqld_z.exe (mysqld 8.0.31) starting as process 18912
+2024-05-02T16:04:00.593364Z 1 [System] [MY-013576] [InnoDB] InnoDB initialization has started.
+2024-05-02T16:04:01.821183Z 1 [System] [MY-013577] [InnoDB] InnoDB initialization has ended.
+2024-05-02T16:04:03.752105Z 0 [System] [MY-010229] [Server] Starting XA crash recovery...
+2024-05-02T16:04:03.767162Z 0 [System] [MY-010232] [Server] XA crash recovery finished.
+2024-05-02T16:04:04.209726Z 0 [Warning] [MY-010068] [Server] CA certificate ca.pem is self signed.
+2024-05-02T16:04:04.212471Z 0 [System] [MY-013602] [Server] Channel mysql_main configured to support TLS. Encrypted connections are now supported for this channel.
+2024-05-02T16:04:04.569714Z 0 [System] [MY-011323] [Server] X Plugin ready for connections. Bind-address: '::' port: 33060
+2024-05-02T16:04:04.570365Z 0 [System] [MY-010931] [Server] C:\Users\chrim\Desktop\UniserverCI4\UniServerZ\core\mysql\bin\mysqld_z.exe: ready for connections. Version: '8.0.31'  socket: ''  port: 3306  MySQL Community Server - GPL.
+2024-05-04T16:56:27.588645Z 0 [Warning] [MY-010918] [Server] 'default_authentication_plugin' is deprecated and will be removed in a future release. Please use authentication_policy instead.
+2024-05-04T16:56:27.588710Z 0 [System] [MY-010116] [Server] C:\Users\chrim\Desktop\UniserverCI4\UniServerZ\core\mysql\bin\mysqld_z.exe (mysqld 8.0.31) starting as process 17688
+2024-05-04T16:56:27.769336Z 1 [System] [MY-013576] [InnoDB] InnoDB initialization has started.
+2024-05-04T16:56:29.760589Z 1 [System] [MY-013577] [InnoDB] InnoDB initialization has ended.
+2024-05-04T16:56:32.039965Z 0 [System] [MY-010229] [Server] Starting XA crash recovery...
+2024-05-04T16:56:32.050550Z 0 [System] [MY-010232] [Server] XA crash recovery finished.
+2024-05-04T16:56:33.449869Z 0 [Warning] [MY-010068] [Server] CA certificate ca.pem is self signed.
+2024-05-04T16:56:33.451562Z 0 [System] [MY-013602] [Server] Channel mysql_main configured to support TLS. Encrypted connections are now supported for this channel.
+2024-05-04T16:56:33.658660Z 0 [System] [MY-011323] [Server] X Plugin ready for connections. Bind-address: '::' port: 33060
+2024-05-04T16:56:33.659146Z 0 [System] [MY-010931] [Server] C:\Users\chrim\Desktop\UniserverCI4\UniServerZ\core\mysql\bin\mysqld_z.exe: ready for connections. Version: '8.0.31'  socket: ''  port: 3306  MySQL Community Server - GPL.
+2024-05-04T16:56:46.723705Z 0 [Warning] [MY-010918] [Server] 'default_authentication_plugin' is deprecated and will be removed in a future release. Please use authentication_policy instead.
+2024-05-04T16:56:46.723776Z 0 [System] [MY-010116] [Server] C:\Users\chrim\Desktop\UniserverCI4\UniServerZ\core\mysql\bin\mysqld_z.exe (mysqld 8.0.31) starting as process 11864
+2024-05-04T16:56:47.160456Z 1 [System] [MY-013576] [InnoDB] InnoDB initialization has started.
+2024-05-04T16:56:50.253769Z 1 [System] [MY-013577] [InnoDB] InnoDB initialization has ended.
+2024-05-04T16:56:53.470862Z 0 [System] [MY-010229] [Server] Starting XA crash recovery...
+2024-05-04T16:56:53.485763Z 0 [System] [MY-010232] [Server] XA crash recovery finished.
+2024-05-04T16:56:53.806830Z 0 [Warning] [MY-010068] [Server] CA certificate ca.pem is self signed.
+2024-05-04T16:56:53.809307Z 0 [System] [MY-013602] [Server] Channel mysql_main configured to support TLS. Encrypted connections are now supported for this channel.
+2024-05-04T16:56:54.145142Z 0 [System] [MY-011323] [Server] X Plugin ready for connections. Bind-address: '::' port: 33060
+2024-05-04T16:56:54.146031Z 0 [System] [MY-010931] [Server] C:\Users\chrim\Desktop\UniserverCI4\UniServerZ\core\mysql\bin\mysqld_z.exe: ready for connections. Version: '8.0.31'  socket: ''  port: 3306  MySQL Community Server - GPL.
+2024-05-14T17:39:23.806990Z 0 [Warning] [MY-010918] [Server] 'default_authentication_plugin' is deprecated and will be removed in a future release. Please use authentication_policy instead.
+2024-05-14T17:39:23.807082Z 0 [System] [MY-010116] [Server] C:\Users\chrim\Desktop\UniserverCI4\UniServerZ\core\mysql\bin\mysqld_z.exe (mysqld 8.0.31) starting as process 10752
+2024-05-14T17:39:24.471277Z 1 [System] [MY-013576] [InnoDB] InnoDB initialization has started.
+2024-05-14T17:39:26.285452Z 1 [System] [MY-013577] [InnoDB] InnoDB initialization has ended.
+2024-05-14T17:39:27.738487Z 0 [System] [MY-010229] [Server] Starting XA crash recovery...
+2024-05-14T17:39:27.753167Z 0 [System] [MY-010232] [Server] XA crash recovery finished.
+2024-05-14T17:39:28.016203Z 0 [Warning] [MY-010068] [Server] CA certificate ca.pem is self signed.
+2024-05-14T17:39:28.017625Z 0 [System] [MY-013602] [Server] Channel mysql_main configured to support TLS. Encrypted connections are now supported for this channel.
+2024-05-14T17:39:28.184593Z 0 [System] [MY-011323] [Server] X Plugin ready for connections. Bind-address: '::' port: 33060
+2024-05-14T17:39:28.185114Z 0 [System] [MY-010931] [Server] C:\Users\chrim\Desktop\UniserverCI4\UniServerZ\core\mysql\bin\mysqld_z.exe: ready for connections. Version: '8.0.31'  socket: ''  port: 3306  MySQL Community Server - GPL.
+2024-05-14T17:39:54.195196Z 0 [Warning] [MY-010918] [Server] 'default_authentication_plugin' is deprecated and will be removed in a future release. Please use authentication_policy instead.
+2024-05-14T17:39:54.195273Z 0 [System] [MY-010116] [Server] C:\Users\chrim\Desktop\UniserverCI4\UniServerZ\core\mysql\bin\mysqld_z.exe (mysqld 8.0.31) starting as process 6060
+2024-05-14T17:39:54.331390Z 1 [System] [MY-013576] [InnoDB] InnoDB initialization has started.
+2024-05-14T17:39:55.565437Z 1 [System] [MY-013577] [InnoDB] InnoDB initialization has ended.
+2024-05-14T17:39:58.483974Z 0 [System] [MY-010229] [Server] Starting XA crash recovery...
+2024-05-14T17:39:58.511949Z 0 [System] [MY-010232] [Server] XA crash recovery finished.
+2024-05-14T17:39:59.055191Z 0 [Warning] [MY-010068] [Server] CA certificate ca.pem is self signed.
+2024-05-14T17:39:59.057394Z 0 [System] [MY-013602] [Server] Channel mysql_main configured to support TLS. Encrypted connections are now supported for this channel.
+2024-05-14T17:39:59.744298Z 0 [System] [MY-011323] [Server] X Plugin ready for connections. Bind-address: '::' port: 33060
+2024-05-14T17:39:59.744954Z 0 [System] [MY-010931] [Server] C:\Users\chrim\Desktop\UniserverCI4\UniServerZ\core\mysql\bin\mysqld_z.exe: ready for connections. Version: '8.0.31'  socket: ''  port: 3306  MySQL Community Server - GPL.
+2024-05-15T08:38:54.327567Z 0 [Warning] [MY-010918] [Server] 'default_authentication_plugin' is deprecated and will be removed in a future release. Please use authentication_policy instead.
+2024-05-15T08:38:54.327658Z 0 [System] [MY-010116] [Server] C:\Users\chrim\Desktop\UniserverCI4\UniServerZ\core\mysql\bin\mysqld_z.exe (mysqld 8.0.31) starting as process 9192
+2024-05-15T08:38:54.504551Z 1 [System] [MY-013576] [InnoDB] InnoDB initialization has started.
+2024-05-15T08:38:56.580807Z 1 [System] [MY-013577] [InnoDB] InnoDB initialization has ended.
+2024-05-15T08:38:57.675338Z 0 [System] [MY-010229] [Server] Starting XA crash recovery...
+2024-05-15T08:38:57.685719Z 0 [System] [MY-010232] [Server] XA crash recovery finished.
+2024-05-15T08:38:57.853574Z 0 [Warning] [MY-010068] [Server] CA certificate ca.pem is self signed.
+2024-05-15T08:38:57.855091Z 0 [System] [MY-013602] [Server] Channel mysql_main configured to support TLS. Encrypted connections are now supported for this channel.
+2024-05-15T08:38:58.006032Z 0 [System] [MY-011323] [Server] X Plugin ready for connections. Bind-address: '::' port: 33060
+2024-05-15T08:38:58.006445Z 0 [System] [MY-010931] [Server] C:\Users\chrim\Desktop\UniserverCI4\UniServerZ\core\mysql\bin\mysqld_z.exe: ready for connections. Version: '8.0.31'  socket: ''  port: 3306  MySQL Community Server - GPL.
+2024-05-15T08:39:10.871044Z 0 [Warning] [MY-010918] [Server] 'default_authentication_plugin' is deprecated and will be removed in a future release. Please use authentication_policy instead.
+2024-05-15T08:39:10.871091Z 0 [System] [MY-010116] [Server] C:\Users\chrim\Desktop\UniserverCI4\UniServerZ\core\mysql\bin\mysqld_z.exe (mysqld 8.0.31) starting as process 15556
+2024-05-15T08:39:10.941494Z 1 [System] [MY-013576] [InnoDB] InnoDB initialization has started.
+2024-05-15T08:39:12.811773Z 1 [System] [MY-013577] [InnoDB] InnoDB initialization has ended.
+2024-05-15T08:39:15.418238Z 0 [System] [MY-010229] [Server] Starting XA crash recovery...
+2024-05-15T08:39:15.428973Z 0 [System] [MY-010232] [Server] XA crash recovery finished.
+2024-05-15T08:39:15.629756Z 0 [Warning] [MY-010068] [Server] CA certificate ca.pem is self signed.
+2024-05-15T08:39:15.631738Z 0 [System] [MY-013602] [Server] Channel mysql_main configured to support TLS. Encrypted connections are now supported for this channel.
+2024-05-15T08:39:15.842981Z 0 [System] [MY-011323] [Server] X Plugin ready for connections. Bind-address: '::' port: 33060
+2024-05-15T08:39:15.843768Z 0 [System] [MY-010931] [Server] C:\Users\chrim\Desktop\UniserverCI4\UniServerZ\core\mysql\bin\mysqld_z.exe: ready for connections. Version: '8.0.31'  socket: ''  port: 3306  MySQL Community Server - GPL.
+2024-05-17T22:40:33.146622Z 0 [Warning] [MY-010918] [Server] 'default_authentication_plugin' is deprecated and will be removed in a future release. Please use authentication_policy instead.
+2024-05-17T22:40:33.146677Z 0 [System] [MY-010116] [Server] C:\Users\chrim\Desktop\UniserverCI4\UniServerZ\core\mysql\bin\mysqld_z.exe (mysqld 8.0.31) starting as process 9944
+2024-05-17T22:40:33.288796Z 1 [System] [MY-013576] [InnoDB] InnoDB initialization has started.
+2024-05-17T22:40:34.522197Z 1 [System] [MY-013577] [InnoDB] InnoDB initialization has ended.
+2024-05-17T22:40:35.683288Z 0 [System] [MY-010229] [Server] Starting XA crash recovery...
+2024-05-17T22:40:35.695350Z 0 [System] [MY-010232] [Server] XA crash recovery finished.
+2024-05-17T22:40:35.891039Z 0 [Warning] [MY-010068] [Server] CA certificate ca.pem is self signed.
+2024-05-17T22:40:35.892632Z 0 [System] [MY-013602] [Server] Channel mysql_main configured to support TLS. Encrypted connections are now supported for this channel.
+2024-05-17T22:40:36.073565Z 0 [System] [MY-011323] [Server] X Plugin ready for connections. Bind-address: '::' port: 33060
+2024-05-17T22:40:36.074323Z 0 [System] [MY-010931] [Server] C:\Users\chrim\Desktop\UniserverCI4\UniServerZ\core\mysql\bin\mysqld_z.exe: ready for connections. Version: '8.0.31'  socket: ''  port: 3306  MySQL Community Server - GPL.
+2024-05-17T22:40:46.931477Z 0 [Warning] [MY-010918] [Server] 'default_authentication_plugin' is deprecated and will be removed in a future release. Please use authentication_policy instead.
+2024-05-17T22:40:46.931550Z 0 [System] [MY-010116] [Server] C:\Users\chrim\Desktop\UniserverCI4\UniServerZ\core\mysql\bin\mysqld_z.exe (mysqld 8.0.31) starting as process 15876
+2024-05-17T22:40:47.069626Z 1 [System] [MY-013576] [InnoDB] InnoDB initialization has started.
+2024-05-17T22:40:48.814976Z 1 [System] [MY-013577] [InnoDB] InnoDB initialization has ended.
+2024-05-17T22:40:51.133799Z 0 [System] [MY-010229] [Server] Starting XA crash recovery...
+2024-05-17T22:40:51.148111Z 0 [System] [MY-010232] [Server] XA crash recovery finished.
+2024-05-17T22:40:51.380872Z 0 [Warning] [MY-010068] [Server] CA certificate ca.pem is self signed.
+2024-05-17T22:40:51.382846Z 0 [System] [MY-013602] [Server] Channel mysql_main configured to support TLS. Encrypted connections are now supported for this channel.
+2024-05-17T22:40:51.795687Z 0 [System] [MY-011323] [Server] X Plugin ready for connections. Bind-address: '::' port: 33060
+2024-05-17T22:40:51.796436Z 0 [System] [MY-010931] [Server] C:\Users\chrim\Desktop\UniserverCI4\UniServerZ\core\mysql\bin\mysqld_z.exe: ready for connections. Version: '8.0.31'  socket: ''  port: 3306  MySQL Community Server - GPL.
+2024-05-18T06:14:31.891814Z 0 [Warning] [MY-010918] [Server] 'default_authentication_plugin' is deprecated and will be removed in a future release. Please use authentication_policy instead.
+2024-05-18T06:14:31.891837Z 0 [System] [MY-010116] [Server] C:\Users\masiero.christian\Desktop\UniServerZ\core\mysql\bin\mysqld_z.exe (mysqld 8.0.31) starting as process 11548
+2024-05-18T06:14:31.950240Z 1 [System] [MY-013576] [InnoDB] InnoDB initialization has started.
+2024-05-18T06:14:32.731262Z 1 [System] [MY-013577] [InnoDB] InnoDB initialization has ended.
+2024-05-18T06:14:33.045136Z 0 [System] [MY-010229] [Server] Starting XA crash recovery...
+2024-05-18T06:14:33.047978Z 0 [System] [MY-010232] [Server] XA crash recovery finished.
+2024-05-18T06:14:33.110494Z 0 [Warning] [MY-010068] [Server] CA certificate ca.pem is self signed.
+2024-05-18T06:14:33.110802Z 0 [System] [MY-013602] [Server] Channel mysql_main configured to support TLS. Encrypted connections are now supported for this channel.
+2024-05-18T06:14:33.166257Z 0 [System] [MY-011323] [Server] X Plugin ready for connections. Bind-address: '::' port: 33060
+2024-05-18T06:14:33.166356Z 0 [System] [MY-010931] [Server] C:\Users\masiero.christian\Desktop\UniServerZ\core\mysql\bin\mysqld_z.exe: ready for connections. Version: '8.0.31'  socket: ''  port: 3306  MySQL Community Server - GPL.
+2024-05-18T06:14:44.062942Z 0 [Warning] [MY-010918] [Server] 'default_authentication_plugin' is deprecated and will be removed in a future release. Please use authentication_policy instead.
+2024-05-18T06:14:44.062958Z 0 [System] [MY-010116] [Server] C:\Users\masiero.christian\Desktop\UniServerZ\core\mysql\bin\mysqld_z.exe (mysqld 8.0.31) starting as process 3704
+2024-05-18T06:14:44.077704Z 1 [System] [MY-013576] [InnoDB] InnoDB initialization has started.
+2024-05-18T06:14:45.049412Z 1 [System] [MY-013577] [InnoDB] InnoDB initialization has ended.
+2024-05-18T06:14:45.363331Z 0 [System] [MY-010229] [Server] Starting XA crash recovery...
+2024-05-18T06:14:45.366165Z 0 [System] [MY-010232] [Server] XA crash recovery finished.
+2024-05-18T06:14:45.413080Z 0 [Warning] [MY-010068] [Server] CA certificate ca.pem is self signed.
+2024-05-18T06:14:45.413373Z 0 [System] [MY-013602] [Server] Channel mysql_main configured to support TLS. Encrypted connections are now supported for this channel.
+2024-05-18T06:14:45.461214Z 0 [System] [MY-011323] [Server] X Plugin ready for connections. Bind-address: '::' port: 33060
+2024-05-18T06:14:45.461311Z 0 [System] [MY-010931] [Server] C:\Users\masiero.christian\Desktop\UniServerZ\core\mysql\bin\mysqld_z.exe: ready for connections. Version: '8.0.31'  socket: ''  port: 3306  MySQL Community Server - GPL.
+2024-05-24T09:16:33.613075Z 0 [Warning] [MY-010918] [Server] 'default_authentication_plugin' is deprecated and will be removed in a future release. Please use authentication_policy instead.
+2024-05-24T09:16:33.613099Z 0 [System] [MY-010116] [Server] C:\Users\masiero.christian\Desktop\UniServerZ\core\mysql\bin\mysqld_z.exe (mysqld 8.0.31) starting as process 8460
+2024-05-24T09:16:33.667037Z 1 [System] [MY-013576] [InnoDB] InnoDB initialization has started.
+2024-05-24T09:16:34.501676Z 1 [System] [MY-013577] [InnoDB] InnoDB initialization has ended.
+2024-05-24T09:16:34.846888Z 0 [System] [MY-010229] [Server] Starting XA crash recovery...
+2024-05-24T09:16:34.849784Z 0 [System] [MY-010232] [Server] XA crash recovery finished.
+2024-05-24T09:16:34.905917Z 0 [Warning] [MY-010068] [Server] CA certificate ca.pem is self signed.
+2024-05-24T09:16:34.906227Z 0 [System] [MY-013602] [Server] Channel mysql_main configured to support TLS. Encrypted connections are now supported for this channel.
+2024-05-24T09:16:34.966216Z 0 [System] [MY-011323] [Server] X Plugin ready for connections. Bind-address: '::' port: 33060
+2024-05-24T09:16:34.966312Z 0 [System] [MY-010931] [Server] C:\Users\masiero.christian\Desktop\UniServerZ\core\mysql\bin\mysqld_z.exe: ready for connections. Version: '8.0.31'  socket: ''  port: 3306  MySQL Community Server - GPL.
+2024-05-24T09:16:44.628675Z 0 [Warning] [MY-010918] [Server] 'default_authentication_plugin' is deprecated and will be removed in a future release. Please use authentication_policy instead.
+2024-05-24T09:16:44.628691Z 0 [System] [MY-010116] [Server] C:\Users\masiero.christian\Desktop\UniServerZ\core\mysql\bin\mysqld_z.exe (mysqld 8.0.31) starting as process 12540
+2024-05-24T09:16:44.643752Z 1 [System] [MY-013576] [InnoDB] InnoDB initialization has started.
+2024-05-24T09:16:46.084998Z 1 [System] [MY-013577] [InnoDB] InnoDB initialization has ended.
+2024-05-24T09:16:46.427948Z 0 [System] [MY-010229] [Server] Starting XA crash recovery...
+2024-05-24T09:16:46.430828Z 0 [System] [MY-010232] [Server] XA crash recovery finished.
+2024-05-24T09:16:46.489314Z 0 [Warning] [MY-010068] [Server] CA certificate ca.pem is self signed.
+2024-05-24T09:16:46.489617Z 0 [System] [MY-013602] [Server] Channel mysql_main configured to support TLS. Encrypted connections are now supported for this channel.
+2024-05-24T09:16:46.554503Z 0 [System] [MY-011323] [Server] X Plugin ready for connections. Bind-address: '::' port: 33060
+2024-05-24T09:16:46.554638Z 0 [System] [MY-010931] [Server] C:\Users\masiero.christian\Desktop\UniServerZ\core\mysql\bin\mysqld_z.exe: ready for connections. Version: '8.0.31'  socket: ''  port: 3306  MySQL Community Server - GPL.
+2024-05-28T06:13:11.488713Z 0 [Warning] [MY-010918] [Server] 'default_authentication_plugin' is deprecated and will be removed in a future release. Please use authentication_policy instead.
+2024-05-28T06:13:11.488739Z 0 [System] [MY-010116] [Server] C:\Users\masiero.christian\Desktop\UniServerZ\core\mysql\bin\mysqld_z.exe (mysqld 8.0.31) starting as process 4704
+2024-05-28T06:13:11.541374Z 1 [System] [MY-013576] [InnoDB] InnoDB initialization has started.
+2024-05-28T06:13:12.442917Z 1 [System] [MY-013577] [InnoDB] InnoDB initialization has ended.
+2024-05-28T06:13:12.768024Z 0 [System] [MY-010229] [Server] Starting XA crash recovery...
+2024-05-28T06:13:12.771307Z 0 [System] [MY-010232] [Server] XA crash recovery finished.
+2024-05-28T06:13:12.829812Z 0 [Warning] [MY-010068] [Server] CA certificate ca.pem is self signed.
+2024-05-28T06:13:12.830121Z 0 [System] [MY-013602] [Server] Channel mysql_main configured to support TLS. Encrypted connections are now supported for this channel.
+2024-05-28T06:13:12.887789Z 0 [System] [MY-011323] [Server] X Plugin ready for connections. Bind-address: '::' port: 33060
+2024-05-28T06:13:12.887889Z 0 [System] [MY-010931] [Server] C:\Users\masiero.christian\Desktop\UniServerZ\core\mysql\bin\mysqld_z.exe: ready for connections. Version: '8.0.31'  socket: ''  port: 3306  MySQL Community Server - GPL.
+2024-05-28T06:13:31.157284Z 0 [Warning] [MY-010918] [Server] 'default_authentication_plugin' is deprecated and will be removed in a future release. Please use authentication_policy instead.
+2024-05-28T06:13:31.157300Z 0 [System] [MY-010116] [Server] C:\Users\masiero.christian\Desktop\UniServerZ\core\mysql\bin\mysqld_z.exe (mysqld 8.0.31) starting as process 10572
+2024-05-28T06:13:31.208442Z 1 [System] [MY-013576] [InnoDB] InnoDB initialization has started.
+2024-05-28T06:13:32.485483Z 1 [System] [MY-013577] [InnoDB] InnoDB initialization has ended.
+2024-05-28T06:13:32.817567Z 0 [System] [MY-010229] [Server] Starting XA crash recovery...
+2024-05-28T06:13:32.820510Z 0 [System] [MY-010232] [Server] XA crash recovery finished.
+2024-05-28T06:13:32.862653Z 0 [Warning] [MY-010068] [Server] CA certificate ca.pem is self signed.
+2024-05-28T06:13:32.862951Z 0 [System] [MY-013602] [Server] Channel mysql_main configured to support TLS. Encrypted connections are now supported for this channel.
+2024-05-28T06:13:32.980132Z 0 [System] [MY-011323] [Server] X Plugin ready for connections. Bind-address: '::' port: 33060
+2024-05-28T06:13:32.980348Z 0 [System] [MY-010931] [Server] C:\Users\masiero.christian\Desktop\UniServerZ\core\mysql\bin\mysqld_z.exe: ready for connections. Version: '8.0.31'  socket: ''  port: 3306  MySQL Community Server - GPL.
+2024-05-31T09:14:29.323523Z 0 [Warning] [MY-010918] [Server] 'default_authentication_plugin' is deprecated and will be removed in a future release. Please use authentication_policy instead.
+2024-05-31T09:14:29.323546Z 0 [System] [MY-010116] [Server] C:\Users\masiero.christian\Desktop\UniServerZ\core\mysql\bin\mysqld_z.exe (mysqld 8.0.31) starting as process 4448
+2024-05-31T09:14:29.381692Z 1 [System] [MY-013576] [InnoDB] InnoDB initialization has started.
+2024-05-31T09:14:30.238349Z 1 [System] [MY-013577] [InnoDB] InnoDB initialization has ended.
+2024-05-31T09:14:30.586884Z 0 [System] [MY-010229] [Server] Starting XA crash recovery...
+2024-05-31T09:14:30.589861Z 0 [System] [MY-010232] [Server] XA crash recovery finished.
+2024-05-31T09:14:30.656951Z 0 [Warning] [MY-010068] [Server] CA certificate ca.pem is self signed.
+2024-05-31T09:14:30.657264Z 0 [System] [MY-013602] [Server] Channel mysql_main configured to support TLS. Encrypted connections are now supported for this channel.
+2024-05-31T09:14:30.718497Z 0 [System] [MY-011323] [Server] X Plugin ready for connections. Bind-address: '::' port: 33060
+2024-05-31T09:14:30.718641Z 0 [System] [MY-010931] [Server] C:\Users\masiero.christian\Desktop\UniServerZ\core\mysql\bin\mysqld_z.exe: ready for connections. Version: '8.0.31'  socket: ''  port: 3306  MySQL Community Server - GPL.
+2024-05-31T09:15:29.728233Z 0 [Warning] [MY-010918] [Server] 'default_authentication_plugin' is deprecated and will be removed in a future release. Please use authentication_policy instead.
+2024-05-31T09:15:29.728249Z 0 [System] [MY-010116] [Server] C:\Users\masiero.christian\Desktop\UniServerZ\core\mysql\bin\mysqld_z.exe (mysqld 8.0.31) starting as process 15972
+2024-05-31T09:15:29.743455Z 1 [System] [MY-013576] [InnoDB] InnoDB initialization has started.
+2024-05-31T09:15:30.857389Z 1 [System] [MY-013577] [InnoDB] InnoDB initialization has ended.
+2024-05-31T09:15:31.169203Z 0 [System] [MY-010229] [Server] Starting XA crash recovery...
+2024-05-31T09:15:31.172089Z 0 [System] [MY-010232] [Server] XA crash recovery finished.
+2024-05-31T09:15:31.206069Z 0 [Warning] [MY-010068] [Server] CA certificate ca.pem is self signed.
+2024-05-31T09:15:31.206365Z 0 [System] [MY-013602] [Server] Channel mysql_main configured to support TLS. Encrypted connections are now supported for this channel.
+2024-05-31T09:15:31.253134Z 0 [System] [MY-011323] [Server] X Plugin ready for connections. Bind-address: '::' port: 33060
+2024-05-31T09:15:31.253267Z 0 [System] [MY-010931] [Server] C:\Users\masiero.christian\Desktop\UniServerZ\core\mysql\bin\mysqld_z.exe: ready for connections. Version: '8.0.31'  socket: ''  port: 3306  MySQL Community Server - GPL.
+2024-06-07T10:32:32.928573Z 0 [Warning] [MY-010918] [Server] 'default_authentication_plugin' is deprecated and will be removed in a future release. Please use authentication_policy instead.
+2024-06-07T10:32:32.928597Z 0 [System] [MY-010116] [Server] C:\Users\masiero.christian\Desktop\UniServerZ\core\mysql\bin\mysqld_z.exe (mysqld 8.0.31) starting as process 6276
+2024-06-07T10:32:32.988064Z 1 [System] [MY-013576] [InnoDB] InnoDB initialization has started.
+2024-06-07T10:32:33.829459Z 1 [System] [MY-013577] [InnoDB] InnoDB initialization has ended.
+2024-06-07T10:32:34.167268Z 0 [System] [MY-010229] [Server] Starting XA crash recovery...
+2024-06-07T10:32:34.170393Z 0 [System] [MY-010232] [Server] XA crash recovery finished.
+2024-06-07T10:32:34.231496Z 0 [Warning] [MY-010068] [Server] CA certificate ca.pem is self signed.
+2024-06-07T10:32:34.231811Z 0 [System] [MY-013602] [Server] Channel mysql_main configured to support TLS. Encrypted connections are now supported for this channel.
+2024-06-07T10:32:34.287474Z 0 [System] [MY-011323] [Server] X Plugin ready for connections. Bind-address: '::' port: 33060
+2024-06-07T10:32:34.287613Z 0 [System] [MY-010931] [Server] C:\Users\masiero.christian\Desktop\UniServerZ\core\mysql\bin\mysqld_z.exe: ready for connections. Version: '8.0.31'  socket: ''  port: 3306  MySQL Community Server - GPL.
+2024-06-07T10:32:44.504275Z 0 [Warning] [MY-010918] [Server] 'default_authentication_plugin' is deprecated and will be removed in a future release. Please use authentication_policy instead.
+2024-06-07T10:32:44.504291Z 0 [System] [MY-010116] [Server] C:\Users\masiero.christian\Desktop\UniServerZ\core\mysql\bin\mysqld_z.exe (mysqld 8.0.31) starting as process 13436
+2024-06-07T10:32:44.535886Z 1 [System] [MY-013576] [InnoDB] InnoDB initialization has started.
+2024-06-07T10:32:45.718742Z 1 [System] [MY-013577] [InnoDB] InnoDB initialization has ended.
+2024-06-07T10:32:46.038795Z 0 [System] [MY-010229] [Server] Starting XA crash recovery...
+2024-06-07T10:32:46.041691Z 0 [System] [MY-010232] [Server] XA crash recovery finished.
+2024-06-07T10:32:46.092483Z 0 [Warning] [MY-010068] [Server] CA certificate ca.pem is self signed.
+2024-06-07T10:32:46.092775Z 0 [System] [MY-013602] [Server] Channel mysql_main configured to support TLS. Encrypted connections are now supported for this channel.
+2024-06-07T10:32:46.142918Z 0 [System] [MY-011323] [Server] X Plugin ready for connections. Bind-address: '::' port: 33060
+2024-06-07T10:32:46.143029Z 0 [System] [MY-010931] [Server] C:\Users\masiero.christian\Desktop\UniServerZ\core\mysql\bin\mysqld_z.exe: ready for connections. Version: '8.0.31'  socket: ''  port: 3306  MySQL Community Server - GPL.

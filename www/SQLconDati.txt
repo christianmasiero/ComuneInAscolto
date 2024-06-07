@@ -1,0 +1,118 @@
+-- --------------------------------------------------------
+-- Host:                         127.0.0.1
+-- Versione server:              8.0.31 - MySQL Community Server - GPL
+-- S.O. server:                  Win64
+-- HeidiSQL Versione:            12.6.0.6765
+-- --------------------------------------------------------
+
+/*!40101 SET @OLD_CHARACTER_SET_CLIENT=@@CHARACTER_SET_CLIENT */;
+/*!40101 SET NAMES utf8 */;
+/*!50503 SET NAMES utf8mb4 */;
+/*!40103 SET @OLD_TIME_ZONE=@@TIME_ZONE */;
+/*!40103 SET TIME_ZONE='+00:00' */;
+/*!40014 SET @OLD_FOREIGN_KEY_CHECKS=@@FOREIGN_KEY_CHECKS, FOREIGN_KEY_CHECKS=0 */;
+/*!40101 SET @OLD_SQL_MODE=@@SQL_MODE, SQL_MODE='NO_AUTO_VALUE_ON_ZERO' */;
+/*!40111 SET @OLD_SQL_NOTES=@@SQL_NOTES, SQL_NOTES=0 */;
+
+
+-- Dump della struttura del database comune_in_ascolto
+CREATE DATABASE IF NOT EXISTS `comune_in_ascolto` /*!40100 DEFAULT CHARACTER SET utf8mb4 COLLATE utf8mb4_0900_ai_ci */ /*!80016 DEFAULT ENCRYPTION='N' */;
+USE `comune_in_ascolto`;
+
+-- Dump della struttura di tabella comune_in_ascolto.allegati
+CREATE TABLE IF NOT EXISTS `allegati` (
+  `AllegatoId` int NOT NULL,
+  `PercorsoFile` varchar(200) NOT NULL,
+  `SegnalazioneId` int NOT NULL,
+  PRIMARY KEY (`AllegatoId`),
+  KEY `SegnalazioneId` (`SegnalazioneId`),
+  CONSTRAINT `allegati_ibfk_1` FOREIGN KEY (`SegnalazioneId`) REFERENCES `segnalazioni` (`SegnalazioneId`)
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci;
+
+-- Dump dei dati della tabella comune_in_ascolto.allegati: ~2 rows (circa)
+INSERT INTO `allegati` (`AllegatoId`, `PercorsoFile`, `SegnalazioneId`) VALUES
+	(1, '/percorso/allegato1.pdf', 1),
+	(2, '/percorso/allegato2.jpg', 1);
+
+-- Dump della struttura di tabella comune_in_ascolto.commenti
+CREATE TABLE IF NOT EXISTS `commenti` (
+  `Testo` varchar(200) NOT NULL,
+  `DataCreazione` date NOT NULL,
+  `CommentoId` int NOT NULL,
+  `UtenteId` int NOT NULL,
+  `SegnalazioneId` int NOT NULL,
+  PRIMARY KEY (`CommentoId`),
+  KEY `UtenteId` (`UtenteId`),
+  KEY `SegnalazioneId` (`SegnalazioneId`),
+  CONSTRAINT `commenti_ibfk_1` FOREIGN KEY (`UtenteId`) REFERENCES `utenti` (`UtenteId`),
+  CONSTRAINT `commenti_ibfk_2` FOREIGN KEY (`SegnalazioneId`) REFERENCES `segnalazioni` (`SegnalazioneId`)
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci;
+
+-- Dump dei dati della tabella comune_in_ascolto.commenti: ~2 rows (circa)
+INSERT INTO `commenti` (`Testo`, `DataCreazione`, `CommentoId`, `UtenteId`, `SegnalazioneId`) VALUES
+	('Primo commento sulla segnalazione', '2024-03-18', 1, 3, 1),
+	('Secondo commento sulla segnalazione', '2024-03-18', 2, 2, 1);
+
+-- Dump della struttura di tabella comune_in_ascolto.ruoli
+CREATE TABLE IF NOT EXISTS `ruoli` (
+  `RuoloID` int NOT NULL,
+  `NomeRuolo` varchar(15) NOT NULL,
+  `DescrizioneRuolo` varchar(50) CHARACTER SET utf8mb4 COLLATE utf8mb4_0900_ai_ci NOT NULL,
+  PRIMARY KEY (`RuoloID`)
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci;
+
+-- Dump dei dati della tabella comune_in_ascolto.ruoli: ~3 rows (circa)
+INSERT INTO `ruoli` (`RuoloID`, `NomeRuolo`, `DescrizioneRuolo`) VALUES
+	(1, 'Amministratore', 'Amministratore del sistema'),
+	(2, 'Operatore', 'Operatore del sistema'),
+	(3, 'Utente', 'Utente generico');
+
+-- Dump della struttura di tabella comune_in_ascolto.segnalazioni
+CREATE TABLE IF NOT EXISTS `segnalazioni` (
+  `DataCreazione` date NOT NULL,
+  `TipoProblema` varchar(15) NOT NULL,
+  `Titolo` varchar(50) DEFAULT NULL,
+  `Descrizione` varchar(200) NOT NULL,
+  `Stato` varchar(15) NOT NULL,
+  `SegnalazioneId` int NOT NULL,
+  `CoordinataLat` varchar(15) NOT NULL,
+  `CoordinataLon` varchar(15) NOT NULL,
+  `CoordinataAlt` varchar(15) NOT NULL,
+  PRIMARY KEY (`SegnalazioneId`)
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci;
+
+-- Dump dei dati della tabella comune_in_ascolto.segnalazioni: ~3 rows (circa)
+INSERT INTO `segnalazioni` (`DataCreazione`, `TipoProblema`, `Titolo`, `Descrizione`, `Stato`, `SegnalazioneId`, `CoordinataLat`, `CoordinataLon`, `CoordinataAlt`) VALUES
+	('2024-03-17', 'Segnalazione', 'Titolo1', 'Segnalazione di un problema', 'Aperta', 1, '123.456', '789.012', '100'),
+	('2024-03-16', 'Elogio', 'Titolo2', 'Elogio per un ottimo servizio', 'Chiusa', 2, '123.456', '789.012', '100'),
+	('2024-03-15', 'Consiglio', 'Titolo3', 'Consiglio su come migliorare un servizio', 'In corso', 3, '123.456', '789.012', '100');
+
+-- Dump della struttura di tabella comune_in_ascolto.utenti
+CREATE TABLE IF NOT EXISTS `utenti` (
+  `Username` varchar(25) NOT NULL,
+  `Nome` varchar(25) NOT NULL,
+  `Cognome` varchar(25) NOT NULL,
+  `Email` varchar(50) CHARACTER SET utf8mb4 COLLATE utf8mb4_0900_ai_ci NOT NULL,
+  `Password` varchar(25) NOT NULL,
+  `Telefono` varchar(25) CHARACTER SET utf8mb4 COLLATE utf8mb4_0900_ai_ci DEFAULT NULL,
+  `ComuneResidenza` varchar(25) NOT NULL,
+  `UtenteId` int NOT NULL,
+  `RuoloID` int NOT NULL,
+  PRIMARY KEY (`UtenteId`),
+  KEY `RuoloID` (`RuoloID`),
+  CONSTRAINT `utenti_ibfk_1` FOREIGN KEY (`RuoloID`) REFERENCES `ruoli` (`RuoloID`)
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci;
+
+-- Dump dei dati della tabella comune_in_ascolto.utenti: ~5 rows (circa)
+INSERT INTO `utenti` (`Username`, `Nome`, `Cognome`, `Email`, `Password`, `Telefono`, `ComuneResidenza`, `UtenteId`, `RuoloID`) VALUES
+	('a', 'a', 'asc', 'angelocollica@hotmail.com', '', 'a', 'a', 0, 3),
+	('admin', 'Admin', 'Admin', 'admin@example.com', 'adminpass', '3314179240', 'Città1', 1, 1),
+	('operatore', 'Operatore', 'Operatore', 'operatore@example.com', 'operatorepass', '3495208653', 'Città2', 2, 2),
+	('utente', 'Utente', 'Utente', 'utente@example.com', 'utentepass', '3286584987', 'Città3', 3, 3),
+	('aa', 'aa', 'aaa', 'aaa', 'aa', 'aaa', 'aa', 4, 3);
+
+/*!40103 SET TIME_ZONE=IFNULL(@OLD_TIME_ZONE, 'system') */;
+/*!40101 SET SQL_MODE=IFNULL(@OLD_SQL_MODE, '') */;
+/*!40014 SET FOREIGN_KEY_CHECKS=IFNULL(@OLD_FOREIGN_KEY_CHECKS, 1) */;
+/*!40101 SET CHARACTER_SET_CLIENT=@OLD_CHARACTER_SET_CLIENT */;
+/*!40111 SET SQL_NOTES=IFNULL(@OLD_SQL_NOTES, 1) */;

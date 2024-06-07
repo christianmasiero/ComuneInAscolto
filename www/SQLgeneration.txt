@@ -1,0 +1,54 @@
+USE comune_in_ascolto;
+CREATE TABLE Segnalazioni
+(
+  DataCreazione DATE NOT NULL,
+  TipoProblema VARCHAR(15) NOT NULL,
+  Descrizione VARCHAR(200) NOT NULL,
+  Stato VARCHAR(15) NOT NULL,
+  SegnalazioneId INT NOT NULL,
+  Coordinate VARCHAR(50) NOT NULL,
+  PRIMARY KEY (SegnalazioneId)
+);
+
+CREATE TABLE Ruoli
+(
+  RuoloID INT NOT NULL,
+  NomeRuolo VARCHAR(15) NOT NULL,
+  DescrizioneRuolo VARCHAR(15) NOT NULL,
+  PRIMARY KEY (RuoloID)
+);
+
+CREATE TABLE Allegati
+(
+  AllegatoId INT NOT NULL,
+  PercorsoFile VARCHAR(200) NOT NULL,
+  SegnalazioneId INT NOT NULL,
+  PRIMARY KEY (AllegatoId),
+  FOREIGN KEY (SegnalazioneId) REFERENCES Segnalazioni(SegnalazioneId)
+);
+
+CREATE TABLE Utenti
+(
+  Username VARCHAR(25) NOT NULL,
+  Nome VARCHAR(25) NOT NULL,
+  Cognome VARCHAR(25) NOT NULL,
+  Email VARCHAR(25) NOT NULL,
+  Password VARCHAR(25) NOT NULL,
+  ComuneResidenza VARCHAR(25) NOT NULL,
+  UtenteId INT NOT NULL,
+  RuoloID INT NOT NULL,
+  PRIMARY KEY (UtenteId),
+  FOREIGN KEY (RuoloID) REFERENCES Ruoli(RuoloID)
+);
+
+CREATE TABLE Commenti
+(
+  Testo VARCHAR(200) NOT NULL,
+  DataCreazione DATE NOT NULL,
+  CommentoId INT NOT NULL,
+  UtenteId INT NOT NULL,
+  SegnalazioneId INT NOT NULL,
+  PRIMARY KEY (CommentoId),
+  FOREIGN KEY (UtenteId) REFERENCES Utenti(UtenteId),
+  FOREIGN KEY (SegnalazioneId) REFERENCES Segnalazioni(SegnalazioneId)
+);

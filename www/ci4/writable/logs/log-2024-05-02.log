@@ -1,0 +1,1615 @@
+INFO - 2024-05-02 16:04:09 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-05-02 16:04:09 --> [DEPRECATED] Creation of dynamic property App\Controllers\Home::$session is deprecated in APPPATH\Controllers\BaseController.php on line 61.
+ 1 SYSTEMPATH\CodeIgniter.php(914): App\Controllers\BaseController->initController(Object(CodeIgniter\HTTP\IncomingRequest), Object(CodeIgniter\HTTP\Response), Object(CodeIgniter\Log\Logger))
+ 2 SYSTEMPATH\CodeIgniter.php(493): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-05-02 16:04:17 --> ParseError: syntax error, unexpected token ";", expecting "]"
+in APPPATH\Controllers\Segnalazioni.php on line 41.
+ 1 SYSTEMPATH\Router\Router.php(514): CodeIgniter\Router\AutoRouter->getRoute()
+ 2 SYSTEMPATH\Router\Router.php(210): CodeIgniter\Router\Router->autoRoute()
+ 3 SYSTEMPATH\CodeIgniter.php(823): CodeIgniter\Router\Router->handle()
+ 4 SYSTEMPATH\CodeIgniter.php(450): CodeIgniter\CodeIgniter->tryToRouteIt()
+ 5 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest()
+ 6 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-05-02 16:06:38 --> ParseError: syntax error, unexpected single-quoted string "descrizione", expecting "]"
+in APPPATH\Controllers\Segnalazioni.php on line 46.
+ 1 SYSTEMPATH\Router\Router.php(514): CodeIgniter\Router\AutoRouter->getRoute()
+ 2 SYSTEMPATH\Router\Router.php(210): CodeIgniter\Router\Router->autoRoute()
+ 3 SYSTEMPATH\CodeIgniter.php(823): CodeIgniter\Router\Router->handle()
+ 4 SYSTEMPATH\CodeIgniter.php(450): CodeIgniter\CodeIgniter->tryToRouteIt()
+ 5 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest()
+ 6 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2024-05-02 16:06:53 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-05-02 16:06:53 --> [DEPRECATED] Creation of dynamic property App\Controllers\Segnalazioni::$session is deprecated in APPPATH\Controllers\BaseController.php on line 61.
+ 1 SYSTEMPATH\CodeIgniter.php(914): App\Controllers\BaseController->initController(Object(CodeIgniter\HTTP\IncomingRequest), Object(CodeIgniter\HTTP\Response), Object(CodeIgniter\Log\Logger))
+ 2 SYSTEMPATH\CodeIgniter.php(493): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2024-05-02 16:21:27 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-05-02 16:21:27 --> [DEPRECATED] Creation of dynamic property App\Controllers\Segnalazioni::$session is deprecated in APPPATH\Controllers\BaseController.php on line 61.
+ 1 SYSTEMPATH\CodeIgniter.php(914): App\Controllers\BaseController->initController(Object(CodeIgniter\HTTP\IncomingRequest), Object(CodeIgniter\HTTP\Response), Object(CodeIgniter\Log\Logger))
+ 2 SYSTEMPATH\CodeIgniter.php(493): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2024-05-02 16:21:37 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-05-02 16:21:37 --> [DEPRECATED] Creation of dynamic property App\Controllers\Segnalazioni::$session is deprecated in APPPATH\Controllers\BaseController.php on line 61.
+ 1 SYSTEMPATH\CodeIgniter.php(914): App\Controllers\BaseController->initController(Object(CodeIgniter\HTTP\IncomingRequest), Object(CodeIgniter\HTTP\Response), Object(CodeIgniter\Log\Logger))
+ 2 SYSTEMPATH\CodeIgniter.php(493): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ERROR - 2024-05-02 16:21:39 --> mysqli_sql_exception: Table 'comune_in_ascolto.comuni' doesn't exist in C:\Users\chrim\Desktop\UniserverCI4\UniServerZ\www\ci4\system\Database\MySQLi\Connection.php:306
+Stack trace:
+#0 C:\Users\chrim\Desktop\UniserverCI4\UniServerZ\www\ci4\system\Database\MySQLi\Connection.php(306): mysqli->query()
+#1 C:\Users\chrim\Desktop\UniserverCI4\UniServerZ\www\ci4\system\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute()
+#2 C:\Users\chrim\Desktop\UniserverCI4\UniServerZ\www\ci4\system\Database\BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery()
+#3 C:\Users\chrim\Desktop\UniserverCI4\UniServerZ\www\ci4\system\Database\BaseBuilder.php(1613): CodeIgniter\Database\BaseConnection->query()
+#4 C:\Users\chrim\Desktop\UniserverCI4\UniServerZ\www\ci4\system\Model.php(242): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\Users\chrim\Desktop\UniserverCI4\UniServerZ\www\ci4\system\BaseModel.php(638): CodeIgniter\Model->doFindAll()
+#6 C:\Users\chrim\Desktop\UniserverCI4\UniServerZ\www\ci4\app\Models\ComuniModel.php(15): CodeIgniter\BaseModel->findAll()
+#7 C:\Users\chrim\Desktop\UniserverCI4\UniServerZ\www\ci4\app\Controllers\Segnalazioni.php(62): App\Models\ComuniModel->searchComuni()
+#8 C:\Users\chrim\Desktop\UniserverCI4\UniServerZ\www\ci4\system\CodeIgniter.php(941): App\Controllers\Segnalazioni->search()
+#9 C:\Users\chrim\Desktop\UniserverCI4\UniServerZ\www\ci4\system\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController()
+#10 C:\Users\chrim\Desktop\UniserverCI4\UniServerZ\www\ci4\system\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest()
+#11 C:\Users\chrim\Desktop\UniserverCI4\UniServerZ\www\ci4\public\index.php(79): CodeIgniter\CodeIgniter->run()
+#12 {main}
+CRITICAL - 2024-05-02 16:21:39 --> CodeIgniter\Database\Exceptions\DatabaseException: Table 'comune_in_ascolto.comuni' doesn't exist
+in SYSTEMPATH\Database\BaseConnection.php on line 647.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(1613): CodeIgniter\Database\BaseConnection->query()
+ 2 SYSTEMPATH\Model.php(242): CodeIgniter\Database\BaseBuilder->get()
+ 3 SYSTEMPATH\BaseModel.php(638): CodeIgniter\Model->doFindAll()
+ 4 APPPATH\Models\ComuniModel.php(15): CodeIgniter\BaseModel->findAll()
+ 5 APPPATH\Controllers\Segnalazioni.php(62): App\Models\ComuniModel->searchComuni()
+ 6 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Segnalazioni->search()
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController()
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest()
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-05-02 16:21:39 --> [Caused by] CodeIgniter\Database\Exceptions\DatabaseException: Table 'comune_in_ascolto.comuni' doesn't exist
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 311.
+ 1 SYSTEMPATH\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute()
+ 2 SYSTEMPATH\Database\BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery()
+ 3 SYSTEMPATH\Database\BaseBuilder.php(1613): CodeIgniter\Database\BaseConnection->query()
+ 4 SYSTEMPATH\Model.php(242): CodeIgniter\Database\BaseBuilder->get()
+ 5 SYSTEMPATH\BaseModel.php(638): CodeIgniter\Model->doFindAll()
+ 6 APPPATH\Models\ComuniModel.php(15): CodeIgniter\BaseModel->findAll()
+ 7 APPPATH\Controllers\Segnalazioni.php(62): App\Models\ComuniModel->searchComuni()
+ 8 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Segnalazioni->search()
+ 9 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController()
+10 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest()
+11 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-05-02 16:21:39 --> [Caused by] mysqli_sql_exception: Table 'comune_in_ascolto.comuni' doesn't exist
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 306.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(306): mysqli->query()
+ 2 SYSTEMPATH\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute()
+ 3 SYSTEMPATH\Database\BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery()
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1613): CodeIgniter\Database\BaseConnection->query()
+ 5 SYSTEMPATH\Model.php(242): CodeIgniter\Database\BaseBuilder->get()
+ 6 SYSTEMPATH\BaseModel.php(638): CodeIgniter\Model->doFindAll()
+ 7 APPPATH\Models\ComuniModel.php(15): CodeIgniter\BaseModel->findAll()
+ 8 APPPATH\Controllers\Segnalazioni.php(62): App\Models\ComuniModel->searchComuni()
+ 9 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Segnalazioni->search()
+10 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController()
+11 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest()
+12 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2024-05-02 16:21:39 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-05-02 16:21:39 --> [DEPRECATED] Creation of dynamic property App\Controllers\Segnalazioni::$session is deprecated in APPPATH\Controllers\BaseController.php on line 61.
+ 1 SYSTEMPATH\CodeIgniter.php(914): App\Controllers\BaseController->initController(Object(CodeIgniter\HTTP\IncomingRequest), Object(CodeIgniter\HTTP\Response), Object(CodeIgniter\Log\Logger))
+ 2 SYSTEMPATH\CodeIgniter.php(493): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ERROR - 2024-05-02 16:21:41 --> mysqli_sql_exception: Table 'comune_in_ascolto.comuni' doesn't exist in C:\Users\chrim\Desktop\UniserverCI4\UniServerZ\www\ci4\system\Database\MySQLi\Connection.php:306
+Stack trace:
+#0 C:\Users\chrim\Desktop\UniserverCI4\UniServerZ\www\ci4\system\Database\MySQLi\Connection.php(306): mysqli->query()
+#1 C:\Users\chrim\Desktop\UniserverCI4\UniServerZ\www\ci4\system\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute()
+#2 C:\Users\chrim\Desktop\UniserverCI4\UniServerZ\www\ci4\system\Database\BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery()
+#3 C:\Users\chrim\Desktop\UniserverCI4\UniServerZ\www\ci4\system\Database\BaseBuilder.php(1613): CodeIgniter\Database\BaseConnection->query()
+#4 C:\Users\chrim\Desktop\UniserverCI4\UniServerZ\www\ci4\system\Model.php(242): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\Users\chrim\Desktop\UniserverCI4\UniServerZ\www\ci4\system\BaseModel.php(638): CodeIgniter\Model->doFindAll()
+#6 C:\Users\chrim\Desktop\UniserverCI4\UniServerZ\www\ci4\app\Models\ComuniModel.php(15): CodeIgniter\BaseModel->findAll()
+#7 C:\Users\chrim\Desktop\UniserverCI4\UniServerZ\www\ci4\app\Controllers\Segnalazioni.php(62): App\Models\ComuniModel->searchComuni()
+#8 C:\Users\chrim\Desktop\UniserverCI4\UniServerZ\www\ci4\system\CodeIgniter.php(941): App\Controllers\Segnalazioni->search()
+#9 C:\Users\chrim\Desktop\UniserverCI4\UniServerZ\www\ci4\system\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController()
+#10 C:\Users\chrim\Desktop\UniserverCI4\UniServerZ\www\ci4\system\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest()
+#11 C:\Users\chrim\Desktop\UniserverCI4\UniServerZ\www\ci4\public\index.php(79): CodeIgniter\CodeIgniter->run()
+#12 {main}
+CRITICAL - 2024-05-02 16:21:41 --> CodeIgniter\Database\Exceptions\DatabaseException: Table 'comune_in_ascolto.comuni' doesn't exist
+in SYSTEMPATH\Database\BaseConnection.php on line 647.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(1613): CodeIgniter\Database\BaseConnection->query()
+ 2 SYSTEMPATH\Model.php(242): CodeIgniter\Database\BaseBuilder->get()
+ 3 SYSTEMPATH\BaseModel.php(638): CodeIgniter\Model->doFindAll()
+ 4 APPPATH\Models\ComuniModel.php(15): CodeIgniter\BaseModel->findAll()
+ 5 APPPATH\Controllers\Segnalazioni.php(62): App\Models\ComuniModel->searchComuni()
+ 6 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Segnalazioni->search()
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController()
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest()
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-05-02 16:21:41 --> [Caused by] CodeIgniter\Database\Exceptions\DatabaseException: Table 'comune_in_ascolto.comuni' doesn't exist
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 311.
+ 1 SYSTEMPATH\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute()
+ 2 SYSTEMPATH\Database\BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery()
+ 3 SYSTEMPATH\Database\BaseBuilder.php(1613): CodeIgniter\Database\BaseConnection->query()
+ 4 SYSTEMPATH\Model.php(242): CodeIgniter\Database\BaseBuilder->get()
+ 5 SYSTEMPATH\BaseModel.php(638): CodeIgniter\Model->doFindAll()
+ 6 APPPATH\Models\ComuniModel.php(15): CodeIgniter\BaseModel->findAll()
+ 7 APPPATH\Controllers\Segnalazioni.php(62): App\Models\ComuniModel->searchComuni()
+ 8 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Segnalazioni->search()
+ 9 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController()
+10 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest()
+11 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-05-02 16:21:41 --> [Caused by] mysqli_sql_exception: Table 'comune_in_ascolto.comuni' doesn't exist
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 306.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(306): mysqli->query()
+ 2 SYSTEMPATH\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute()
+ 3 SYSTEMPATH\Database\BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery()
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1613): CodeIgniter\Database\BaseConnection->query()
+ 5 SYSTEMPATH\Model.php(242): CodeIgniter\Database\BaseBuilder->get()
+ 6 SYSTEMPATH\BaseModel.php(638): CodeIgniter\Model->doFindAll()
+ 7 APPPATH\Models\ComuniModel.php(15): CodeIgniter\BaseModel->findAll()
+ 8 APPPATH\Controllers\Segnalazioni.php(62): App\Models\ComuniModel->searchComuni()
+ 9 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Segnalazioni->search()
+10 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController()
+11 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest()
+12 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2024-05-02 16:21:55 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-05-02 16:21:55 --> [DEPRECATED] Creation of dynamic property App\Controllers\Segnalazioni::$session is deprecated in APPPATH\Controllers\BaseController.php on line 61.
+ 1 SYSTEMPATH\CodeIgniter.php(914): App\Controllers\BaseController->initController(Object(CodeIgniter\HTTP\IncomingRequest), Object(CodeIgniter\HTTP\Response), Object(CodeIgniter\Log\Logger))
+ 2 SYSTEMPATH\CodeIgniter.php(493): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-05-02 16:21:55 --> Error: Call to a member function isValid() on null
+in APPPATH\Controllers\Segnalazioni.php on line 29.
+ 1 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Segnalazioni->creaSegn()
+ 2 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController()
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest()
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2024-05-02 16:22:17 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-05-02 16:22:17 --> [DEPRECATED] Creation of dynamic property App\Controllers\Segnalazioni::$session is deprecated in APPPATH\Controllers\BaseController.php on line 61.
+ 1 SYSTEMPATH\CodeIgniter.php(914): App\Controllers\BaseController->initController(Object(CodeIgniter\HTTP\IncomingRequest), Object(CodeIgniter\HTTP\Response), Object(CodeIgniter\Log\Logger))
+ 2 SYSTEMPATH\CodeIgniter.php(493): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2024-05-02 16:22:39 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-05-02 16:22:39 --> [DEPRECATED] Creation of dynamic property App\Controllers\Segnalazioni::$session is deprecated in APPPATH\Controllers\BaseController.php on line 61.
+ 1 SYSTEMPATH\CodeIgniter.php(914): App\Controllers\BaseController->initController(Object(CodeIgniter\HTTP\IncomingRequest), Object(CodeIgniter\HTTP\Response), Object(CodeIgniter\Log\Logger))
+ 2 SYSTEMPATH\CodeIgniter.php(493): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-05-02 16:22:39 --> Error: Call to a member function isValid() on null
+in APPPATH\Controllers\Segnalazioni.php on line 29.
+ 1 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Segnalazioni->creaSegn()
+ 2 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController()
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest()
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2024-05-02 16:23:10 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-05-02 16:23:10 --> [DEPRECATED] Creation of dynamic property App\Controllers\Segnalazioni::$session is deprecated in APPPATH\Controllers\BaseController.php on line 61.
+ 1 SYSTEMPATH\CodeIgniter.php(914): App\Controllers\BaseController->initController(Object(CodeIgniter\HTTP\IncomingRequest), Object(CodeIgniter\HTTP\Response), Object(CodeIgniter\Log\Logger))
+ 2 SYSTEMPATH\CodeIgniter.php(493): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ERROR - 2024-05-02 16:23:12 --> mysqli_sql_exception: Unknown column 'utenteID' in 'field list' in C:\Users\chrim\Desktop\UniserverCI4\UniServerZ\www\ci4\system\Database\MySQLi\Connection.php:306
+Stack trace:
+#0 C:\Users\chrim\Desktop\UniserverCI4\UniServerZ\www\ci4\system\Database\MySQLi\Connection.php(306): mysqli->query()
+#1 C:\Users\chrim\Desktop\UniserverCI4\UniServerZ\www\ci4\system\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute()
+#2 C:\Users\chrim\Desktop\UniserverCI4\UniServerZ\www\ci4\system\Database\BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery()
+#3 C:\Users\chrim\Desktop\UniserverCI4\UniServerZ\www\ci4\system\Database\BaseBuilder.php(2302): CodeIgniter\Database\BaseConnection->query()
+#4 C:\Users\chrim\Desktop\UniserverCI4\UniServerZ\www\ci4\app\Models\SegnalazioniModel.php(22): CodeIgniter\Database\BaseBuilder->insert()
+#5 C:\Users\chrim\Desktop\UniserverCI4\UniServerZ\www\ci4\app\Controllers\Segnalazioni.php(49): App\Models\SegnalazioniModel->createSegn()
+#6 C:\Users\chrim\Desktop\UniserverCI4\UniServerZ\www\ci4\system\CodeIgniter.php(941): App\Controllers\Segnalazioni->creaSegn()
+#7 C:\Users\chrim\Desktop\UniserverCI4\UniServerZ\www\ci4\system\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController()
+#8 C:\Users\chrim\Desktop\UniserverCI4\UniServerZ\www\ci4\system\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest()
+#9 C:\Users\chrim\Desktop\UniserverCI4\UniServerZ\www\ci4\public\index.php(79): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2024-05-02 16:23:12 --> CodeIgniter\Database\Exceptions\DatabaseException: Unknown column 'utenteID' in 'field list'
+in SYSTEMPATH\Database\BaseConnection.php on line 647.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(2302): CodeIgniter\Database\BaseConnection->query()
+ 2 APPPATH\Models\SegnalazioniModel.php(22): CodeIgniter\Database\BaseBuilder->insert()
+ 3 APPPATH\Controllers\Segnalazioni.php(49): App\Models\SegnalazioniModel->createSegn()
+ 4 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Segnalazioni->creaSegn()
+ 5 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController()
+ 6 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest()
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-05-02 16:23:12 --> [Caused by] CodeIgniter\Database\Exceptions\DatabaseException: Unknown column 'utenteID' in 'field list'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 311.
+ 1 SYSTEMPATH\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute()
+ 2 SYSTEMPATH\Database\BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery()
+ 3 SYSTEMPATH\Database\BaseBuilder.php(2302): CodeIgniter\Database\BaseConnection->query()
+ 4 APPPATH\Models\SegnalazioniModel.php(22): CodeIgniter\Database\BaseBuilder->insert()
+ 5 APPPATH\Controllers\Segnalazioni.php(49): App\Models\SegnalazioniModel->createSegn()
+ 6 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Segnalazioni->creaSegn()
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController()
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest()
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-05-02 16:23:12 --> [Caused by] mysqli_sql_exception: Unknown column 'utenteID' in 'field list'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 306.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(306): mysqli->query()
+ 2 SYSTEMPATH\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute()
+ 3 SYSTEMPATH\Database\BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery()
+ 4 SYSTEMPATH\Database\BaseBuilder.php(2302): CodeIgniter\Database\BaseConnection->query()
+ 5 APPPATH\Models\SegnalazioniModel.php(22): CodeIgniter\Database\BaseBuilder->insert()
+ 6 APPPATH\Controllers\Segnalazioni.php(49): App\Models\SegnalazioniModel->createSegn()
+ 7 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Segnalazioni->creaSegn()
+ 8 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController()
+ 9 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest()
+10 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2024-05-02 16:27:29 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-05-02 16:27:29 --> [DEPRECATED] Creation of dynamic property App\Controllers\Segnalazioni::$session is deprecated in APPPATH\Controllers\BaseController.php on line 61.
+ 1 SYSTEMPATH\CodeIgniter.php(914): App\Controllers\BaseController->initController(Object(CodeIgniter\HTTP\IncomingRequest), Object(CodeIgniter\HTTP\Response), Object(CodeIgniter\Log\Logger))
+ 2 SYSTEMPATH\CodeIgniter.php(493): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ERROR - 2024-05-02 16:27:31 --> mysqli_sql_exception: Unknown column 'utenteID' in 'field list' in C:\Users\chrim\Desktop\UniserverCI4\UniServerZ\www\ci4\system\Database\MySQLi\Connection.php:306
+Stack trace:
+#0 C:\Users\chrim\Desktop\UniserverCI4\UniServerZ\www\ci4\system\Database\MySQLi\Connection.php(306): mysqli->query()
+#1 C:\Users\chrim\Desktop\UniserverCI4\UniServerZ\www\ci4\system\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute()
+#2 C:\Users\chrim\Desktop\UniserverCI4\UniServerZ\www\ci4\system\Database\BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery()
+#3 C:\Users\chrim\Desktop\UniserverCI4\UniServerZ\www\ci4\system\Database\BaseBuilder.php(2302): CodeIgniter\Database\BaseConnection->query()
+#4 C:\Users\chrim\Desktop\UniserverCI4\UniServerZ\www\ci4\app\Models\SegnalazioniModel.php(22): CodeIgniter\Database\BaseBuilder->insert()
+#5 C:\Users\chrim\Desktop\UniserverCI4\UniServerZ\www\ci4\app\Controllers\Segnalazioni.php(49): App\Models\SegnalazioniModel->createSegn()
+#6 C:\Users\chrim\Desktop\UniserverCI4\UniServerZ\www\ci4\system\CodeIgniter.php(941): App\Controllers\Segnalazioni->creaSegn()
+#7 C:\Users\chrim\Desktop\UniserverCI4\UniServerZ\www\ci4\system\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController()
+#8 C:\Users\chrim\Desktop\UniserverCI4\UniServerZ\www\ci4\system\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest()
+#9 C:\Users\chrim\Desktop\UniserverCI4\UniServerZ\www\ci4\public\index.php(79): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2024-05-02 16:27:31 --> CodeIgniter\Database\Exceptions\DatabaseException: Unknown column 'utenteID' in 'field list'
+in SYSTEMPATH\Database\BaseConnection.php on line 647.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(2302): CodeIgniter\Database\BaseConnection->query()
+ 2 APPPATH\Models\SegnalazioniModel.php(22): CodeIgniter\Database\BaseBuilder->insert()
+ 3 APPPATH\Controllers\Segnalazioni.php(49): App\Models\SegnalazioniModel->createSegn()
+ 4 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Segnalazioni->creaSegn()
+ 5 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController()
+ 6 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest()
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-05-02 16:27:31 --> [Caused by] CodeIgniter\Database\Exceptions\DatabaseException: Unknown column 'utenteID' in 'field list'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 311.
+ 1 SYSTEMPATH\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute()
+ 2 SYSTEMPATH\Database\BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery()
+ 3 SYSTEMPATH\Database\BaseBuilder.php(2302): CodeIgniter\Database\BaseConnection->query()
+ 4 APPPATH\Models\SegnalazioniModel.php(22): CodeIgniter\Database\BaseBuilder->insert()
+ 5 APPPATH\Controllers\Segnalazioni.php(49): App\Models\SegnalazioniModel->createSegn()
+ 6 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Segnalazioni->creaSegn()
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController()
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest()
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-05-02 16:27:31 --> [Caused by] mysqli_sql_exception: Unknown column 'utenteID' in 'field list'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 306.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(306): mysqli->query()
+ 2 SYSTEMPATH\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute()
+ 3 SYSTEMPATH\Database\BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery()
+ 4 SYSTEMPATH\Database\BaseBuilder.php(2302): CodeIgniter\Database\BaseConnection->query()
+ 5 APPPATH\Models\SegnalazioniModel.php(22): CodeIgniter\Database\BaseBuilder->insert()
+ 6 APPPATH\Controllers\Segnalazioni.php(49): App\Models\SegnalazioniModel->createSegn()
+ 7 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Segnalazioni->creaSegn()
+ 8 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController()
+ 9 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest()
+10 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2024-05-02 16:28:04 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-05-02 16:28:04 --> [DEPRECATED] Creation of dynamic property App\Controllers\Home::$session is deprecated in APPPATH\Controllers\BaseController.php on line 61.
+ 1 SYSTEMPATH\CodeIgniter.php(914): App\Controllers\BaseController->initController(Object(CodeIgniter\HTTP\IncomingRequest), Object(CodeIgniter\HTTP\Response), Object(CodeIgniter\Log\Logger))
+ 2 SYSTEMPATH\CodeIgniter.php(493): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2024-05-02 16:28:08 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-05-02 16:28:08 --> [DEPRECATED] Creation of dynamic property App\Controllers\Utenti::$session is deprecated in APPPATH\Controllers\BaseController.php on line 61.
+ 1 SYSTEMPATH\CodeIgniter.php(914): App\Controllers\BaseController->initController(Object(CodeIgniter\HTTP\IncomingRequest), Object(CodeIgniter\HTTP\Response), Object(CodeIgniter\Log\Logger))
+ 2 SYSTEMPATH\CodeIgniter.php(493): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2024-05-02 16:28:32 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-05-02 16:28:32 --> [DEPRECATED] Creation of dynamic property App\Controllers\Utenti::$session is deprecated in APPPATH\Controllers\BaseController.php on line 61.
+ 1 SYSTEMPATH\CodeIgniter.php(914): App\Controllers\BaseController->initController(Object(CodeIgniter\HTTP\IncomingRequest), Object(CodeIgniter\HTTP\Response), Object(CodeIgniter\Log\Logger))
+ 2 SYSTEMPATH\CodeIgniter.php(493): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-05-02 16:28:34 --> ErrorException: Undefined property: stdClass::$userid
+in APPPATH\Models\UtentiModel.php on line 17.
+ 1 APPPATH\Models\UtentiModel.php(17): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 APPPATH\Controllers\Utenti.php(18): App\Models\UtentiModel->Accesso()
+ 3 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Utenti->LoggingIn()
+ 4 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController()
+ 5 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest()
+ 6 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2024-05-02 16:29:13 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-05-02 16:29:13 --> [DEPRECATED] Creation of dynamic property App\Controllers\Utenti::$session is deprecated in APPPATH\Controllers\BaseController.php on line 61.
+ 1 SYSTEMPATH\CodeIgniter.php(914): App\Controllers\BaseController->initController(Object(CodeIgniter\HTTP\IncomingRequest), Object(CodeIgniter\HTTP\Response), Object(CodeIgniter\Log\Logger))
+ 2 SYSTEMPATH\CodeIgniter.php(493): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-05-02 16:29:15 --> ErrorException: Undefined property: stdClass::$utenteid
+in APPPATH\Models\UtentiModel.php on line 17.
+ 1 APPPATH\Models\UtentiModel.php(17): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 APPPATH\Controllers\Utenti.php(18): App\Models\UtentiModel->Accesso()
+ 3 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Utenti->LoggingIn()
+ 4 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController()
+ 5 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest()
+ 6 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2024-05-02 16:30:02 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-05-02 16:30:02 --> [DEPRECATED] Creation of dynamic property App\Controllers\Utenti::$session is deprecated in APPPATH\Controllers\BaseController.php on line 61.
+ 1 SYSTEMPATH\CodeIgniter.php(914): App\Controllers\BaseController->initController(Object(CodeIgniter\HTTP\IncomingRequest), Object(CodeIgniter\HTTP\Response), Object(CodeIgniter\Log\Logger))
+ 2 SYSTEMPATH\CodeIgniter.php(493): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2024-05-02 16:30:05 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-05-02 16:30:05 --> [DEPRECATED] Creation of dynamic property App\Controllers\Home::$session is deprecated in APPPATH\Controllers\BaseController.php on line 61.
+ 1 SYSTEMPATH\CodeIgniter.php(914): App\Controllers\BaseController->initController(Object(CodeIgniter\HTTP\IncomingRequest), Object(CodeIgniter\HTTP\Response), Object(CodeIgniter\Log\Logger))
+ 2 SYSTEMPATH\CodeIgniter.php(493): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2024-05-02 16:30:12 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-05-02 16:30:12 --> [DEPRECATED] Creation of dynamic property App\Controllers\Segnalazioni::$session is deprecated in APPPATH\Controllers\BaseController.php on line 61.
+ 1 SYSTEMPATH\CodeIgniter.php(914): App\Controllers\BaseController->initController(Object(CodeIgniter\HTTP\IncomingRequest), Object(CodeIgniter\HTTP\Response), Object(CodeIgniter\Log\Logger))
+ 2 SYSTEMPATH\CodeIgniter.php(493): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2024-05-02 16:30:24 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-05-02 16:30:24 --> [DEPRECATED] Creation of dynamic property App\Controllers\Segnalazioni::$session is deprecated in APPPATH\Controllers\BaseController.php on line 61.
+ 1 SYSTEMPATH\CodeIgniter.php(914): App\Controllers\BaseController->initController(Object(CodeIgniter\HTTP\IncomingRequest), Object(CodeIgniter\HTTP\Response), Object(CodeIgniter\Log\Logger))
+ 2 SYSTEMPATH\CodeIgniter.php(493): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ERROR - 2024-05-02 16:30:26 --> mysqli_sql_exception: Table 'comune_in_ascolto.comuni' doesn't exist in C:\Users\chrim\Desktop\UniserverCI4\UniServerZ\www\ci4\system\Database\MySQLi\Connection.php:306
+Stack trace:
+#0 C:\Users\chrim\Desktop\UniserverCI4\UniServerZ\www\ci4\system\Database\MySQLi\Connection.php(306): mysqli->query()
+#1 C:\Users\chrim\Desktop\UniserverCI4\UniServerZ\www\ci4\system\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute()
+#2 C:\Users\chrim\Desktop\UniserverCI4\UniServerZ\www\ci4\system\Database\BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery()
+#3 C:\Users\chrim\Desktop\UniserverCI4\UniServerZ\www\ci4\system\Database\BaseBuilder.php(1613): CodeIgniter\Database\BaseConnection->query()
+#4 C:\Users\chrim\Desktop\UniserverCI4\UniServerZ\www\ci4\system\Model.php(242): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\Users\chrim\Desktop\UniserverCI4\UniServerZ\www\ci4\system\BaseModel.php(638): CodeIgniter\Model->doFindAll()
+#6 C:\Users\chrim\Desktop\UniserverCI4\UniServerZ\www\ci4\app\Models\ComuniModel.php(15): CodeIgniter\BaseModel->findAll()
+#7 C:\Users\chrim\Desktop\UniserverCI4\UniServerZ\www\ci4\app\Controllers\Segnalazioni.php(62): App\Models\ComuniModel->searchComuni()
+#8 C:\Users\chrim\Desktop\UniserverCI4\UniServerZ\www\ci4\system\CodeIgniter.php(941): App\Controllers\Segnalazioni->search()
+#9 C:\Users\chrim\Desktop\UniserverCI4\UniServerZ\www\ci4\system\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController()
+#10 C:\Users\chrim\Desktop\UniserverCI4\UniServerZ\www\ci4\system\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest()
+#11 C:\Users\chrim\Desktop\UniserverCI4\UniServerZ\www\ci4\public\index.php(79): CodeIgniter\CodeIgniter->run()
+#12 {main}
+CRITICAL - 2024-05-02 16:30:26 --> CodeIgniter\Database\Exceptions\DatabaseException: Table 'comune_in_ascolto.comuni' doesn't exist
+in SYSTEMPATH\Database\BaseConnection.php on line 647.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(1613): CodeIgniter\Database\BaseConnection->query()
+ 2 SYSTEMPATH\Model.php(242): CodeIgniter\Database\BaseBuilder->get()
+ 3 SYSTEMPATH\BaseModel.php(638): CodeIgniter\Model->doFindAll()
+ 4 APPPATH\Models\ComuniModel.php(15): CodeIgniter\BaseModel->findAll()
+ 5 APPPATH\Controllers\Segnalazioni.php(62): App\Models\ComuniModel->searchComuni()
+ 6 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Segnalazioni->search()
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController()
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest()
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-05-02 16:30:26 --> [Caused by] CodeIgniter\Database\Exceptions\DatabaseException: Table 'comune_in_ascolto.comuni' doesn't exist
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 311.
+ 1 SYSTEMPATH\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute()
+ 2 SYSTEMPATH\Database\BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery()
+ 3 SYSTEMPATH\Database\BaseBuilder.php(1613): CodeIgniter\Database\BaseConnection->query()
+ 4 SYSTEMPATH\Model.php(242): CodeIgniter\Database\BaseBuilder->get()
+ 5 SYSTEMPATH\BaseModel.php(638): CodeIgniter\Model->doFindAll()
+ 6 APPPATH\Models\ComuniModel.php(15): CodeIgniter\BaseModel->findAll()
+ 7 APPPATH\Controllers\Segnalazioni.php(62): App\Models\ComuniModel->searchComuni()
+ 8 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Segnalazioni->search()
+ 9 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController()
+10 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest()
+11 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-05-02 16:30:26 --> [Caused by] mysqli_sql_exception: Table 'comune_in_ascolto.comuni' doesn't exist
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 306.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(306): mysqli->query()
+ 2 SYSTEMPATH\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute()
+ 3 SYSTEMPATH\Database\BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery()
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1613): CodeIgniter\Database\BaseConnection->query()
+ 5 SYSTEMPATH\Model.php(242): CodeIgniter\Database\BaseBuilder->get()
+ 6 SYSTEMPATH\BaseModel.php(638): CodeIgniter\Model->doFindAll()
+ 7 APPPATH\Models\ComuniModel.php(15): CodeIgniter\BaseModel->findAll()
+ 8 APPPATH\Controllers\Segnalazioni.php(62): App\Models\ComuniModel->searchComuni()
+ 9 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Segnalazioni->search()
+10 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController()
+11 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest()
+12 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2024-05-02 16:30:26 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-05-02 16:30:26 --> [DEPRECATED] Creation of dynamic property App\Controllers\Segnalazioni::$session is deprecated in APPPATH\Controllers\BaseController.php on line 61.
+ 1 SYSTEMPATH\CodeIgniter.php(914): App\Controllers\BaseController->initController(Object(CodeIgniter\HTTP\IncomingRequest), Object(CodeIgniter\HTTP\Response), Object(CodeIgniter\Log\Logger))
+ 2 SYSTEMPATH\CodeIgniter.php(493): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ERROR - 2024-05-02 16:30:28 --> mysqli_sql_exception: Table 'comune_in_ascolto.comuni' doesn't exist in C:\Users\chrim\Desktop\UniserverCI4\UniServerZ\www\ci4\system\Database\MySQLi\Connection.php:306
+Stack trace:
+#0 C:\Users\chrim\Desktop\UniserverCI4\UniServerZ\www\ci4\system\Database\MySQLi\Connection.php(306): mysqli->query()
+#1 C:\Users\chrim\Desktop\UniserverCI4\UniServerZ\www\ci4\system\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute()
+#2 C:\Users\chrim\Desktop\UniserverCI4\UniServerZ\www\ci4\system\Database\BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery()
+#3 C:\Users\chrim\Desktop\UniserverCI4\UniServerZ\www\ci4\system\Database\BaseBuilder.php(1613): CodeIgniter\Database\BaseConnection->query()
+#4 C:\Users\chrim\Desktop\UniserverCI4\UniServerZ\www\ci4\system\Model.php(242): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\Users\chrim\Desktop\UniserverCI4\UniServerZ\www\ci4\system\BaseModel.php(638): CodeIgniter\Model->doFindAll()
+#6 C:\Users\chrim\Desktop\UniserverCI4\UniServerZ\www\ci4\app\Models\ComuniModel.php(15): CodeIgniter\BaseModel->findAll()
+#7 C:\Users\chrim\Desktop\UniserverCI4\UniServerZ\www\ci4\app\Controllers\Segnalazioni.php(62): App\Models\ComuniModel->searchComuni()
+#8 C:\Users\chrim\Desktop\UniserverCI4\UniServerZ\www\ci4\system\CodeIgniter.php(941): App\Controllers\Segnalazioni->search()
+#9 C:\Users\chrim\Desktop\UniserverCI4\UniServerZ\www\ci4\system\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController()
+#10 C:\Users\chrim\Desktop\UniserverCI4\UniServerZ\www\ci4\system\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest()
+#11 C:\Users\chrim\Desktop\UniserverCI4\UniServerZ\www\ci4\public\index.php(79): CodeIgniter\CodeIgniter->run()
+#12 {main}
+CRITICAL - 2024-05-02 16:30:28 --> CodeIgniter\Database\Exceptions\DatabaseException: Table 'comune_in_ascolto.comuni' doesn't exist
+in SYSTEMPATH\Database\BaseConnection.php on line 647.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(1613): CodeIgniter\Database\BaseConnection->query()
+ 2 SYSTEMPATH\Model.php(242): CodeIgniter\Database\BaseBuilder->get()
+ 3 SYSTEMPATH\BaseModel.php(638): CodeIgniter\Model->doFindAll()
+ 4 APPPATH\Models\ComuniModel.php(15): CodeIgniter\BaseModel->findAll()
+ 5 APPPATH\Controllers\Segnalazioni.php(62): App\Models\ComuniModel->searchComuni()
+ 6 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Segnalazioni->search()
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController()
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest()
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-05-02 16:30:28 --> [Caused by] CodeIgniter\Database\Exceptions\DatabaseException: Table 'comune_in_ascolto.comuni' doesn't exist
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 311.
+ 1 SYSTEMPATH\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute()
+ 2 SYSTEMPATH\Database\BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery()
+ 3 SYSTEMPATH\Database\BaseBuilder.php(1613): CodeIgniter\Database\BaseConnection->query()
+ 4 SYSTEMPATH\Model.php(242): CodeIgniter\Database\BaseBuilder->get()
+ 5 SYSTEMPATH\BaseModel.php(638): CodeIgniter\Model->doFindAll()
+ 6 APPPATH\Models\ComuniModel.php(15): CodeIgniter\BaseModel->findAll()
+ 7 APPPATH\Controllers\Segnalazioni.php(62): App\Models\ComuniModel->searchComuni()
+ 8 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Segnalazioni->search()
+ 9 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController()
+10 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest()
+11 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-05-02 16:30:28 --> [Caused by] mysqli_sql_exception: Table 'comune_in_ascolto.comuni' doesn't exist
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 306.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(306): mysqli->query()
+ 2 SYSTEMPATH\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute()
+ 3 SYSTEMPATH\Database\BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery()
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1613): CodeIgniter\Database\BaseConnection->query()
+ 5 SYSTEMPATH\Model.php(242): CodeIgniter\Database\BaseBuilder->get()
+ 6 SYSTEMPATH\BaseModel.php(638): CodeIgniter\Model->doFindAll()
+ 7 APPPATH\Models\ComuniModel.php(15): CodeIgniter\BaseModel->findAll()
+ 8 APPPATH\Controllers\Segnalazioni.php(62): App\Models\ComuniModel->searchComuni()
+ 9 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Segnalazioni->search()
+10 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController()
+11 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest()
+12 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2024-05-02 16:30:34 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-05-02 16:30:34 --> [DEPRECATED] Creation of dynamic property App\Controllers\Segnalazioni::$session is deprecated in APPPATH\Controllers\BaseController.php on line 61.
+ 1 SYSTEMPATH\CodeIgniter.php(914): App\Controllers\BaseController->initController(Object(CodeIgniter\HTTP\IncomingRequest), Object(CodeIgniter\HTTP\Response), Object(CodeIgniter\Log\Logger))
+ 2 SYSTEMPATH\CodeIgniter.php(493): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ERROR - 2024-05-02 16:30:36 --> mysqli_sql_exception: Unknown column 'utenteID' in 'field list' in C:\Users\chrim\Desktop\UniserverCI4\UniServerZ\www\ci4\system\Database\MySQLi\Connection.php:306
+Stack trace:
+#0 C:\Users\chrim\Desktop\UniserverCI4\UniServerZ\www\ci4\system\Database\MySQLi\Connection.php(306): mysqli->query()
+#1 C:\Users\chrim\Desktop\UniserverCI4\UniServerZ\www\ci4\system\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute()
+#2 C:\Users\chrim\Desktop\UniserverCI4\UniServerZ\www\ci4\system\Database\BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery()
+#3 C:\Users\chrim\Desktop\UniserverCI4\UniServerZ\www\ci4\system\Database\BaseBuilder.php(2302): CodeIgniter\Database\BaseConnection->query()
+#4 C:\Users\chrim\Desktop\UniserverCI4\UniServerZ\www\ci4\app\Models\SegnalazioniModel.php(22): CodeIgniter\Database\BaseBuilder->insert()
+#5 C:\Users\chrim\Desktop\UniserverCI4\UniServerZ\www\ci4\app\Controllers\Segnalazioni.php(49): App\Models\SegnalazioniModel->createSegn()
+#6 C:\Users\chrim\Desktop\UniserverCI4\UniServerZ\www\ci4\system\CodeIgniter.php(941): App\Controllers\Segnalazioni->creaSegn()
+#7 C:\Users\chrim\Desktop\UniserverCI4\UniServerZ\www\ci4\system\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController()
+#8 C:\Users\chrim\Desktop\UniserverCI4\UniServerZ\www\ci4\system\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest()
+#9 C:\Users\chrim\Desktop\UniserverCI4\UniServerZ\www\ci4\public\index.php(79): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2024-05-02 16:30:36 --> CodeIgniter\Database\Exceptions\DatabaseException: Unknown column 'utenteID' in 'field list'
+in SYSTEMPATH\Database\BaseConnection.php on line 647.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(2302): CodeIgniter\Database\BaseConnection->query()
+ 2 APPPATH\Models\SegnalazioniModel.php(22): CodeIgniter\Database\BaseBuilder->insert()
+ 3 APPPATH\Controllers\Segnalazioni.php(49): App\Models\SegnalazioniModel->createSegn()
+ 4 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Segnalazioni->creaSegn()
+ 5 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController()
+ 6 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest()
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-05-02 16:30:36 --> [Caused by] CodeIgniter\Database\Exceptions\DatabaseException: Unknown column 'utenteID' in 'field list'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 311.
+ 1 SYSTEMPATH\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute()
+ 2 SYSTEMPATH\Database\BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery()
+ 3 SYSTEMPATH\Database\BaseBuilder.php(2302): CodeIgniter\Database\BaseConnection->query()
+ 4 APPPATH\Models\SegnalazioniModel.php(22): CodeIgniter\Database\BaseBuilder->insert()
+ 5 APPPATH\Controllers\Segnalazioni.php(49): App\Models\SegnalazioniModel->createSegn()
+ 6 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Segnalazioni->creaSegn()
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController()
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest()
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-05-02 16:30:36 --> [Caused by] mysqli_sql_exception: Unknown column 'utenteID' in 'field list'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 306.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(306): mysqli->query()
+ 2 SYSTEMPATH\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute()
+ 3 SYSTEMPATH\Database\BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery()
+ 4 SYSTEMPATH\Database\BaseBuilder.php(2302): CodeIgniter\Database\BaseConnection->query()
+ 5 APPPATH\Models\SegnalazioniModel.php(22): CodeIgniter\Database\BaseBuilder->insert()
+ 6 APPPATH\Controllers\Segnalazioni.php(49): App\Models\SegnalazioniModel->createSegn()
+ 7 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Segnalazioni->creaSegn()
+ 8 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController()
+ 9 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest()
+10 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2024-05-02 16:37:46 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-05-02 16:37:46 --> [DEPRECATED] Creation of dynamic property App\Controllers\Segnalazioni::$session is deprecated in APPPATH\Controllers\BaseController.php on line 61.
+ 1 SYSTEMPATH\CodeIgniter.php(914): App\Controllers\BaseController->initController(Object(CodeIgniter\HTTP\IncomingRequest), Object(CodeIgniter\HTTP\Response), Object(CodeIgniter\Log\Logger))
+ 2 SYSTEMPATH\CodeIgniter.php(493): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2024-05-02 16:37:54 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-05-02 16:37:54 --> [DEPRECATED] Creation of dynamic property App\Controllers\Segnalazioni::$session is deprecated in APPPATH\Controllers\BaseController.php on line 61.
+ 1 SYSTEMPATH\CodeIgniter.php(914): App\Controllers\BaseController->initController(Object(CodeIgniter\HTTP\IncomingRequest), Object(CodeIgniter\HTTP\Response), Object(CodeIgniter\Log\Logger))
+ 2 SYSTEMPATH\CodeIgniter.php(493): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ERROR - 2024-05-02 16:37:56 --> mysqli_sql_exception: Unknown column 'nome' in 'field list' in C:\Users\chrim\Desktop\UniserverCI4\UniServerZ\www\ci4\system\Database\MySQLi\Connection.php:306
+Stack trace:
+#0 C:\Users\chrim\Desktop\UniserverCI4\UniServerZ\www\ci4\system\Database\MySQLi\Connection.php(306): mysqli->query()
+#1 C:\Users\chrim\Desktop\UniserverCI4\UniServerZ\www\ci4\system\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute()
+#2 C:\Users\chrim\Desktop\UniserverCI4\UniServerZ\www\ci4\system\Database\BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery()
+#3 C:\Users\chrim\Desktop\UniserverCI4\UniServerZ\www\ci4\system\Database\BaseBuilder.php(2302): CodeIgniter\Database\BaseConnection->query()
+#4 C:\Users\chrim\Desktop\UniserverCI4\UniServerZ\www\ci4\app\Models\SegnalazioniModel.php(22): CodeIgniter\Database\BaseBuilder->insert()
+#5 C:\Users\chrim\Desktop\UniserverCI4\UniServerZ\www\ci4\app\Controllers\Segnalazioni.php(49): App\Models\SegnalazioniModel->createSegn()
+#6 C:\Users\chrim\Desktop\UniserverCI4\UniServerZ\www\ci4\system\CodeIgniter.php(941): App\Controllers\Segnalazioni->creaSegn()
+#7 C:\Users\chrim\Desktop\UniserverCI4\UniServerZ\www\ci4\system\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController()
+#8 C:\Users\chrim\Desktop\UniserverCI4\UniServerZ\www\ci4\system\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest()
+#9 C:\Users\chrim\Desktop\UniserverCI4\UniServerZ\www\ci4\public\index.php(79): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2024-05-02 16:37:56 --> CodeIgniter\Database\Exceptions\DatabaseException: Unknown column 'nome' in 'field list'
+in SYSTEMPATH\Database\BaseConnection.php on line 647.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(2302): CodeIgniter\Database\BaseConnection->query()
+ 2 APPPATH\Models\SegnalazioniModel.php(22): CodeIgniter\Database\BaseBuilder->insert()
+ 3 APPPATH\Controllers\Segnalazioni.php(49): App\Models\SegnalazioniModel->createSegn()
+ 4 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Segnalazioni->creaSegn()
+ 5 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController()
+ 6 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest()
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-05-02 16:37:56 --> [Caused by] CodeIgniter\Database\Exceptions\DatabaseException: Unknown column 'nome' in 'field list'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 311.
+ 1 SYSTEMPATH\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute()
+ 2 SYSTEMPATH\Database\BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery()
+ 3 SYSTEMPATH\Database\BaseBuilder.php(2302): CodeIgniter\Database\BaseConnection->query()
+ 4 APPPATH\Models\SegnalazioniModel.php(22): CodeIgniter\Database\BaseBuilder->insert()
+ 5 APPPATH\Controllers\Segnalazioni.php(49): App\Models\SegnalazioniModel->createSegn()
+ 6 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Segnalazioni->creaSegn()
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController()
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest()
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-05-02 16:37:56 --> [Caused by] mysqli_sql_exception: Unknown column 'nome' in 'field list'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 306.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(306): mysqli->query()
+ 2 SYSTEMPATH\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute()
+ 3 SYSTEMPATH\Database\BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery()
+ 4 SYSTEMPATH\Database\BaseBuilder.php(2302): CodeIgniter\Database\BaseConnection->query()
+ 5 APPPATH\Models\SegnalazioniModel.php(22): CodeIgniter\Database\BaseBuilder->insert()
+ 6 APPPATH\Controllers\Segnalazioni.php(49): App\Models\SegnalazioniModel->createSegn()
+ 7 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Segnalazioni->creaSegn()
+ 8 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController()
+ 9 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest()
+10 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2024-05-02 16:45:46 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-05-02 16:45:46 --> [DEPRECATED] Creation of dynamic property App\Controllers\Segnalazioni::$session is deprecated in APPPATH\Controllers\BaseController.php on line 61.
+ 1 SYSTEMPATH\CodeIgniter.php(914): App\Controllers\BaseController->initController(Object(CodeIgniter\HTTP\IncomingRequest), Object(CodeIgniter\HTTP\Response), Object(CodeIgniter\Log\Logger))
+ 2 SYSTEMPATH\CodeIgniter.php(493): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ERROR - 2024-05-02 16:45:48 --> mysqli_sql_exception: Column 'TipoProblema' cannot be null in C:\Users\chrim\Desktop\UniserverCI4\UniServerZ\www\ci4\system\Database\MySQLi\Connection.php:306
+Stack trace:
+#0 C:\Users\chrim\Desktop\UniserverCI4\UniServerZ\www\ci4\system\Database\MySQLi\Connection.php(306): mysqli->query()
+#1 C:\Users\chrim\Desktop\UniserverCI4\UniServerZ\www\ci4\system\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute()
+#2 C:\Users\chrim\Desktop\UniserverCI4\UniServerZ\www\ci4\system\Database\BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery()
+#3 C:\Users\chrim\Desktop\UniserverCI4\UniServerZ\www\ci4\system\Database\BaseBuilder.php(2302): CodeIgniter\Database\BaseConnection->query()
+#4 C:\Users\chrim\Desktop\UniserverCI4\UniServerZ\www\ci4\app\Models\SegnalazioniModel.php(22): CodeIgniter\Database\BaseBuilder->insert()
+#5 C:\Users\chrim\Desktop\UniserverCI4\UniServerZ\www\ci4\app\Controllers\Segnalazioni.php(49): App\Models\SegnalazioniModel->createSegn()
+#6 C:\Users\chrim\Desktop\UniserverCI4\UniServerZ\www\ci4\system\CodeIgniter.php(941): App\Controllers\Segnalazioni->creaSegn()
+#7 C:\Users\chrim\Desktop\UniserverCI4\UniServerZ\www\ci4\system\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController()
+#8 C:\Users\chrim\Desktop\UniserverCI4\UniServerZ\www\ci4\system\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest()
+#9 C:\Users\chrim\Desktop\UniserverCI4\UniServerZ\www\ci4\public\index.php(79): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2024-05-02 16:45:48 --> CodeIgniter\Database\Exceptions\DatabaseException: Column 'TipoProblema' cannot be null
+in SYSTEMPATH\Database\BaseConnection.php on line 647.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(2302): CodeIgniter\Database\BaseConnection->query()
+ 2 APPPATH\Models\SegnalazioniModel.php(22): CodeIgniter\Database\BaseBuilder->insert()
+ 3 APPPATH\Controllers\Segnalazioni.php(49): App\Models\SegnalazioniModel->createSegn()
+ 4 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Segnalazioni->creaSegn()
+ 5 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController()
+ 6 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest()
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-05-02 16:45:48 --> [Caused by] CodeIgniter\Database\Exceptions\DatabaseException: Column 'TipoProblema' cannot be null
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 311.
+ 1 SYSTEMPATH\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute()
+ 2 SYSTEMPATH\Database\BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery()
+ 3 SYSTEMPATH\Database\BaseBuilder.php(2302): CodeIgniter\Database\BaseConnection->query()
+ 4 APPPATH\Models\SegnalazioniModel.php(22): CodeIgniter\Database\BaseBuilder->insert()
+ 5 APPPATH\Controllers\Segnalazioni.php(49): App\Models\SegnalazioniModel->createSegn()
+ 6 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Segnalazioni->creaSegn()
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController()
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest()
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-05-02 16:45:48 --> [Caused by] mysqli_sql_exception: Column 'TipoProblema' cannot be null
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 306.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(306): mysqli->query()
+ 2 SYSTEMPATH\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute()
+ 3 SYSTEMPATH\Database\BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery()
+ 4 SYSTEMPATH\Database\BaseBuilder.php(2302): CodeIgniter\Database\BaseConnection->query()
+ 5 APPPATH\Models\SegnalazioniModel.php(22): CodeIgniter\Database\BaseBuilder->insert()
+ 6 APPPATH\Controllers\Segnalazioni.php(49): App\Models\SegnalazioniModel->createSegn()
+ 7 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Segnalazioni->creaSegn()
+ 8 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController()
+ 9 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest()
+10 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2024-05-02 16:46:13 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-05-02 16:46:13 --> [DEPRECATED] Creation of dynamic property App\Controllers\Segnalazioni::$session is deprecated in APPPATH\Controllers\BaseController.php on line 61.
+ 1 SYSTEMPATH\CodeIgniter.php(914): App\Controllers\BaseController->initController(Object(CodeIgniter\HTTP\IncomingRequest), Object(CodeIgniter\HTTP\Response), Object(CodeIgniter\Log\Logger))
+ 2 SYSTEMPATH\CodeIgniter.php(493): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ERROR - 2024-05-02 16:46:15 --> mysqli_sql_exception: Column 'TipoProblema' cannot be null in C:\Users\chrim\Desktop\UniserverCI4\UniServerZ\www\ci4\system\Database\MySQLi\Connection.php:306
+Stack trace:
+#0 C:\Users\chrim\Desktop\UniserverCI4\UniServerZ\www\ci4\system\Database\MySQLi\Connection.php(306): mysqli->query()
+#1 C:\Users\chrim\Desktop\UniserverCI4\UniServerZ\www\ci4\system\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute()
+#2 C:\Users\chrim\Desktop\UniserverCI4\UniServerZ\www\ci4\system\Database\BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery()
+#3 C:\Users\chrim\Desktop\UniserverCI4\UniServerZ\www\ci4\system\Database\BaseBuilder.php(2302): CodeIgniter\Database\BaseConnection->query()
+#4 C:\Users\chrim\Desktop\UniserverCI4\UniServerZ\www\ci4\app\Models\SegnalazioniModel.php(22): CodeIgniter\Database\BaseBuilder->insert()
+#5 C:\Users\chrim\Desktop\UniserverCI4\UniServerZ\www\ci4\app\Controllers\Segnalazioni.php(49): App\Models\SegnalazioniModel->createSegn()
+#6 C:\Users\chrim\Desktop\UniserverCI4\UniServerZ\www\ci4\system\CodeIgniter.php(941): App\Controllers\Segnalazioni->creaSegn()
+#7 C:\Users\chrim\Desktop\UniserverCI4\UniServerZ\www\ci4\system\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController()
+#8 C:\Users\chrim\Desktop\UniserverCI4\UniServerZ\www\ci4\system\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest()
+#9 C:\Users\chrim\Desktop\UniserverCI4\UniServerZ\www\ci4\public\index.php(79): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2024-05-02 16:46:15 --> CodeIgniter\Database\Exceptions\DatabaseException: Column 'TipoProblema' cannot be null
+in SYSTEMPATH\Database\BaseConnection.php on line 647.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(2302): CodeIgniter\Database\BaseConnection->query()
+ 2 APPPATH\Models\SegnalazioniModel.php(22): CodeIgniter\Database\BaseBuilder->insert()
+ 3 APPPATH\Controllers\Segnalazioni.php(49): App\Models\SegnalazioniModel->createSegn()
+ 4 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Segnalazioni->creaSegn()
+ 5 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController()
+ 6 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest()
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-05-02 16:46:15 --> [Caused by] CodeIgniter\Database\Exceptions\DatabaseException: Column 'TipoProblema' cannot be null
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 311.
+ 1 SYSTEMPATH\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute()
+ 2 SYSTEMPATH\Database\BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery()
+ 3 SYSTEMPATH\Database\BaseBuilder.php(2302): CodeIgniter\Database\BaseConnection->query()
+ 4 APPPATH\Models\SegnalazioniModel.php(22): CodeIgniter\Database\BaseBuilder->insert()
+ 5 APPPATH\Controllers\Segnalazioni.php(49): App\Models\SegnalazioniModel->createSegn()
+ 6 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Segnalazioni->creaSegn()
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController()
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest()
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-05-02 16:46:15 --> [Caused by] mysqli_sql_exception: Column 'TipoProblema' cannot be null
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 306.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(306): mysqli->query()
+ 2 SYSTEMPATH\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute()
+ 3 SYSTEMPATH\Database\BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery()
+ 4 SYSTEMPATH\Database\BaseBuilder.php(2302): CodeIgniter\Database\BaseConnection->query()
+ 5 APPPATH\Models\SegnalazioniModel.php(22): CodeIgniter\Database\BaseBuilder->insert()
+ 6 APPPATH\Controllers\Segnalazioni.php(49): App\Models\SegnalazioniModel->createSegn()
+ 7 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Segnalazioni->creaSegn()
+ 8 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController()
+ 9 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest()
+10 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2024-05-02 16:48:44 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-05-02 16:48:44 --> [DEPRECATED] Creation of dynamic property App\Controllers\Segnalazioni::$session is deprecated in APPPATH\Controllers\BaseController.php on line 61.
+ 1 SYSTEMPATH\CodeIgniter.php(914): App\Controllers\BaseController->initController(Object(CodeIgniter\HTTP\IncomingRequest), Object(CodeIgniter\HTTP\Response), Object(CodeIgniter\Log\Logger))
+ 2 SYSTEMPATH\CodeIgniter.php(493): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ERROR - 2024-05-02 16:48:46 --> mysqli_sql_exception: Column 'TipoProblema' cannot be null in C:\Users\chrim\Desktop\UniserverCI4\UniServerZ\www\ci4\system\Database\MySQLi\Connection.php:306
+Stack trace:
+#0 C:\Users\chrim\Desktop\UniserverCI4\UniServerZ\www\ci4\system\Database\MySQLi\Connection.php(306): mysqli->query()
+#1 C:\Users\chrim\Desktop\UniserverCI4\UniServerZ\www\ci4\system\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute()
+#2 C:\Users\chrim\Desktop\UniserverCI4\UniServerZ\www\ci4\system\Database\BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery()
+#3 C:\Users\chrim\Desktop\UniserverCI4\UniServerZ\www\ci4\system\Database\BaseBuilder.php(2302): CodeIgniter\Database\BaseConnection->query()
+#4 C:\Users\chrim\Desktop\UniserverCI4\UniServerZ\www\ci4\app\Models\SegnalazioniModel.php(22): CodeIgniter\Database\BaseBuilder->insert()
+#5 C:\Users\chrim\Desktop\UniserverCI4\UniServerZ\www\ci4\app\Controllers\Segnalazioni.php(49): App\Models\SegnalazioniModel->createSegn()
+#6 C:\Users\chrim\Desktop\UniserverCI4\UniServerZ\www\ci4\system\CodeIgniter.php(941): App\Controllers\Segnalazioni->creaSegn()
+#7 C:\Users\chrim\Desktop\UniserverCI4\UniServerZ\www\ci4\system\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController()
+#8 C:\Users\chrim\Desktop\UniserverCI4\UniServerZ\www\ci4\system\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest()
+#9 C:\Users\chrim\Desktop\UniserverCI4\UniServerZ\www\ci4\public\index.php(79): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2024-05-02 16:48:46 --> CodeIgniter\Database\Exceptions\DatabaseException: Column 'TipoProblema' cannot be null
+in SYSTEMPATH\Database\BaseConnection.php on line 647.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(2302): CodeIgniter\Database\BaseConnection->query()
+ 2 APPPATH\Models\SegnalazioniModel.php(22): CodeIgniter\Database\BaseBuilder->insert()
+ 3 APPPATH\Controllers\Segnalazioni.php(49): App\Models\SegnalazioniModel->createSegn()
+ 4 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Segnalazioni->creaSegn()
+ 5 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController()
+ 6 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest()
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-05-02 16:48:46 --> [Caused by] CodeIgniter\Database\Exceptions\DatabaseException: Column 'TipoProblema' cannot be null
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 311.
+ 1 SYSTEMPATH\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute()
+ 2 SYSTEMPATH\Database\BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery()
+ 3 SYSTEMPATH\Database\BaseBuilder.php(2302): CodeIgniter\Database\BaseConnection->query()
+ 4 APPPATH\Models\SegnalazioniModel.php(22): CodeIgniter\Database\BaseBuilder->insert()
+ 5 APPPATH\Controllers\Segnalazioni.php(49): App\Models\SegnalazioniModel->createSegn()
+ 6 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Segnalazioni->creaSegn()
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController()
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest()
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-05-02 16:48:46 --> [Caused by] mysqli_sql_exception: Column 'TipoProblema' cannot be null
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 306.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(306): mysqli->query()
+ 2 SYSTEMPATH\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute()
+ 3 SYSTEMPATH\Database\BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery()
+ 4 SYSTEMPATH\Database\BaseBuilder.php(2302): CodeIgniter\Database\BaseConnection->query()
+ 5 APPPATH\Models\SegnalazioniModel.php(22): CodeIgniter\Database\BaseBuilder->insert()
+ 6 APPPATH\Controllers\Segnalazioni.php(49): App\Models\SegnalazioniModel->createSegn()
+ 7 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Segnalazioni->creaSegn()
+ 8 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController()
+ 9 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest()
+10 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2024-05-02 16:48:52 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-05-02 16:48:52 --> [DEPRECATED] Creation of dynamic property App\Controllers\Segnalazioni::$session is deprecated in APPPATH\Controllers\BaseController.php on line 61.
+ 1 SYSTEMPATH\CodeIgniter.php(914): App\Controllers\BaseController->initController(Object(CodeIgniter\HTTP\IncomingRequest), Object(CodeIgniter\HTTP\Response), Object(CodeIgniter\Log\Logger))
+ 2 SYSTEMPATH\CodeIgniter.php(493): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2024-05-02 16:49:00 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-05-02 16:49:00 --> [DEPRECATED] Creation of dynamic property App\Controllers\Segnalazioni::$session is deprecated in APPPATH\Controllers\BaseController.php on line 61.
+ 1 SYSTEMPATH\CodeIgniter.php(914): App\Controllers\BaseController->initController(Object(CodeIgniter\HTTP\IncomingRequest), Object(CodeIgniter\HTTP\Response), Object(CodeIgniter\Log\Logger))
+ 2 SYSTEMPATH\CodeIgniter.php(493): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ERROR - 2024-05-02 16:49:02 --> mysqli_sql_exception: Column 'TipoProblema' cannot be null in C:\Users\chrim\Desktop\UniserverCI4\UniServerZ\www\ci4\system\Database\MySQLi\Connection.php:306
+Stack trace:
+#0 C:\Users\chrim\Desktop\UniserverCI4\UniServerZ\www\ci4\system\Database\MySQLi\Connection.php(306): mysqli->query()
+#1 C:\Users\chrim\Desktop\UniserverCI4\UniServerZ\www\ci4\system\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute()
+#2 C:\Users\chrim\Desktop\UniserverCI4\UniServerZ\www\ci4\system\Database\BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery()
+#3 C:\Users\chrim\Desktop\UniserverCI4\UniServerZ\www\ci4\system\Database\BaseBuilder.php(2302): CodeIgniter\Database\BaseConnection->query()
+#4 C:\Users\chrim\Desktop\UniserverCI4\UniServerZ\www\ci4\app\Models\SegnalazioniModel.php(22): CodeIgniter\Database\BaseBuilder->insert()
+#5 C:\Users\chrim\Desktop\UniserverCI4\UniServerZ\www\ci4\app\Controllers\Segnalazioni.php(49): App\Models\SegnalazioniModel->createSegn()
+#6 C:\Users\chrim\Desktop\UniserverCI4\UniServerZ\www\ci4\system\CodeIgniter.php(941): App\Controllers\Segnalazioni->creaSegn()
+#7 C:\Users\chrim\Desktop\UniserverCI4\UniServerZ\www\ci4\system\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController()
+#8 C:\Users\chrim\Desktop\UniserverCI4\UniServerZ\www\ci4\system\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest()
+#9 C:\Users\chrim\Desktop\UniserverCI4\UniServerZ\www\ci4\public\index.php(79): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2024-05-02 16:49:02 --> CodeIgniter\Database\Exceptions\DatabaseException: Column 'TipoProblema' cannot be null
+in SYSTEMPATH\Database\BaseConnection.php on line 647.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(2302): CodeIgniter\Database\BaseConnection->query()
+ 2 APPPATH\Models\SegnalazioniModel.php(22): CodeIgniter\Database\BaseBuilder->insert()
+ 3 APPPATH\Controllers\Segnalazioni.php(49): App\Models\SegnalazioniModel->createSegn()
+ 4 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Segnalazioni->creaSegn()
+ 5 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController()
+ 6 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest()
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-05-02 16:49:02 --> [Caused by] CodeIgniter\Database\Exceptions\DatabaseException: Column 'TipoProblema' cannot be null
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 311.
+ 1 SYSTEMPATH\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute()
+ 2 SYSTEMPATH\Database\BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery()
+ 3 SYSTEMPATH\Database\BaseBuilder.php(2302): CodeIgniter\Database\BaseConnection->query()
+ 4 APPPATH\Models\SegnalazioniModel.php(22): CodeIgniter\Database\BaseBuilder->insert()
+ 5 APPPATH\Controllers\Segnalazioni.php(49): App\Models\SegnalazioniModel->createSegn()
+ 6 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Segnalazioni->creaSegn()
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController()
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest()
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-05-02 16:49:02 --> [Caused by] mysqli_sql_exception: Column 'TipoProblema' cannot be null
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 306.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(306): mysqli->query()
+ 2 SYSTEMPATH\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute()
+ 3 SYSTEMPATH\Database\BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery()
+ 4 SYSTEMPATH\Database\BaseBuilder.php(2302): CodeIgniter\Database\BaseConnection->query()
+ 5 APPPATH\Models\SegnalazioniModel.php(22): CodeIgniter\Database\BaseBuilder->insert()
+ 6 APPPATH\Controllers\Segnalazioni.php(49): App\Models\SegnalazioniModel->createSegn()
+ 7 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Segnalazioni->creaSegn()
+ 8 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController()
+ 9 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest()
+10 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2024-05-02 16:54:55 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-05-02 16:54:55 --> [DEPRECATED] Creation of dynamic property App\Controllers\Segnalazioni::$session is deprecated in APPPATH\Controllers\BaseController.php on line 61.
+ 1 SYSTEMPATH\CodeIgniter.php(914): App\Controllers\BaseController->initController(Object(CodeIgniter\HTTP\IncomingRequest), Object(CodeIgniter\HTTP\Response), Object(CodeIgniter\Log\Logger))
+ 2 SYSTEMPATH\CodeIgniter.php(493): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ERROR - 2024-05-02 16:54:57 --> mysqli_sql_exception: Column 'TipoProblema' cannot be null in C:\Users\chrim\Desktop\UniserverCI4\UniServerZ\www\ci4\system\Database\MySQLi\Connection.php:306
+Stack trace:
+#0 C:\Users\chrim\Desktop\UniserverCI4\UniServerZ\www\ci4\system\Database\MySQLi\Connection.php(306): mysqli->query()
+#1 C:\Users\chrim\Desktop\UniserverCI4\UniServerZ\www\ci4\system\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute()
+#2 C:\Users\chrim\Desktop\UniserverCI4\UniServerZ\www\ci4\system\Database\BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery()
+#3 C:\Users\chrim\Desktop\UniserverCI4\UniServerZ\www\ci4\system\Database\BaseBuilder.php(2302): CodeIgniter\Database\BaseConnection->query()
+#4 C:\Users\chrim\Desktop\UniserverCI4\UniServerZ\www\ci4\app\Models\SegnalazioniModel.php(22): CodeIgniter\Database\BaseBuilder->insert()
+#5 C:\Users\chrim\Desktop\UniserverCI4\UniServerZ\www\ci4\app\Controllers\Segnalazioni.php(49): App\Models\SegnalazioniModel->createSegn()
+#6 C:\Users\chrim\Desktop\UniserverCI4\UniServerZ\www\ci4\system\CodeIgniter.php(941): App\Controllers\Segnalazioni->creaSegn()
+#7 C:\Users\chrim\Desktop\UniserverCI4\UniServerZ\www\ci4\system\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController()
+#8 C:\Users\chrim\Desktop\UniserverCI4\UniServerZ\www\ci4\system\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest()
+#9 C:\Users\chrim\Desktop\UniserverCI4\UniServerZ\www\ci4\public\index.php(79): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2024-05-02 16:54:57 --> CodeIgniter\Database\Exceptions\DatabaseException: Column 'TipoProblema' cannot be null
+in SYSTEMPATH\Database\BaseConnection.php on line 647.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(2302): CodeIgniter\Database\BaseConnection->query()
+ 2 APPPATH\Models\SegnalazioniModel.php(22): CodeIgniter\Database\BaseBuilder->insert()
+ 3 APPPATH\Controllers\Segnalazioni.php(49): App\Models\SegnalazioniModel->createSegn()
+ 4 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Segnalazioni->creaSegn()
+ 5 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController()
+ 6 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest()
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-05-02 16:54:57 --> [Caused by] CodeIgniter\Database\Exceptions\DatabaseException: Column 'TipoProblema' cannot be null
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 311.
+ 1 SYSTEMPATH\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute()
+ 2 SYSTEMPATH\Database\BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery()
+ 3 SYSTEMPATH\Database\BaseBuilder.php(2302): CodeIgniter\Database\BaseConnection->query()
+ 4 APPPATH\Models\SegnalazioniModel.php(22): CodeIgniter\Database\BaseBuilder->insert()
+ 5 APPPATH\Controllers\Segnalazioni.php(49): App\Models\SegnalazioniModel->createSegn()
+ 6 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Segnalazioni->creaSegn()
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController()
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest()
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-05-02 16:54:57 --> [Caused by] mysqli_sql_exception: Column 'TipoProblema' cannot be null
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 306.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(306): mysqli->query()
+ 2 SYSTEMPATH\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute()
+ 3 SYSTEMPATH\Database\BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery()
+ 4 SYSTEMPATH\Database\BaseBuilder.php(2302): CodeIgniter\Database\BaseConnection->query()
+ 5 APPPATH\Models\SegnalazioniModel.php(22): CodeIgniter\Database\BaseBuilder->insert()
+ 6 APPPATH\Controllers\Segnalazioni.php(49): App\Models\SegnalazioniModel->createSegn()
+ 7 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Segnalazioni->creaSegn()
+ 8 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController()
+ 9 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest()
+10 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2024-05-02 16:55:07 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-05-02 16:55:07 --> [DEPRECATED] Creation of dynamic property App\Controllers\Segnalazioni::$session is deprecated in APPPATH\Controllers\BaseController.php on line 61.
+ 1 SYSTEMPATH\CodeIgniter.php(914): App\Controllers\BaseController->initController(Object(CodeIgniter\HTTP\IncomingRequest), Object(CodeIgniter\HTTP\Response), Object(CodeIgniter\Log\Logger))
+ 2 SYSTEMPATH\CodeIgniter.php(493): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2024-05-02 16:55:44 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-05-02 16:55:44 --> [DEPRECATED] Creation of dynamic property App\Controllers\Segnalazioni::$session is deprecated in APPPATH\Controllers\BaseController.php on line 61.
+ 1 SYSTEMPATH\CodeIgniter.php(914): App\Controllers\BaseController->initController(Object(CodeIgniter\HTTP\IncomingRequest), Object(CodeIgniter\HTTP\Response), Object(CodeIgniter\Log\Logger))
+ 2 SYSTEMPATH\CodeIgniter.php(493): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2024-05-02 16:55:51 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-05-02 16:55:51 --> [DEPRECATED] Creation of dynamic property App\Controllers\Segnalazioni::$session is deprecated in APPPATH\Controllers\BaseController.php on line 61.
+ 1 SYSTEMPATH\CodeIgniter.php(914): App\Controllers\BaseController->initController(Object(CodeIgniter\HTTP\IncomingRequest), Object(CodeIgniter\HTTP\Response), Object(CodeIgniter\Log\Logger))
+ 2 SYSTEMPATH\CodeIgniter.php(493): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ERROR - 2024-05-02 16:55:53 --> mysqli_sql_exception: Column 'TipoProblema' cannot be null in C:\Users\chrim\Desktop\UniserverCI4\UniServerZ\www\ci4\system\Database\MySQLi\Connection.php:306
+Stack trace:
+#0 C:\Users\chrim\Desktop\UniserverCI4\UniServerZ\www\ci4\system\Database\MySQLi\Connection.php(306): mysqli->query()
+#1 C:\Users\chrim\Desktop\UniserverCI4\UniServerZ\www\ci4\system\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute()
+#2 C:\Users\chrim\Desktop\UniserverCI4\UniServerZ\www\ci4\system\Database\BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery()
+#3 C:\Users\chrim\Desktop\UniserverCI4\UniServerZ\www\ci4\system\Database\BaseBuilder.php(2302): CodeIgniter\Database\BaseConnection->query()
+#4 C:\Users\chrim\Desktop\UniserverCI4\UniServerZ\www\ci4\app\Models\SegnalazioniModel.php(22): CodeIgniter\Database\BaseBuilder->insert()
+#5 C:\Users\chrim\Desktop\UniserverCI4\UniServerZ\www\ci4\app\Controllers\Segnalazioni.php(49): App\Models\SegnalazioniModel->createSegn()
+#6 C:\Users\chrim\Desktop\UniserverCI4\UniServerZ\www\ci4\system\CodeIgniter.php(941): App\Controllers\Segnalazioni->creaSegn()
+#7 C:\Users\chrim\Desktop\UniserverCI4\UniServerZ\www\ci4\system\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController()
+#8 C:\Users\chrim\Desktop\UniserverCI4\UniServerZ\www\ci4\system\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest()
+#9 C:\Users\chrim\Desktop\UniserverCI4\UniServerZ\www\ci4\public\index.php(79): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2024-05-02 16:55:53 --> CodeIgniter\Database\Exceptions\DatabaseException: Column 'TipoProblema' cannot be null
+in SYSTEMPATH\Database\BaseConnection.php on line 647.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(2302): CodeIgniter\Database\BaseConnection->query()
+ 2 APPPATH\Models\SegnalazioniModel.php(22): CodeIgniter\Database\BaseBuilder->insert()
+ 3 APPPATH\Controllers\Segnalazioni.php(49): App\Models\SegnalazioniModel->createSegn()
+ 4 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Segnalazioni->creaSegn()
+ 5 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController()
+ 6 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest()
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-05-02 16:55:53 --> [Caused by] CodeIgniter\Database\Exceptions\DatabaseException: Column 'TipoProblema' cannot be null
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 311.
+ 1 SYSTEMPATH\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute()
+ 2 SYSTEMPATH\Database\BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery()
+ 3 SYSTEMPATH\Database\BaseBuilder.php(2302): CodeIgniter\Database\BaseConnection->query()
+ 4 APPPATH\Models\SegnalazioniModel.php(22): CodeIgniter\Database\BaseBuilder->insert()
+ 5 APPPATH\Controllers\Segnalazioni.php(49): App\Models\SegnalazioniModel->createSegn()
+ 6 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Segnalazioni->creaSegn()
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController()
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest()
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-05-02 16:55:53 --> [Caused by] mysqli_sql_exception: Column 'TipoProblema' cannot be null
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 306.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(306): mysqli->query()
+ 2 SYSTEMPATH\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute()
+ 3 SYSTEMPATH\Database\BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery()
+ 4 SYSTEMPATH\Database\BaseBuilder.php(2302): CodeIgniter\Database\BaseConnection->query()
+ 5 APPPATH\Models\SegnalazioniModel.php(22): CodeIgniter\Database\BaseBuilder->insert()
+ 6 APPPATH\Controllers\Segnalazioni.php(49): App\Models\SegnalazioniModel->createSegn()
+ 7 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Segnalazioni->creaSegn()
+ 8 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController()
+ 9 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest()
+10 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2024-05-02 16:59:15 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-05-02 16:59:15 --> [DEPRECATED] Creation of dynamic property App\Controllers\Segnalazioni::$session is deprecated in APPPATH\Controllers\BaseController.php on line 61.
+ 1 SYSTEMPATH\CodeIgniter.php(914): App\Controllers\BaseController->initController(Object(CodeIgniter\HTTP\IncomingRequest), Object(CodeIgniter\HTTP\Response), Object(CodeIgniter\Log\Logger))
+ 2 SYSTEMPATH\CodeIgniter.php(493): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ERROR - 2024-05-02 16:59:17 --> mysqli_sql_exception: Column 'TipoProblema' cannot be null in C:\Users\chrim\Desktop\UniserverCI4\UniServerZ\www\ci4\system\Database\MySQLi\Connection.php:306
+Stack trace:
+#0 C:\Users\chrim\Desktop\UniserverCI4\UniServerZ\www\ci4\system\Database\MySQLi\Connection.php(306): mysqli->query()
+#1 C:\Users\chrim\Desktop\UniserverCI4\UniServerZ\www\ci4\system\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute()
+#2 C:\Users\chrim\Desktop\UniserverCI4\UniServerZ\www\ci4\system\Database\BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery()
+#3 C:\Users\chrim\Desktop\UniserverCI4\UniServerZ\www\ci4\system\Database\BaseBuilder.php(2302): CodeIgniter\Database\BaseConnection->query()
+#4 C:\Users\chrim\Desktop\UniserverCI4\UniServerZ\www\ci4\app\Models\SegnalazioniModel.php(22): CodeIgniter\Database\BaseBuilder->insert()
+#5 C:\Users\chrim\Desktop\UniserverCI4\UniServerZ\www\ci4\app\Controllers\Segnalazioni.php(49): App\Models\SegnalazioniModel->createSegn()
+#6 C:\Users\chrim\Desktop\UniserverCI4\UniServerZ\www\ci4\system\CodeIgniter.php(941): App\Controllers\Segnalazioni->creaSegn()
+#7 C:\Users\chrim\Desktop\UniserverCI4\UniServerZ\www\ci4\system\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController()
+#8 C:\Users\chrim\Desktop\UniserverCI4\UniServerZ\www\ci4\system\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest()
+#9 C:\Users\chrim\Desktop\UniserverCI4\UniServerZ\www\ci4\public\index.php(79): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2024-05-02 16:59:17 --> CodeIgniter\Database\Exceptions\DatabaseException: Column 'TipoProblema' cannot be null
+in SYSTEMPATH\Database\BaseConnection.php on line 647.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(2302): CodeIgniter\Database\BaseConnection->query()
+ 2 APPPATH\Models\SegnalazioniModel.php(22): CodeIgniter\Database\BaseBuilder->insert()
+ 3 APPPATH\Controllers\Segnalazioni.php(49): App\Models\SegnalazioniModel->createSegn()
+ 4 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Segnalazioni->creaSegn()
+ 5 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController()
+ 6 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest()
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-05-02 16:59:17 --> [Caused by] CodeIgniter\Database\Exceptions\DatabaseException: Column 'TipoProblema' cannot be null
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 311.
+ 1 SYSTEMPATH\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute()
+ 2 SYSTEMPATH\Database\BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery()
+ 3 SYSTEMPATH\Database\BaseBuilder.php(2302): CodeIgniter\Database\BaseConnection->query()
+ 4 APPPATH\Models\SegnalazioniModel.php(22): CodeIgniter\Database\BaseBuilder->insert()
+ 5 APPPATH\Controllers\Segnalazioni.php(49): App\Models\SegnalazioniModel->createSegn()
+ 6 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Segnalazioni->creaSegn()
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController()
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest()
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-05-02 16:59:17 --> [Caused by] mysqli_sql_exception: Column 'TipoProblema' cannot be null
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 306.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(306): mysqli->query()
+ 2 SYSTEMPATH\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute()
+ 3 SYSTEMPATH\Database\BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery()
+ 4 SYSTEMPATH\Database\BaseBuilder.php(2302): CodeIgniter\Database\BaseConnection->query()
+ 5 APPPATH\Models\SegnalazioniModel.php(22): CodeIgniter\Database\BaseBuilder->insert()
+ 6 APPPATH\Controllers\Segnalazioni.php(49): App\Models\SegnalazioniModel->createSegn()
+ 7 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Segnalazioni->creaSegn()
+ 8 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController()
+ 9 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest()
+10 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2024-05-02 16:59:20 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-05-02 16:59:20 --> [DEPRECATED] Creation of dynamic property App\Controllers\Segnalazioni::$session is deprecated in APPPATH\Controllers\BaseController.php on line 61.
+ 1 SYSTEMPATH\CodeIgniter.php(914): App\Controllers\BaseController->initController(Object(CodeIgniter\HTTP\IncomingRequest), Object(CodeIgniter\HTTP\Response), Object(CodeIgniter\Log\Logger))
+ 2 SYSTEMPATH\CodeIgniter.php(493): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2024-05-02 16:59:24 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-05-02 16:59:24 --> [DEPRECATED] Creation of dynamic property App\Controllers\Segnalazioni::$session is deprecated in APPPATH\Controllers\BaseController.php on line 61.
+ 1 SYSTEMPATH\CodeIgniter.php(914): App\Controllers\BaseController->initController(Object(CodeIgniter\HTTP\IncomingRequest), Object(CodeIgniter\HTTP\Response), Object(CodeIgniter\Log\Logger))
+ 2 SYSTEMPATH\CodeIgniter.php(493): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ERROR - 2024-05-02 16:59:26 --> mysqli_sql_exception: Column 'TipoProblema' cannot be null in C:\Users\chrim\Desktop\UniserverCI4\UniServerZ\www\ci4\system\Database\MySQLi\Connection.php:306
+Stack trace:
+#0 C:\Users\chrim\Desktop\UniserverCI4\UniServerZ\www\ci4\system\Database\MySQLi\Connection.php(306): mysqli->query()
+#1 C:\Users\chrim\Desktop\UniserverCI4\UniServerZ\www\ci4\system\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute()
+#2 C:\Users\chrim\Desktop\UniserverCI4\UniServerZ\www\ci4\system\Database\BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery()
+#3 C:\Users\chrim\Desktop\UniserverCI4\UniServerZ\www\ci4\system\Database\BaseBuilder.php(2302): CodeIgniter\Database\BaseConnection->query()
+#4 C:\Users\chrim\Desktop\UniserverCI4\UniServerZ\www\ci4\app\Models\SegnalazioniModel.php(22): CodeIgniter\Database\BaseBuilder->insert()
+#5 C:\Users\chrim\Desktop\UniserverCI4\UniServerZ\www\ci4\app\Controllers\Segnalazioni.php(49): App\Models\SegnalazioniModel->createSegn()
+#6 C:\Users\chrim\Desktop\UniserverCI4\UniServerZ\www\ci4\system\CodeIgniter.php(941): App\Controllers\Segnalazioni->creaSegn()
+#7 C:\Users\chrim\Desktop\UniserverCI4\UniServerZ\www\ci4\system\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController()
+#8 C:\Users\chrim\Desktop\UniserverCI4\UniServerZ\www\ci4\system\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest()
+#9 C:\Users\chrim\Desktop\UniserverCI4\UniServerZ\www\ci4\public\index.php(79): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2024-05-02 16:59:26 --> CodeIgniter\Database\Exceptions\DatabaseException: Column 'TipoProblema' cannot be null
+in SYSTEMPATH\Database\BaseConnection.php on line 647.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(2302): CodeIgniter\Database\BaseConnection->query()
+ 2 APPPATH\Models\SegnalazioniModel.php(22): CodeIgniter\Database\BaseBuilder->insert()
+ 3 APPPATH\Controllers\Segnalazioni.php(49): App\Models\SegnalazioniModel->createSegn()
+ 4 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Segnalazioni->creaSegn()
+ 5 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController()
+ 6 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest()
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-05-02 16:59:26 --> [Caused by] CodeIgniter\Database\Exceptions\DatabaseException: Column 'TipoProblema' cannot be null
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 311.
+ 1 SYSTEMPATH\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute()
+ 2 SYSTEMPATH\Database\BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery()
+ 3 SYSTEMPATH\Database\BaseBuilder.php(2302): CodeIgniter\Database\BaseConnection->query()
+ 4 APPPATH\Models\SegnalazioniModel.php(22): CodeIgniter\Database\BaseBuilder->insert()
+ 5 APPPATH\Controllers\Segnalazioni.php(49): App\Models\SegnalazioniModel->createSegn()
+ 6 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Segnalazioni->creaSegn()
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController()
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest()
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-05-02 16:59:26 --> [Caused by] mysqli_sql_exception: Column 'TipoProblema' cannot be null
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 306.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(306): mysqli->query()
+ 2 SYSTEMPATH\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute()
+ 3 SYSTEMPATH\Database\BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery()
+ 4 SYSTEMPATH\Database\BaseBuilder.php(2302): CodeIgniter\Database\BaseConnection->query()
+ 5 APPPATH\Models\SegnalazioniModel.php(22): CodeIgniter\Database\BaseBuilder->insert()
+ 6 APPPATH\Controllers\Segnalazioni.php(49): App\Models\SegnalazioniModel->createSegn()
+ 7 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Segnalazioni->creaSegn()
+ 8 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController()
+ 9 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest()
+10 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-05-02 17:02:34 --> ParseError: syntax error, unexpected single-quoted string "descrizione", expecting "]"
+in APPPATH\Controllers\Segnalazioni.php on line 46.
+ 1 SYSTEMPATH\Router\Router.php(514): CodeIgniter\Router\AutoRouter->getRoute()
+ 2 SYSTEMPATH\Router\Router.php(210): CodeIgniter\Router\Router->autoRoute()
+ 3 SYSTEMPATH\CodeIgniter.php(823): CodeIgniter\Router\Router->handle()
+ 4 SYSTEMPATH\CodeIgniter.php(450): CodeIgniter\CodeIgniter->tryToRouteIt()
+ 5 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest()
+ 6 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2024-05-02 17:02:56 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-05-02 17:02:57 --> [DEPRECATED] Creation of dynamic property App\Controllers\Segnalazioni::$session is deprecated in APPPATH\Controllers\BaseController.php on line 61.
+ 1 SYSTEMPATH\CodeIgniter.php(914): App\Controllers\BaseController->initController(Object(CodeIgniter\HTTP\IncomingRequest), Object(CodeIgniter\HTTP\Response), Object(CodeIgniter\Log\Logger))
+ 2 SYSTEMPATH\CodeIgniter.php(493): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ERROR - 2024-05-02 17:02:59 --> mysqli_sql_exception: Column 'Descrizione' cannot be null in C:\Users\chrim\Desktop\UniserverCI4\UniServerZ\www\ci4\system\Database\MySQLi\Connection.php:306
+Stack trace:
+#0 C:\Users\chrim\Desktop\UniserverCI4\UniServerZ\www\ci4\system\Database\MySQLi\Connection.php(306): mysqli->query()
+#1 C:\Users\chrim\Desktop\UniserverCI4\UniServerZ\www\ci4\system\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute()
+#2 C:\Users\chrim\Desktop\UniserverCI4\UniServerZ\www\ci4\system\Database\BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery()
+#3 C:\Users\chrim\Desktop\UniserverCI4\UniServerZ\www\ci4\system\Database\BaseBuilder.php(2302): CodeIgniter\Database\BaseConnection->query()
+#4 C:\Users\chrim\Desktop\UniserverCI4\UniServerZ\www\ci4\app\Models\SegnalazioniModel.php(22): CodeIgniter\Database\BaseBuilder->insert()
+#5 C:\Users\chrim\Desktop\UniserverCI4\UniServerZ\www\ci4\app\Controllers\Segnalazioni.php(49): App\Models\SegnalazioniModel->createSegn()
+#6 C:\Users\chrim\Desktop\UniserverCI4\UniServerZ\www\ci4\system\CodeIgniter.php(941): App\Controllers\Segnalazioni->creaSegn()
+#7 C:\Users\chrim\Desktop\UniserverCI4\UniServerZ\www\ci4\system\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController()
+#8 C:\Users\chrim\Desktop\UniserverCI4\UniServerZ\www\ci4\system\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest()
+#9 C:\Users\chrim\Desktop\UniserverCI4\UniServerZ\www\ci4\public\index.php(79): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2024-05-02 17:02:59 --> CodeIgniter\Database\Exceptions\DatabaseException: Column 'Descrizione' cannot be null
+in SYSTEMPATH\Database\BaseConnection.php on line 647.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(2302): CodeIgniter\Database\BaseConnection->query()
+ 2 APPPATH\Models\SegnalazioniModel.php(22): CodeIgniter\Database\BaseBuilder->insert()
+ 3 APPPATH\Controllers\Segnalazioni.php(49): App\Models\SegnalazioniModel->createSegn()
+ 4 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Segnalazioni->creaSegn()
+ 5 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController()
+ 6 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest()
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-05-02 17:02:59 --> [Caused by] CodeIgniter\Database\Exceptions\DatabaseException: Column 'Descrizione' cannot be null
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 311.
+ 1 SYSTEMPATH\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute()
+ 2 SYSTEMPATH\Database\BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery()
+ 3 SYSTEMPATH\Database\BaseBuilder.php(2302): CodeIgniter\Database\BaseConnection->query()
+ 4 APPPATH\Models\SegnalazioniModel.php(22): CodeIgniter\Database\BaseBuilder->insert()
+ 5 APPPATH\Controllers\Segnalazioni.php(49): App\Models\SegnalazioniModel->createSegn()
+ 6 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Segnalazioni->creaSegn()
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController()
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest()
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-05-02 17:02:59 --> [Caused by] mysqli_sql_exception: Column 'Descrizione' cannot be null
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 306.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(306): mysqli->query()
+ 2 SYSTEMPATH\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute()
+ 3 SYSTEMPATH\Database\BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery()
+ 4 SYSTEMPATH\Database\BaseBuilder.php(2302): CodeIgniter\Database\BaseConnection->query()
+ 5 APPPATH\Models\SegnalazioniModel.php(22): CodeIgniter\Database\BaseBuilder->insert()
+ 6 APPPATH\Controllers\Segnalazioni.php(49): App\Models\SegnalazioniModel->createSegn()
+ 7 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Segnalazioni->creaSegn()
+ 8 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController()
+ 9 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest()
+10 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2024-05-02 17:04:43 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-05-02 17:04:43 --> [DEPRECATED] Creation of dynamic property App\Controllers\Segnalazioni::$session is deprecated in APPPATH\Controllers\BaseController.php on line 61.
+ 1 SYSTEMPATH\CodeIgniter.php(914): App\Controllers\BaseController->initController(Object(CodeIgniter\HTTP\IncomingRequest), Object(CodeIgniter\HTTP\Response), Object(CodeIgniter\Log\Logger))
+ 2 SYSTEMPATH\CodeIgniter.php(493): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2024-05-02 17:04:49 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-05-02 17:04:49 --> [DEPRECATED] Creation of dynamic property App\Controllers\Segnalazioni::$session is deprecated in APPPATH\Controllers\BaseController.php on line 61.
+ 1 SYSTEMPATH\CodeIgniter.php(914): App\Controllers\BaseController->initController(Object(CodeIgniter\HTTP\IncomingRequest), Object(CodeIgniter\HTTP\Response), Object(CodeIgniter\Log\Logger))
+ 2 SYSTEMPATH\CodeIgniter.php(493): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ERROR - 2024-05-02 17:04:51 --> mysqli_sql_exception: Column 'Descrizione' cannot be null in C:\Users\chrim\Desktop\UniserverCI4\UniServerZ\www\ci4\system\Database\MySQLi\Connection.php:306
+Stack trace:
+#0 C:\Users\chrim\Desktop\UniserverCI4\UniServerZ\www\ci4\system\Database\MySQLi\Connection.php(306): mysqli->query()
+#1 C:\Users\chrim\Desktop\UniserverCI4\UniServerZ\www\ci4\system\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute()
+#2 C:\Users\chrim\Desktop\UniserverCI4\UniServerZ\www\ci4\system\Database\BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery()
+#3 C:\Users\chrim\Desktop\UniserverCI4\UniServerZ\www\ci4\system\Database\BaseBuilder.php(2302): CodeIgniter\Database\BaseConnection->query()
+#4 C:\Users\chrim\Desktop\UniserverCI4\UniServerZ\www\ci4\app\Models\SegnalazioniModel.php(22): CodeIgniter\Database\BaseBuilder->insert()
+#5 C:\Users\chrim\Desktop\UniserverCI4\UniServerZ\www\ci4\app\Controllers\Segnalazioni.php(49): App\Models\SegnalazioniModel->createSegn()
+#6 C:\Users\chrim\Desktop\UniserverCI4\UniServerZ\www\ci4\system\CodeIgniter.php(941): App\Controllers\Segnalazioni->creaSegn()
+#7 C:\Users\chrim\Desktop\UniserverCI4\UniServerZ\www\ci4\system\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController()
+#8 C:\Users\chrim\Desktop\UniserverCI4\UniServerZ\www\ci4\system\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest()
+#9 C:\Users\chrim\Desktop\UniserverCI4\UniServerZ\www\ci4\public\index.php(79): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2024-05-02 17:04:51 --> CodeIgniter\Database\Exceptions\DatabaseException: Column 'Descrizione' cannot be null
+in SYSTEMPATH\Database\BaseConnection.php on line 647.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(2302): CodeIgniter\Database\BaseConnection->query()
+ 2 APPPATH\Models\SegnalazioniModel.php(22): CodeIgniter\Database\BaseBuilder->insert()
+ 3 APPPATH\Controllers\Segnalazioni.php(49): App\Models\SegnalazioniModel->createSegn()
+ 4 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Segnalazioni->creaSegn()
+ 5 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController()
+ 6 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest()
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-05-02 17:04:51 --> [Caused by] CodeIgniter\Database\Exceptions\DatabaseException: Column 'Descrizione' cannot be null
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 311.
+ 1 SYSTEMPATH\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute()
+ 2 SYSTEMPATH\Database\BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery()
+ 3 SYSTEMPATH\Database\BaseBuilder.php(2302): CodeIgniter\Database\BaseConnection->query()
+ 4 APPPATH\Models\SegnalazioniModel.php(22): CodeIgniter\Database\BaseBuilder->insert()
+ 5 APPPATH\Controllers\Segnalazioni.php(49): App\Models\SegnalazioniModel->createSegn()
+ 6 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Segnalazioni->creaSegn()
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController()
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest()
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-05-02 17:04:51 --> [Caused by] mysqli_sql_exception: Column 'Descrizione' cannot be null
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 306.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(306): mysqli->query()
+ 2 SYSTEMPATH\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute()
+ 3 SYSTEMPATH\Database\BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery()
+ 4 SYSTEMPATH\Database\BaseBuilder.php(2302): CodeIgniter\Database\BaseConnection->query()
+ 5 APPPATH\Models\SegnalazioniModel.php(22): CodeIgniter\Database\BaseBuilder->insert()
+ 6 APPPATH\Controllers\Segnalazioni.php(49): App\Models\SegnalazioniModel->createSegn()
+ 7 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Segnalazioni->creaSegn()
+ 8 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController()
+ 9 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest()
+10 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2024-05-02 17:05:06 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-05-02 17:05:06 --> [DEPRECATED] Creation of dynamic property App\Controllers\Segnalazioni::$session is deprecated in APPPATH\Controllers\BaseController.php on line 61.
+ 1 SYSTEMPATH\CodeIgniter.php(914): App\Controllers\BaseController->initController(Object(CodeIgniter\HTTP\IncomingRequest), Object(CodeIgniter\HTTP\Response), Object(CodeIgniter\Log\Logger))
+ 2 SYSTEMPATH\CodeIgniter.php(493): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ERROR - 2024-05-02 17:05:08 --> mysqli_sql_exception: Column 'Descrizione' cannot be null in C:\Users\chrim\Desktop\UniserverCI4\UniServerZ\www\ci4\system\Database\MySQLi\Connection.php:306
+Stack trace:
+#0 C:\Users\chrim\Desktop\UniserverCI4\UniServerZ\www\ci4\system\Database\MySQLi\Connection.php(306): mysqli->query()
+#1 C:\Users\chrim\Desktop\UniserverCI4\UniServerZ\www\ci4\system\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute()
+#2 C:\Users\chrim\Desktop\UniserverCI4\UniServerZ\www\ci4\system\Database\BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery()
+#3 C:\Users\chrim\Desktop\UniserverCI4\UniServerZ\www\ci4\system\Database\BaseBuilder.php(2302): CodeIgniter\Database\BaseConnection->query()
+#4 C:\Users\chrim\Desktop\UniserverCI4\UniServerZ\www\ci4\app\Models\SegnalazioniModel.php(22): CodeIgniter\Database\BaseBuilder->insert()
+#5 C:\Users\chrim\Desktop\UniserverCI4\UniServerZ\www\ci4\app\Controllers\Segnalazioni.php(49): App\Models\SegnalazioniModel->createSegn()
+#6 C:\Users\chrim\Desktop\UniserverCI4\UniServerZ\www\ci4\system\CodeIgniter.php(941): App\Controllers\Segnalazioni->creaSegn()
+#7 C:\Users\chrim\Desktop\UniserverCI4\UniServerZ\www\ci4\system\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController()
+#8 C:\Users\chrim\Desktop\UniserverCI4\UniServerZ\www\ci4\system\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest()
+#9 C:\Users\chrim\Desktop\UniserverCI4\UniServerZ\www\ci4\public\index.php(79): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2024-05-02 17:05:08 --> CodeIgniter\Database\Exceptions\DatabaseException: Column 'Descrizione' cannot be null
+in SYSTEMPATH\Database\BaseConnection.php on line 647.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(2302): CodeIgniter\Database\BaseConnection->query()
+ 2 APPPATH\Models\SegnalazioniModel.php(22): CodeIgniter\Database\BaseBuilder->insert()
+ 3 APPPATH\Controllers\Segnalazioni.php(49): App\Models\SegnalazioniModel->createSegn()
+ 4 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Segnalazioni->creaSegn()
+ 5 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController()
+ 6 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest()
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-05-02 17:05:08 --> [Caused by] CodeIgniter\Database\Exceptions\DatabaseException: Column 'Descrizione' cannot be null
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 311.
+ 1 SYSTEMPATH\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute()
+ 2 SYSTEMPATH\Database\BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery()
+ 3 SYSTEMPATH\Database\BaseBuilder.php(2302): CodeIgniter\Database\BaseConnection->query()
+ 4 APPPATH\Models\SegnalazioniModel.php(22): CodeIgniter\Database\BaseBuilder->insert()
+ 5 APPPATH\Controllers\Segnalazioni.php(49): App\Models\SegnalazioniModel->createSegn()
+ 6 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Segnalazioni->creaSegn()
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController()
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest()
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-05-02 17:05:08 --> [Caused by] mysqli_sql_exception: Column 'Descrizione' cannot be null
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 306.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(306): mysqli->query()
+ 2 SYSTEMPATH\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute()
+ 3 SYSTEMPATH\Database\BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery()
+ 4 SYSTEMPATH\Database\BaseBuilder.php(2302): CodeIgniter\Database\BaseConnection->query()
+ 5 APPPATH\Models\SegnalazioniModel.php(22): CodeIgniter\Database\BaseBuilder->insert()
+ 6 APPPATH\Controllers\Segnalazioni.php(49): App\Models\SegnalazioniModel->createSegn()
+ 7 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Segnalazioni->creaSegn()
+ 8 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController()
+ 9 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest()
+10 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2024-05-02 17:07:55 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-05-02 17:07:55 --> [DEPRECATED] Creation of dynamic property App\Controllers\Segnalazioni::$session is deprecated in APPPATH\Controllers\BaseController.php on line 61.
+ 1 SYSTEMPATH\CodeIgniter.php(914): App\Controllers\BaseController->initController(Object(CodeIgniter\HTTP\IncomingRequest), Object(CodeIgniter\HTTP\Response), Object(CodeIgniter\Log\Logger))
+ 2 SYSTEMPATH\CodeIgniter.php(493): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ERROR - 2024-05-02 17:07:57 --> mysqli_sql_exception: Column 'Descrizione' cannot be null in C:\Users\chrim\Desktop\UniserverCI4\UniServerZ\www\ci4\system\Database\MySQLi\Connection.php:306
+Stack trace:
+#0 C:\Users\chrim\Desktop\UniserverCI4\UniServerZ\www\ci4\system\Database\MySQLi\Connection.php(306): mysqli->query()
+#1 C:\Users\chrim\Desktop\UniserverCI4\UniServerZ\www\ci4\system\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute()
+#2 C:\Users\chrim\Desktop\UniserverCI4\UniServerZ\www\ci4\system\Database\BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery()
+#3 C:\Users\chrim\Desktop\UniserverCI4\UniServerZ\www\ci4\system\Database\BaseBuilder.php(2302): CodeIgniter\Database\BaseConnection->query()
+#4 C:\Users\chrim\Desktop\UniserverCI4\UniServerZ\www\ci4\app\Models\SegnalazioniModel.php(22): CodeIgniter\Database\BaseBuilder->insert()
+#5 C:\Users\chrim\Desktop\UniserverCI4\UniServerZ\www\ci4\app\Controllers\Segnalazioni.php(49): App\Models\SegnalazioniModel->createSegn()
+#6 C:\Users\chrim\Desktop\UniserverCI4\UniServerZ\www\ci4\system\CodeIgniter.php(941): App\Controllers\Segnalazioni->creaSegn()
+#7 C:\Users\chrim\Desktop\UniserverCI4\UniServerZ\www\ci4\system\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController()
+#8 C:\Users\chrim\Desktop\UniserverCI4\UniServerZ\www\ci4\system\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest()
+#9 C:\Users\chrim\Desktop\UniserverCI4\UniServerZ\www\ci4\public\index.php(79): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2024-05-02 17:07:57 --> CodeIgniter\Database\Exceptions\DatabaseException: Column 'Descrizione' cannot be null
+in SYSTEMPATH\Database\BaseConnection.php on line 647.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(2302): CodeIgniter\Database\BaseConnection->query()
+ 2 APPPATH\Models\SegnalazioniModel.php(22): CodeIgniter\Database\BaseBuilder->insert()
+ 3 APPPATH\Controllers\Segnalazioni.php(49): App\Models\SegnalazioniModel->createSegn()
+ 4 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Segnalazioni->creaSegn()
+ 5 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController()
+ 6 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest()
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-05-02 17:07:57 --> [Caused by] CodeIgniter\Database\Exceptions\DatabaseException: Column 'Descrizione' cannot be null
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 311.
+ 1 SYSTEMPATH\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute()
+ 2 SYSTEMPATH\Database\BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery()
+ 3 SYSTEMPATH\Database\BaseBuilder.php(2302): CodeIgniter\Database\BaseConnection->query()
+ 4 APPPATH\Models\SegnalazioniModel.php(22): CodeIgniter\Database\BaseBuilder->insert()
+ 5 APPPATH\Controllers\Segnalazioni.php(49): App\Models\SegnalazioniModel->createSegn()
+ 6 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Segnalazioni->creaSegn()
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController()
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest()
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-05-02 17:07:57 --> [Caused by] mysqli_sql_exception: Column 'Descrizione' cannot be null
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 306.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(306): mysqli->query()
+ 2 SYSTEMPATH\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute()
+ 3 SYSTEMPATH\Database\BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery()
+ 4 SYSTEMPATH\Database\BaseBuilder.php(2302): CodeIgniter\Database\BaseConnection->query()
+ 5 APPPATH\Models\SegnalazioniModel.php(22): CodeIgniter\Database\BaseBuilder->insert()
+ 6 APPPATH\Controllers\Segnalazioni.php(49): App\Models\SegnalazioniModel->createSegn()
+ 7 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Segnalazioni->creaSegn()
+ 8 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController()
+ 9 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest()
+10 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2024-05-02 17:08:01 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-05-02 17:08:01 --> [DEPRECATED] Creation of dynamic property App\Controllers\Segnalazioni::$session is deprecated in APPPATH\Controllers\BaseController.php on line 61.
+ 1 SYSTEMPATH\CodeIgniter.php(914): App\Controllers\BaseController->initController(Object(CodeIgniter\HTTP\IncomingRequest), Object(CodeIgniter\HTTP\Response), Object(CodeIgniter\Log\Logger))
+ 2 SYSTEMPATH\CodeIgniter.php(493): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2024-05-02 17:08:03 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-05-02 17:08:03 --> [DEPRECATED] Creation of dynamic property App\Controllers\Segnalazioni::$session is deprecated in APPPATH\Controllers\BaseController.php on line 61.
+ 1 SYSTEMPATH\CodeIgniter.php(914): App\Controllers\BaseController->initController(Object(CodeIgniter\HTTP\IncomingRequest), Object(CodeIgniter\HTTP\Response), Object(CodeIgniter\Log\Logger))
+ 2 SYSTEMPATH\CodeIgniter.php(493): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2024-05-02 17:08:09 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-05-02 17:08:09 --> [DEPRECATED] Creation of dynamic property App\Controllers\Segnalazioni::$session is deprecated in APPPATH\Controllers\BaseController.php on line 61.
+ 1 SYSTEMPATH\CodeIgniter.php(914): App\Controllers\BaseController->initController(Object(CodeIgniter\HTTP\IncomingRequest), Object(CodeIgniter\HTTP\Response), Object(CodeIgniter\Log\Logger))
+ 2 SYSTEMPATH\CodeIgniter.php(493): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2024-05-02 17:10:38 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-05-02 17:10:38 --> [DEPRECATED] Creation of dynamic property App\Controllers\Segnalazioni::$session is deprecated in APPPATH\Controllers\BaseController.php on line 61.
+ 1 SYSTEMPATH\CodeIgniter.php(914): App\Controllers\BaseController->initController(Object(CodeIgniter\HTTP\IncomingRequest), Object(CodeIgniter\HTTP\Response), Object(CodeIgniter\Log\Logger))
+ 2 SYSTEMPATH\CodeIgniter.php(493): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2024-05-02 17:11:16 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-05-02 17:11:16 --> [DEPRECATED] Creation of dynamic property App\Controllers\Segnalazioni::$session is deprecated in APPPATH\Controllers\BaseController.php on line 61.
+ 1 SYSTEMPATH\CodeIgniter.php(914): App\Controllers\BaseController->initController(Object(CodeIgniter\HTTP\IncomingRequest), Object(CodeIgniter\HTTP\Response), Object(CodeIgniter\Log\Logger))
+ 2 SYSTEMPATH\CodeIgniter.php(493): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2024-05-02 17:11:17 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-05-02 17:11:17 --> [DEPRECATED] Creation of dynamic property App\Controllers\Home::$session is deprecated in APPPATH\Controllers\BaseController.php on line 61.
+ 1 SYSTEMPATH\CodeIgniter.php(914): App\Controllers\BaseController->initController(Object(CodeIgniter\HTTP\IncomingRequest), Object(CodeIgniter\HTTP\Response), Object(CodeIgniter\Log\Logger))
+ 2 SYSTEMPATH\CodeIgniter.php(493): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2024-05-02 17:13:40 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-05-02 17:13:41 --> [DEPRECATED] Creation of dynamic property App\Controllers\Segnalazioni::$session is deprecated in APPPATH\Controllers\BaseController.php on line 61.
+ 1 SYSTEMPATH\CodeIgniter.php(914): App\Controllers\BaseController->initController(Object(CodeIgniter\HTTP\IncomingRequest), Object(CodeIgniter\HTTP\Response), Object(CodeIgniter\Log\Logger))
+ 2 SYSTEMPATH\CodeIgniter.php(493): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2024-05-02 17:13:45 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-05-02 17:13:45 --> [DEPRECATED] Creation of dynamic property App\Controllers\Segnalazioni::$session is deprecated in APPPATH\Controllers\BaseController.php on line 61.
+ 1 SYSTEMPATH\CodeIgniter.php(914): App\Controllers\BaseController->initController(Object(CodeIgniter\HTTP\IncomingRequest), Object(CodeIgniter\HTTP\Response), Object(CodeIgniter\Log\Logger))
+ 2 SYSTEMPATH\CodeIgniter.php(493): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2024-05-02 17:14:03 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-05-02 17:14:03 --> [DEPRECATED] Creation of dynamic property App\Controllers\Segnalazioni::$session is deprecated in APPPATH\Controllers\BaseController.php on line 61.
+ 1 SYSTEMPATH\CodeIgniter.php(914): App\Controllers\BaseController->initController(Object(CodeIgniter\HTTP\IncomingRequest), Object(CodeIgniter\HTTP\Response), Object(CodeIgniter\Log\Logger))
+ 2 SYSTEMPATH\CodeIgniter.php(493): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2024-05-02 17:16:51 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-05-02 17:16:51 --> [DEPRECATED] Creation of dynamic property App\Controllers\Segnalazioni::$session is deprecated in APPPATH\Controllers\BaseController.php on line 61.
+ 1 SYSTEMPATH\CodeIgniter.php(914): App\Controllers\BaseController->initController(Object(CodeIgniter\HTTP\IncomingRequest), Object(CodeIgniter\HTTP\Response), Object(CodeIgniter\Log\Logger))
+ 2 SYSTEMPATH\CodeIgniter.php(493): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2024-05-02 17:16:57 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-05-02 17:16:57 --> [DEPRECATED] Creation of dynamic property App\Controllers\Segnalazioni::$session is deprecated in APPPATH\Controllers\BaseController.php on line 61.
+ 1 SYSTEMPATH\CodeIgniter.php(914): App\Controllers\BaseController->initController(Object(CodeIgniter\HTTP\IncomingRequest), Object(CodeIgniter\HTTP\Response), Object(CodeIgniter\Log\Logger))
+ 2 SYSTEMPATH\CodeIgniter.php(493): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2024-05-02 17:17:25 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-05-02 17:17:25 --> [DEPRECATED] Creation of dynamic property App\Controllers\Segnalazioni::$session is deprecated in APPPATH\Controllers\BaseController.php on line 61.
+ 1 SYSTEMPATH\CodeIgniter.php(914): App\Controllers\BaseController->initController(Object(CodeIgniter\HTTP\IncomingRequest), Object(CodeIgniter\HTTP\Response), Object(CodeIgniter\Log\Logger))
+ 2 SYSTEMPATH\CodeIgniter.php(493): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2024-05-02 17:20:03 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-05-02 17:20:03 --> [DEPRECATED] Creation of dynamic property App\Controllers\Segnalazioni::$session is deprecated in APPPATH\Controllers\BaseController.php on line 61.
+ 1 SYSTEMPATH\CodeIgniter.php(914): App\Controllers\BaseController->initController(Object(CodeIgniter\HTTP\IncomingRequest), Object(CodeIgniter\HTTP\Response), Object(CodeIgniter\Log\Logger))
+ 2 SYSTEMPATH\CodeIgniter.php(493): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2024-05-02 17:20:40 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-05-02 17:20:40 --> [DEPRECATED] Creation of dynamic property App\Controllers\Segnalazioni::$session is deprecated in APPPATH\Controllers\BaseController.php on line 61.
+ 1 SYSTEMPATH\CodeIgniter.php(914): App\Controllers\BaseController->initController(Object(CodeIgniter\HTTP\IncomingRequest), Object(CodeIgniter\HTTP\Response), Object(CodeIgniter\Log\Logger))
+ 2 SYSTEMPATH\CodeIgniter.php(493): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2024-05-02 17:31:32 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-05-02 17:31:32 --> [DEPRECATED] Creation of dynamic property App\Controllers\Home::$session is deprecated in APPPATH\Controllers\BaseController.php on line 61.
+ 1 SYSTEMPATH\CodeIgniter.php(914): App\Controllers\BaseController->initController(Object(CodeIgniter\HTTP\IncomingRequest), Object(CodeIgniter\HTTP\Response), Object(CodeIgniter\Log\Logger))
+ 2 SYSTEMPATH\CodeIgniter.php(493): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2024-05-02 17:31:43 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-05-02 17:31:43 --> [DEPRECATED] Creation of dynamic property App\Controllers\Utenti::$session is deprecated in APPPATH\Controllers\BaseController.php on line 61.
+ 1 SYSTEMPATH\CodeIgniter.php(914): App\Controllers\BaseController->initController(Object(CodeIgniter\HTTP\IncomingRequest), Object(CodeIgniter\HTTP\Response), Object(CodeIgniter\Log\Logger))
+ 2 SYSTEMPATH\CodeIgniter.php(493): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2024-05-02 17:31:48 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-05-02 17:31:48 --> [DEPRECATED] Creation of dynamic property App\Controllers\Utenti::$session is deprecated in APPPATH\Controllers\BaseController.php on line 61.
+ 1 SYSTEMPATH\CodeIgniter.php(914): App\Controllers\BaseController->initController(Object(CodeIgniter\HTTP\IncomingRequest), Object(CodeIgniter\HTTP\Response), Object(CodeIgniter\Log\Logger))
+ 2 SYSTEMPATH\CodeIgniter.php(493): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2024-05-02 17:31:50 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-05-02 17:31:50 --> [DEPRECATED] Creation of dynamic property App\Controllers\Home::$session is deprecated in APPPATH\Controllers\BaseController.php on line 61.
+ 1 SYSTEMPATH\CodeIgniter.php(914): App\Controllers\BaseController->initController(Object(CodeIgniter\HTTP\IncomingRequest), Object(CodeIgniter\HTTP\Response), Object(CodeIgniter\Log\Logger))
+ 2 SYSTEMPATH\CodeIgniter.php(493): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2024-05-02 17:31:55 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-05-02 17:31:55 --> [DEPRECATED] Creation of dynamic property App\Controllers\Segnalazioni::$session is deprecated in APPPATH\Controllers\BaseController.php on line 61.
+ 1 SYSTEMPATH\CodeIgniter.php(914): App\Controllers\BaseController->initController(Object(CodeIgniter\HTTP\IncomingRequest), Object(CodeIgniter\HTTP\Response), Object(CodeIgniter\Log\Logger))
+ 2 SYSTEMPATH\CodeIgniter.php(493): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2024-05-02 17:32:09 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-05-02 17:32:09 --> [DEPRECATED] Creation of dynamic property App\Controllers\Segnalazioni::$session is deprecated in APPPATH\Controllers\BaseController.php on line 61.
+ 1 SYSTEMPATH\CodeIgniter.php(914): App\Controllers\BaseController->initController(Object(CodeIgniter\HTTP\IncomingRequest), Object(CodeIgniter\HTTP\Response), Object(CodeIgniter\Log\Logger))
+ 2 SYSTEMPATH\CodeIgniter.php(493): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2024-05-02 17:33:20 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-05-02 17:33:20 --> [DEPRECATED] Creation of dynamic property App\Controllers\Segnalazioni::$session is deprecated in APPPATH\Controllers\BaseController.php on line 61.
+ 1 SYSTEMPATH\CodeIgniter.php(914): App\Controllers\BaseController->initController(Object(CodeIgniter\HTTP\IncomingRequest), Object(CodeIgniter\HTTP\Response), Object(CodeIgniter\Log\Logger))
+ 2 SYSTEMPATH\CodeIgniter.php(493): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2024-05-02 17:33:50 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-05-02 17:33:50 --> [DEPRECATED] Creation of dynamic property App\Controllers\Segnalazioni::$session is deprecated in APPPATH\Controllers\BaseController.php on line 61.
+ 1 SYSTEMPATH\CodeIgniter.php(914): App\Controllers\BaseController->initController(Object(CodeIgniter\HTTP\IncomingRequest), Object(CodeIgniter\HTTP\Response), Object(CodeIgniter\Log\Logger))
+ 2 SYSTEMPATH\CodeIgniter.php(493): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2024-05-02 17:34:04 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-05-02 17:34:04 --> [DEPRECATED] Creation of dynamic property App\Controllers\Segnalazioni::$session is deprecated in APPPATH\Controllers\BaseController.php on line 61.
+ 1 SYSTEMPATH\CodeIgniter.php(914): App\Controllers\BaseController->initController(Object(CodeIgniter\HTTP\IncomingRequest), Object(CodeIgniter\HTTP\Response), Object(CodeIgniter\Log\Logger))
+ 2 SYSTEMPATH\CodeIgniter.php(493): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2024-05-02 17:34:05 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-05-02 17:34:05 --> [DEPRECATED] Creation of dynamic property App\Controllers\Home::$session is deprecated in APPPATH\Controllers\BaseController.php on line 61.
+ 1 SYSTEMPATH\CodeIgniter.php(914): App\Controllers\BaseController->initController(Object(CodeIgniter\HTTP\IncomingRequest), Object(CodeIgniter\HTTP\Response), Object(CodeIgniter\Log\Logger))
+ 2 SYSTEMPATH\CodeIgniter.php(493): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2024-05-02 17:35:42 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-05-02 17:35:42 --> [DEPRECATED] Creation of dynamic property App\Controllers\Segnalazioni::$session is deprecated in APPPATH\Controllers\BaseController.php on line 61.
+ 1 SYSTEMPATH\CodeIgniter.php(914): App\Controllers\BaseController->initController(Object(CodeIgniter\HTTP\IncomingRequest), Object(CodeIgniter\HTTP\Response), Object(CodeIgniter\Log\Logger))
+ 2 SYSTEMPATH\CodeIgniter.php(493): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2024-05-02 17:36:50 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-05-02 17:36:50 --> [DEPRECATED] Creation of dynamic property App\Controllers\Segnalazioni::$session is deprecated in APPPATH\Controllers\BaseController.php on line 61.
+ 1 SYSTEMPATH\CodeIgniter.php(914): App\Controllers\BaseController->initController(Object(CodeIgniter\HTTP\IncomingRequest), Object(CodeIgniter\HTTP\Response), Object(CodeIgniter\Log\Logger))
+ 2 SYSTEMPATH\CodeIgniter.php(493): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2024-05-02 17:37:11 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-05-02 17:37:11 --> [DEPRECATED] Creation of dynamic property App\Controllers\Segnalazioni::$session is deprecated in APPPATH\Controllers\BaseController.php on line 61.
+ 1 SYSTEMPATH\CodeIgniter.php(914): App\Controllers\BaseController->initController(Object(CodeIgniter\HTTP\IncomingRequest), Object(CodeIgniter\HTTP\Response), Object(CodeIgniter\Log\Logger))
+ 2 SYSTEMPATH\CodeIgniter.php(493): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2024-05-02 17:37:41 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-05-02 17:37:41 --> [DEPRECATED] Creation of dynamic property App\Controllers\Home::$session is deprecated in APPPATH\Controllers\BaseController.php on line 61.
+ 1 SYSTEMPATH\CodeIgniter.php(914): App\Controllers\BaseController->initController(Object(CodeIgniter\HTTP\IncomingRequest), Object(CodeIgniter\HTTP\Response), Object(CodeIgniter\Log\Logger))
+ 2 SYSTEMPATH\CodeIgniter.php(493): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2024-05-02 17:37:49 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-05-02 17:37:49 --> [DEPRECATED] Creation of dynamic property App\Controllers\Utenti::$session is deprecated in APPPATH\Controllers\BaseController.php on line 61.
+ 1 SYSTEMPATH\CodeIgniter.php(914): App\Controllers\BaseController->initController(Object(CodeIgniter\HTTP\IncomingRequest), Object(CodeIgniter\HTTP\Response), Object(CodeIgniter\Log\Logger))
+ 2 SYSTEMPATH\CodeIgniter.php(493): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2024-05-02 17:37:52 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-05-02 17:37:52 --> [DEPRECATED] Creation of dynamic property App\Controllers\Utenti::$session is deprecated in APPPATH\Controllers\BaseController.php on line 61.
+ 1 SYSTEMPATH\CodeIgniter.php(914): App\Controllers\BaseController->initController(Object(CodeIgniter\HTTP\IncomingRequest), Object(CodeIgniter\HTTP\Response), Object(CodeIgniter\Log\Logger))
+ 2 SYSTEMPATH\CodeIgniter.php(493): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2024-05-02 17:37:59 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-05-02 17:37:59 --> [DEPRECATED] Creation of dynamic property App\Controllers\Home::$session is deprecated in APPPATH\Controllers\BaseController.php on line 61.
+ 1 SYSTEMPATH\CodeIgniter.php(914): App\Controllers\BaseController->initController(Object(CodeIgniter\HTTP\IncomingRequest), Object(CodeIgniter\HTTP\Response), Object(CodeIgniter\Log\Logger))
+ 2 SYSTEMPATH\CodeIgniter.php(493): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2024-05-02 17:48:59 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-05-02 17:48:59 --> [DEPRECATED] Creation of dynamic property App\Controllers\Home::$session is deprecated in APPPATH\Controllers\BaseController.php on line 61.
+ 1 SYSTEMPATH\CodeIgniter.php(914): App\Controllers\BaseController->initController(Object(CodeIgniter\HTTP\IncomingRequest), Object(CodeIgniter\HTTP\Response), Object(CodeIgniter\Log\Logger))
+ 2 SYSTEMPATH\CodeIgniter.php(493): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-05-02 17:49:01 --> ParseError: syntax error, unexpected variable "$latitude", expecting "function" or "const"
+in APPPATH\Controllers\Segnalazioni.php on line 11.
+ 1 SYSTEMPATH\Router\Router.php(514): CodeIgniter\Router\AutoRouter->getRoute()
+ 2 SYSTEMPATH\Router\Router.php(210): CodeIgniter\Router\Router->autoRoute()
+ 3 SYSTEMPATH\CodeIgniter.php(823): CodeIgniter\Router\Router->handle()
+ 4 SYSTEMPATH\CodeIgniter.php(450): CodeIgniter\CodeIgniter->tryToRouteIt()
+ 5 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest()
+ 6 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-05-02 18:01:24 --> ParseError: syntax error, unexpected variable "$latitude", expecting "function" or "const"
+in APPPATH\Controllers\Segnalazioni.php on line 11.
+ 1 SYSTEMPATH\Router\Router.php(514): CodeIgniter\Router\AutoRouter->getRoute()
+ 2 SYSTEMPATH\Router\Router.php(210): CodeIgniter\Router\Router->autoRoute()
+ 3 SYSTEMPATH\CodeIgniter.php(823): CodeIgniter\Router\Router->handle()
+ 4 SYSTEMPATH\CodeIgniter.php(450): CodeIgniter\CodeIgniter->tryToRouteIt()
+ 5 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest()
+ 6 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2024-05-02 18:01:26 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-05-02 18:01:26 --> [DEPRECATED] Creation of dynamic property App\Controllers\Home::$session is deprecated in APPPATH\Controllers\BaseController.php on line 61.
+ 1 SYSTEMPATH\CodeIgniter.php(914): App\Controllers\BaseController->initController(Object(CodeIgniter\HTTP\IncomingRequest), Object(CodeIgniter\HTTP\Response), Object(CodeIgniter\Log\Logger))
+ 2 SYSTEMPATH\CodeIgniter.php(493): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-05-02 18:01:31 --> ParseError: syntax error, unexpected variable "$latitude", expecting "function" or "const"
+in APPPATH\Controllers\Segnalazioni.php on line 11.
+ 1 SYSTEMPATH\Router\Router.php(514): CodeIgniter\Router\AutoRouter->getRoute()
+ 2 SYSTEMPATH\Router\Router.php(210): CodeIgniter\Router\Router->autoRoute()
+ 3 SYSTEMPATH\CodeIgniter.php(823): CodeIgniter\Router\Router->handle()
+ 4 SYSTEMPATH\CodeIgniter.php(450): CodeIgniter\CodeIgniter->tryToRouteIt()
+ 5 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest()
+ 6 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2024-05-02 18:02:23 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-05-02 18:02:23 --> [DEPRECATED] Creation of dynamic property App\Controllers\Segnalazioni::$session is deprecated in APPPATH\Controllers\BaseController.php on line 61.
+ 1 SYSTEMPATH\CodeIgniter.php(914): App\Controllers\BaseController->initController(Object(CodeIgniter\HTTP\IncomingRequest), Object(CodeIgniter\HTTP\Response), Object(CodeIgniter\Log\Logger))
+ 2 SYSTEMPATH\CodeIgniter.php(493): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2024-05-02 18:02:44 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-05-02 18:02:44 --> [DEPRECATED] Creation of dynamic property App\Controllers\Segnalazioni::$session is deprecated in APPPATH\Controllers\BaseController.php on line 61.
+ 1 SYSTEMPATH\CodeIgniter.php(914): App\Controllers\BaseController->initController(Object(CodeIgniter\HTTP\IncomingRequest), Object(CodeIgniter\HTTP\Response), Object(CodeIgniter\Log\Logger))
+ 2 SYSTEMPATH\CodeIgniter.php(493): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2024-05-02 18:03:57 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-05-02 18:03:57 --> [DEPRECATED] Creation of dynamic property App\Controllers\Segnalazioni::$session is deprecated in APPPATH\Controllers\BaseController.php on line 61.
+ 1 SYSTEMPATH\CodeIgniter.php(914): App\Controllers\BaseController->initController(Object(CodeIgniter\HTTP\IncomingRequest), Object(CodeIgniter\HTTP\Response), Object(CodeIgniter\Log\Logger))
+ 2 SYSTEMPATH\CodeIgniter.php(493): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2024-05-02 18:05:18 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-05-02 18:05:18 --> [DEPRECATED] Creation of dynamic property App\Controllers\Segnalazioni::$session is deprecated in APPPATH\Controllers\BaseController.php on line 61.
+ 1 SYSTEMPATH\CodeIgniter.php(914): App\Controllers\BaseController->initController(Object(CodeIgniter\HTTP\IncomingRequest), Object(CodeIgniter\HTTP\Response), Object(CodeIgniter\Log\Logger))
+ 2 SYSTEMPATH\CodeIgniter.php(493): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2024-05-02 18:05:42 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-05-02 18:05:42 --> [DEPRECATED] Creation of dynamic property App\Controllers\Segnalazioni::$session is deprecated in APPPATH\Controllers\BaseController.php on line 61.
+ 1 SYSTEMPATH\CodeIgniter.php(914): App\Controllers\BaseController->initController(Object(CodeIgniter\HTTP\IncomingRequest), Object(CodeIgniter\HTTP\Response), Object(CodeIgniter\Log\Logger))
+ 2 SYSTEMPATH\CodeIgniter.php(493): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2024-05-02 18:07:16 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-05-02 18:07:16 --> [DEPRECATED] Creation of dynamic property App\Controllers\Segnalazioni::$session is deprecated in APPPATH\Controllers\BaseController.php on line 61.
+ 1 SYSTEMPATH\CodeIgniter.php(914): App\Controllers\BaseController->initController(Object(CodeIgniter\HTTP\IncomingRequest), Object(CodeIgniter\HTTP\Response), Object(CodeIgniter\Log\Logger))
+ 2 SYSTEMPATH\CodeIgniter.php(493): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2024-05-02 18:10:01 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-05-02 18:10:01 --> [DEPRECATED] Creation of dynamic property App\Controllers\Segnalazioni::$session is deprecated in APPPATH\Controllers\BaseController.php on line 61.
+ 1 SYSTEMPATH\CodeIgniter.php(914): App\Controllers\BaseController->initController(Object(CodeIgniter\HTTP\IncomingRequest), Object(CodeIgniter\HTTP\Response), Object(CodeIgniter\Log\Logger))
+ 2 SYSTEMPATH\CodeIgniter.php(493): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2024-05-02 18:13:45 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-05-02 18:13:45 --> [DEPRECATED] Creation of dynamic property App\Controllers\Segnalazioni::$session is deprecated in APPPATH\Controllers\BaseController.php on line 61.
+ 1 SYSTEMPATH\CodeIgniter.php(914): App\Controllers\BaseController->initController(Object(CodeIgniter\HTTP\IncomingRequest), Object(CodeIgniter\HTTP\Response), Object(CodeIgniter\Log\Logger))
+ 2 SYSTEMPATH\CodeIgniter.php(493): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2024-05-02 18:13:48 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-05-02 18:13:48 --> [DEPRECATED] Creation of dynamic property App\Controllers\Segnalazioni::$session is deprecated in APPPATH\Controllers\BaseController.php on line 61.
+ 1 SYSTEMPATH\CodeIgniter.php(914): App\Controllers\BaseController->initController(Object(CodeIgniter\HTTP\IncomingRequest), Object(CodeIgniter\HTTP\Response), Object(CodeIgniter\Log\Logger))
+ 2 SYSTEMPATH\CodeIgniter.php(493): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2024-05-02 18:22:02 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-05-02 18:22:02 --> [DEPRECATED] Creation of dynamic property App\Controllers\Segnalazioni::$session is deprecated in APPPATH\Controllers\BaseController.php on line 61.
+ 1 SYSTEMPATH\CodeIgniter.php(914): App\Controllers\BaseController->initController(Object(CodeIgniter\HTTP\IncomingRequest), Object(CodeIgniter\HTTP\Response), Object(CodeIgniter\Log\Logger))
+ 2 SYSTEMPATH\CodeIgniter.php(493): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2024-05-02 18:22:12 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-05-02 18:22:12 --> [DEPRECATED] Creation of dynamic property App\Controllers\Segnalazioni::$session is deprecated in APPPATH\Controllers\BaseController.php on line 61.
+ 1 SYSTEMPATH\CodeIgniter.php(914): App\Controllers\BaseController->initController(Object(CodeIgniter\HTTP\IncomingRequest), Object(CodeIgniter\HTTP\Response), Object(CodeIgniter\Log\Logger))
+ 2 SYSTEMPATH\CodeIgniter.php(493): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-05-02 18:22:12 --> ErrorException: Undefined variable $latitude
+in APPPATH\Controllers\Segnalazioni.php on line 47.
+ 1 APPPATH\Controllers\Segnalazioni.php(47): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Segnalazioni->creaSegn()
+ 3 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest()
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2024-05-02 18:23:22 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-05-02 18:23:22 --> [DEPRECATED] Creation of dynamic property App\Controllers\Segnalazioni::$session is deprecated in APPPATH\Controllers\BaseController.php on line 61.
+ 1 SYSTEMPATH\CodeIgniter.php(914): App\Controllers\BaseController->initController(Object(CodeIgniter\HTTP\IncomingRequest), Object(CodeIgniter\HTTP\Response), Object(CodeIgniter\Log\Logger))
+ 2 SYSTEMPATH\CodeIgniter.php(493): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ERROR - 2024-05-02 18:23:24 --> mysqli_sql_exception: Unknown column 'latitude' in 'field list' in C:\Users\chrim\Desktop\UniserverCI4\UniServerZ\www\ci4\system\Database\MySQLi\Connection.php:306
+Stack trace:
+#0 C:\Users\chrim\Desktop\UniserverCI4\UniServerZ\www\ci4\system\Database\MySQLi\Connection.php(306): mysqli->query()
+#1 C:\Users\chrim\Desktop\UniserverCI4\UniServerZ\www\ci4\system\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute()
+#2 C:\Users\chrim\Desktop\UniserverCI4\UniServerZ\www\ci4\system\Database\BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery()
+#3 C:\Users\chrim\Desktop\UniserverCI4\UniServerZ\www\ci4\system\Database\BaseBuilder.php(2302): CodeIgniter\Database\BaseConnection->query()
+#4 C:\Users\chrim\Desktop\UniserverCI4\UniServerZ\www\ci4\app\Models\SegnalazioniModel.php(22): CodeIgniter\Database\BaseBuilder->insert()
+#5 C:\Users\chrim\Desktop\UniserverCI4\UniServerZ\www\ci4\app\Controllers\Segnalazioni.php(51): App\Models\SegnalazioniModel->createSegn()
+#6 C:\Users\chrim\Desktop\UniserverCI4\UniServerZ\www\ci4\system\CodeIgniter.php(941): App\Controllers\Segnalazioni->creaSegn()
+#7 C:\Users\chrim\Desktop\UniserverCI4\UniServerZ\www\ci4\system\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController()
+#8 C:\Users\chrim\Desktop\UniserverCI4\UniServerZ\www\ci4\system\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest()
+#9 C:\Users\chrim\Desktop\UniserverCI4\UniServerZ\www\ci4\public\index.php(79): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2024-05-02 18:23:24 --> CodeIgniter\Database\Exceptions\DatabaseException: Unknown column 'latitude' in 'field list'
+in SYSTEMPATH\Database\BaseConnection.php on line 647.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(2302): CodeIgniter\Database\BaseConnection->query()
+ 2 APPPATH\Models\SegnalazioniModel.php(22): CodeIgniter\Database\BaseBuilder->insert()
+ 3 APPPATH\Controllers\Segnalazioni.php(51): App\Models\SegnalazioniModel->createSegn()
+ 4 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Segnalazioni->creaSegn()
+ 5 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController()
+ 6 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest()
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-05-02 18:23:24 --> [Caused by] CodeIgniter\Database\Exceptions\DatabaseException: Unknown column 'latitude' in 'field list'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 311.
+ 1 SYSTEMPATH\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute()
+ 2 SYSTEMPATH\Database\BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery()
+ 3 SYSTEMPATH\Database\BaseBuilder.php(2302): CodeIgniter\Database\BaseConnection->query()
+ 4 APPPATH\Models\SegnalazioniModel.php(22): CodeIgniter\Database\BaseBuilder->insert()
+ 5 APPPATH\Controllers\Segnalazioni.php(51): App\Models\SegnalazioniModel->createSegn()
+ 6 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Segnalazioni->creaSegn()
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController()
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest()
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-05-02 18:23:24 --> [Caused by] mysqli_sql_exception: Unknown column 'latitude' in 'field list'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 306.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(306): mysqli->query()
+ 2 SYSTEMPATH\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute()
+ 3 SYSTEMPATH\Database\BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery()
+ 4 SYSTEMPATH\Database\BaseBuilder.php(2302): CodeIgniter\Database\BaseConnection->query()
+ 5 APPPATH\Models\SegnalazioniModel.php(22): CodeIgniter\Database\BaseBuilder->insert()
+ 6 APPPATH\Controllers\Segnalazioni.php(51): App\Models\SegnalazioniModel->createSegn()
+ 7 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Segnalazioni->creaSegn()
+ 8 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController()
+ 9 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest()
+10 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2024-05-02 18:23:52 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-05-02 18:23:52 --> [DEPRECATED] Creation of dynamic property App\Controllers\Segnalazioni::$session is deprecated in APPPATH\Controllers\BaseController.php on line 61.
+ 1 SYSTEMPATH\CodeIgniter.php(914): App\Controllers\BaseController->initController(Object(CodeIgniter\HTTP\IncomingRequest), Object(CodeIgniter\HTTP\Response), Object(CodeIgniter\Log\Logger))
+ 2 SYSTEMPATH\CodeIgniter.php(493): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ERROR - 2024-05-02 18:23:54 --> mysqli_sql_exception: Unknown column 'latitudine' in 'field list' in C:\Users\chrim\Desktop\UniserverCI4\UniServerZ\www\ci4\system\Database\MySQLi\Connection.php:306
+Stack trace:
+#0 C:\Users\chrim\Desktop\UniserverCI4\UniServerZ\www\ci4\system\Database\MySQLi\Connection.php(306): mysqli->query()
+#1 C:\Users\chrim\Desktop\UniserverCI4\UniServerZ\www\ci4\system\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute()
+#2 C:\Users\chrim\Desktop\UniserverCI4\UniServerZ\www\ci4\system\Database\BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery()
+#3 C:\Users\chrim\Desktop\UniserverCI4\UniServerZ\www\ci4\system\Database\BaseBuilder.php(2302): CodeIgniter\Database\BaseConnection->query()
+#4 C:\Users\chrim\Desktop\UniserverCI4\UniServerZ\www\ci4\app\Models\SegnalazioniModel.php(22): CodeIgniter\Database\BaseBuilder->insert()
+#5 C:\Users\chrim\Desktop\UniserverCI4\UniServerZ\www\ci4\app\Controllers\Segnalazioni.php(51): App\Models\SegnalazioniModel->createSegn()
+#6 C:\Users\chrim\Desktop\UniserverCI4\UniServerZ\www\ci4\system\CodeIgniter.php(941): App\Controllers\Segnalazioni->creaSegn()
+#7 C:\Users\chrim\Desktop\UniserverCI4\UniServerZ\www\ci4\system\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController()
+#8 C:\Users\chrim\Desktop\UniserverCI4\UniServerZ\www\ci4\system\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest()
+#9 C:\Users\chrim\Desktop\UniserverCI4\UniServerZ\www\ci4\public\index.php(79): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2024-05-02 18:23:54 --> CodeIgniter\Database\Exceptions\DatabaseException: Unknown column 'latitudine' in 'field list'
+in SYSTEMPATH\Database\BaseConnection.php on line 647.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(2302): CodeIgniter\Database\BaseConnection->query()
+ 2 APPPATH\Models\SegnalazioniModel.php(22): CodeIgniter\Database\BaseBuilder->insert()
+ 3 APPPATH\Controllers\Segnalazioni.php(51): App\Models\SegnalazioniModel->createSegn()
+ 4 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Segnalazioni->creaSegn()
+ 5 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController()
+ 6 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest()
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-05-02 18:23:54 --> [Caused by] CodeIgniter\Database\Exceptions\DatabaseException: Unknown column 'latitudine' in 'field list'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 311.
+ 1 SYSTEMPATH\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute()
+ 2 SYSTEMPATH\Database\BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery()
+ 3 SYSTEMPATH\Database\BaseBuilder.php(2302): CodeIgniter\Database\BaseConnection->query()
+ 4 APPPATH\Models\SegnalazioniModel.php(22): CodeIgniter\Database\BaseBuilder->insert()
+ 5 APPPATH\Controllers\Segnalazioni.php(51): App\Models\SegnalazioniModel->createSegn()
+ 6 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Segnalazioni->creaSegn()
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController()
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest()
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-05-02 18:23:54 --> [Caused by] mysqli_sql_exception: Unknown column 'latitudine' in 'field list'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 306.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(306): mysqli->query()
+ 2 SYSTEMPATH\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute()
+ 3 SYSTEMPATH\Database\BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery()
+ 4 SYSTEMPATH\Database\BaseBuilder.php(2302): CodeIgniter\Database\BaseConnection->query()
+ 5 APPPATH\Models\SegnalazioniModel.php(22): CodeIgniter\Database\BaseBuilder->insert()
+ 6 APPPATH\Controllers\Segnalazioni.php(51): App\Models\SegnalazioniModel->createSegn()
+ 7 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Segnalazioni->creaSegn()
+ 8 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController()
+ 9 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest()
+10 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()

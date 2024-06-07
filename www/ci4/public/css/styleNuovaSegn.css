@@ -1,0 +1,112 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.form-wrap {
+  width: auto;
+  background: #fff;
+  border-radius: 10px;
+  padding: 30px;
+  margin-top: 500px;
+}
+
+.form-title {
+  text-align: center;
+  margin-bottom: 30px;
+}
+
+.form-title-1 {
+  font-size: 20px;
+  color: #333;
+}
+
+.form-title-2 {
+  font-size: 15px;
+  color: #666;
+}
+
+.input-wrap {
+  margin-bottom: 20px;
+}
+
+.label {
+  display: block;
+  margin-bottom: 5px;
+  color: #666;
+}
+
+.input {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+.btn-wrap {
+  text-align: center;
+  margin-top: 15px;;
+}
+
+.btn-form {
+  padding: 10px 20px;
+  background-color: #57b846;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.btn:hover {
+  background-color: #333;
+}
+
+.searchResults {
+  position: relative; /* Posizione relativa per creare un contenitore per gli elementi di ricerca */
+}
+
+.search-result {
+  padding: 10px;
+  background-color: #f0f0f0;
+  border: 1px solid #ccc;
+  cursor: pointer;
+  position: absolute;
+  z-index: 9999;
+  width: 100%;
+}
+
+.search-result + .search-result {
+  margin-top: 40px; /* Aggiunge un margine superiore solo agli elementi .search-result che seguono un altro .search-result */
+}
+
+.search-result:hover {
+  background-color: #e0e0e0;
+}
+
+.form-group {
+  display: flex; }
+  .form-group input {
+    width: max-content; }
+    .form-group input:first-child {
+      margin-right: 25px; }
+
+    
+  
+
+
+.allegati{
+  padding-left: 30px;
+}
+
+#map {
+  height: 400px;
+  margin-bottom: 10px;
+}
